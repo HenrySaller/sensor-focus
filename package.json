@@ -18,10 +18,10 @@
     "node": "5.9.1"
   },
   "dependencies": {
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "bower": "^1.7.9"
   },
   "devDependencies": {
-    "bower": "^1.7.9",
     "concurrently": "^2.0.0",
     "grunt": "^1.0.1",
     "grunt-contrib-compass": "^1.1.1",
