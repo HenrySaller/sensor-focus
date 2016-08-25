@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "concurrently \"npm run compass\" \"npm run js\" \"npm run watch\" \"node server/app.js\" ",
-    "post:install": "bower install && npm run compass && npm run js",
+    "postinstall": "bower install && npm run compass && npm run js",
     "compass": "grunt compass:base",
     "js": "grunt concat && grunt uglify",
     "watch": "grunt watch"
