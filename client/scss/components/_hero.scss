@@ -1,0 +1,51 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+
+  min-height: 640px;
+  width: 100%; }
+
+  .hero__container {
+    padding: 80px 40px;
+
+    @include breakpoint($bp-tablet) {
+      margin-right: 80px; }
+
+    @include breakpoint($bp-laptop) {
+      padding: 120px 80px;
+      margin-right: 30%; }
+
+    @include breakpoint($bp-laptop-l) {
+      padding: 120px 160px; } }
+
+    .hero__subtitle {
+      color: $white-secondary;
+
+      font-family: $main-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 32px;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+
+    .hero__title {
+      color: $white;
+
+      font-family: $main-font;
+      font-weight: normal;
+      font-size: 48px;
+      line-height: 64px;
+      letter-spacing: 3px; }
+
+    .hero__text {
+      color: $white;
+      margin: 40px 0;
+
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px;
+
+      @include breakpoint($bp-laptop-l) {
+        margin-right: 30%; } }

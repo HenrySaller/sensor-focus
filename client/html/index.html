@@ -1,0 +1,59 @@
+<html>
+  <head>
+
+    <base href="/">
+    <title>Sensor Focus</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- 1. Load libraries -->
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="handlebars/handlebars.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- 2. Configure template -->
+    <script>
+      const PAGE = "home";
+      const TEMPLATES = [
+        {
+          "template": "header",
+          "data": "header"
+        },
+        {
+          "template": "hero",
+          "data": "hero"
+        },
+        {
+          "template": "idea",
+          "data": "idea"
+        },
+        {
+          "template": "concept",
+          "data": "concept"
+        },
+        {
+          "template": "hero",
+          "data": "notifications"
+        },
+        {
+          "template": "footer",
+          "data": "footer"
+        }
+      ]
+    </script>
+
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <!-- 3. Render template -->
+    <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
+
+  </body>
+</html>

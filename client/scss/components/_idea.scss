@@ -1,0 +1,39 @@
+.idea {
+  width: 100%;
+  background: $grey-100; }
+
+  .idea__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 64px 24px;
+
+    @include breakpoint($bp-laptop) {
+      flex-basis: auto;
+      padding: 64px; } }
+
+    .idea__item {
+      display: flex;
+      flex-grow: 1;
+      margin: 16px;
+
+      @include breakpoint($bp-laptop) {
+        max-width: 288px; } }
+
+      .idea__item-text {
+        color: $black;
+        margin-left: 16px;
+
+        font-family: $text-font;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+
+        & a {
+          @include unstyled-link;
+
+          color: $main-accent;
+          cursor: pointer;
+          text-decoration: underline; } }

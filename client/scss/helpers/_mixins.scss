@@ -1,0 +1,182 @@
+@mixin icon-font() {
+  @include user-select(none);
+
+  cursor: default;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin full-width-img() {
+  position: absolute;
+  overflow: hidden;
+
+  background: $main;
+
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+
+  & img {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+  }
+}
+
+@mixin button($color) {
+  @include unstyled-link;
+  @include transition(color 0.3s ease);
+
+  display: inline-block;
+  position: relative;
+  padding: 0 14px;
+  border: 2px solid;
+
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+
+  border-color: $color;
+  cursor: pointer;
+  z-index: 1;
+
+  &:after {
+    @include transition(all 0.15s ease);
+
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+
+    background: $color;
+
+    left: -1%;
+    right: -1%;
+
+    top: 50%;
+    height: 0%;
+  }
+
+  &:hover:after {
+    top: 8%;
+    height: 84%;
+  }
+}
+
+@mixin nav-button() {
+  @include unstyled-link;
+
+  display: inline-block;
+  position: relative;
+  padding: 0 16px;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+
+  cursor: pointer;
+
+  &:before, &:after {
+    @include transition(all 0.2s ease);
+
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+
+    width: 24px;
+    height: 2px;
+
+    background: $grey-50;
+  }
+
+  &:before {
+    @include rotate(90deg);
+    @include transform-origin(0, 0);
+
+    top: 8px;
+    left: 0;
+  }
+
+  &:after {
+    @include rotate(90deg);
+    @include transform-origin(100%, 0);
+
+    bottom: 6px;
+    right: 0;
+  }
+
+  &:hover:before {
+    @include rotate(0);
+    @include translateX(-50%);
+
+    top: 0;
+    left: 50%;
+
+    background: $main-accent;
+  }
+
+  &:hover:after {
+    @include rotate(0);
+    @include translateX(50%);
+
+    bottom: 0;
+    right: 50%;
+
+    background: $main-accent;
+  }
+}
+
+@mixin icon-border() {
+  @include icon-font;
+
+  flex-shrink: 0;
+  text-align: center;
+
+  height: 32px;
+  width: 32px;
+  padding: 6px;
+
+  font-size: 24px;
+  line-height: 32px;
+
+  color: $main;
+  border: 2px solid $main;
+  border-radius: 50%;
+}
+
+@mixin block-title {
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 60px;
+  letter-spacing: 3px;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 80px;
+  }
+}

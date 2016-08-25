@@ -1,0 +1,129 @@
+{
+  "header": {
+    "logo": "img/logo.svg",
+    "nav": [
+      {
+        "name": "Solutions",
+        "url": "solutions"
+      },
+      {
+        "name": "Developers",
+        "url": "developers"
+      },
+      {
+        "name": "Support",
+        "url": "support"
+      },
+      {
+        "name": "Sign In",
+        "url": "login"
+      }
+    ],
+    "cta": "Subscribe"
+  },
+  "hero": {
+    "bg-img": "img/home/hero.jpg",
+    "subtitle": "Learn How To",
+    "title": "Put Your Retired Phone Back to Work",
+    "text": "Make your retired phone smart again with the latest Artificial Intelligence technologies.<br><br>Select from our list of innovative solutions for home and businesses.",
+    "cta": "Learn More"
+  },
+  "idea": {
+    "items": [
+      {
+        "icon": "autorenew",
+        "text": "300 million devices getting retired every year. Give them a second life."
+      },
+      {
+        "icon": "developer_board",
+        "text": "Make it smart again with the latest AI technologies."
+      },
+      {
+        "icon": "important_devices",
+        "text": "Connect with your friends and family devices."
+      },
+      {
+        "icon": "attach_money",
+        "text": "No device? No problem. Buy one from <a href='/'>Ebay</a> for less than 50$."
+      }
+    ]
+  },
+  "concept": {
+    "bg-img": "img/home/concept.jpg",
+    "title": "Our Concept",
+    "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.<br><br>With Sensor Focus you can make your phone aware of its environment and control all its cameras and sensors remotely.<br><br>You have access to a wide range of solutions that help you at home and at work.",
+    "cta": "Learn More"
+  },
+  "notifications": {
+    "bg-img": "img/home/notifications.jpg",
+    "subtitle": "We Let You",
+    "title": "Stay Informed, Stay in Control",
+    "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
+    "cta": "Learn More"
+  },
+  "footer": {
+    "logo": "img/logo.svg",
+    "groups": [
+      {
+        "name": "Product",
+        "links": [
+          {
+            "name": "Features",
+            "url": "/"
+          },
+          {
+            "name": "Catalog",
+            "url": "solutions"
+          },
+          {
+            "name": "Popular",
+            "url": "/"
+          },
+          {
+            "name": "Trending",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Company",
+        "links": [
+          {
+            "name": "About",
+            "url": "/"
+          },
+          {
+            "name": "Strategy",
+            "url": "/"
+          },
+          {
+            "name": "Team",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Info",
+        "links": [
+          {
+            "name": "Support",
+            "url": "support"
+          },
+          {
+            "name": "Developers",
+            "url": "developers"
+          },
+          {
+            "name": "Customer Service",
+            "url": "/"
+          },
+          {
+            "name": "Getting Started",
+            "url": "/"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved"
+  }
+}

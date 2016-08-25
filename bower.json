@@ -1,0 +1,17 @@
+{
+  "name": "name",
+  "description": "description",
+  "main": "",
+  "authors": "HenrySaller",
+  "license": "MIT",
+  "homepage": "https://github.com",
+  "private": true,
+  "devDependencies": {
+    "breakpoint-sass": "^2.7.0",
+    "normalize-scss": "normalize.scss#^5.0.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "jquery": "^3.1.0"
+  }
+}

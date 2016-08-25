@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: $grey-100;
+  color: $black;
+}
+
+/* Wrapper */
+.wrap {
+  max-width: $bp-max;
+  margin: 0 auto;
+}
+
+/* Full Width Images */
+.full-width-img {
+  @include full-width-img;
+}
+
+.full-width-img--bg {
+  @include full-width-img;
+  z-index: -1;
+}
+
+/* Buttons */
+.button__standard {
+  @include button($main-accent);
+  color: $main-accent;
+  &:hover { color: $white; }
+}
+
+.button__white {
+  @include button($white);
+  color: $white;
+  &:hover { color: $black; }
+}
+
+.button__grey {
+  @include button($grey-200);
+  color: $black-disabled;
+  &:hover { color: $black-disabled; }
+}
+
+.button__icon {
+  @include icon-font;
+  font-size: 20px;
+}
+
+/* Nav Buttons */
+.nav-button {
+  @include nav-button;
+  color: $black-secondary;
+}
+
+.nav-button--active {
+  @include nav-button;
+  color: $main-accent;
+}
+
+/* Icon with Border */
+.icon-border {
+  @include icon-border;
+}
+
+/* Block Titles */
+.block-title--black {
+  @include block-title;
+  color: $black-secondary;
+  &:after { background: $black-separator; }
+}
+
+.block-title--white {
+  @include block-title;
+  color: $white;
+  &:after { background: $white-disabled; }
+}
+
+.block-title--center {
+  text-align: center;
+  &:after { margin: 0 auto; }
+}
