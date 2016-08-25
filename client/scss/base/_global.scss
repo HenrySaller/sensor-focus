@@ -24,19 +24,19 @@ body {
 .button__standard {
   @include button($main-accent);
   color: $main-accent;
-  &:hover { color: $white; }
+  &:hover, &:focus { color: $white; }
 }
 
 .button__white {
   @include button($white);
   color: $white;
-  &:hover { color: $black; }
+  &:hover, &:focus { color: $black; }
 }
 
 .button__grey {
   @include button($grey-200);
   color: $black-disabled;
-  &:hover { color: $black-disabled; }
+  &:hover, &:focus { color: $black-disabled; }
 }
 
 .button__icon {
@@ -55,9 +55,22 @@ body {
   color: $main-accent;
 }
 
-/* Icon with Border */
+/* Icons */
 .icon-border {
   @include icon-border;
+}
+
+.icon-fill {
+  @include icon-fill;
+}
+
+.icon-fill--counter {
+  @include icon-fill;
+
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
 }
 
 /* Block Titles */

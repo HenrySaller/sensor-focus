@@ -10,10 +10,7 @@
       display: block;
       position: relative;
       overflow: hidden;
-      height: 320px;
-
-      @include breakpoint($bp-laptop) {
-        height: 640px; }
+      height: 640px;
 
       @include breakpoint($bp-laptop-l) {
         position: absolute;
@@ -32,7 +29,7 @@
       padding: 80px 40px;
 
       @include breakpoint($bp-laptop) {
-        padding: 80px;}
+        padding: 80px; }
 
       @include breakpoint($bp-laptop-l) {
         width: 65%;

@@ -3,7 +3,7 @@
     <div class="header__container">
 
       <div class="header__logo">
-        <a href="/"><img src="{{logo}}"></a>
+        <a href="/"><img alt="Sensor Focus Logo" src="{{logo}}"></a>
       </div>
 
       <div class="header__toggle">

@@ -1,3 +1,4 @@
+/* Icon Font */
 @mixin icon-font() {
   @include user-select(none);
 
@@ -15,7 +16,10 @@
   -webkit-font-smoothing: antialiased;
 }
 
+/* Cover Images */
 @mixin full-width-img() {
+  @include user-select(none);
+
   position: absolute;
   overflow: hidden;
 
@@ -40,6 +44,18 @@
   }
 }
 
+/* Inner Links */
+@mixin inner-link() {
+  & a {
+    @include unstyled-link;
+
+    color: $main-accent;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+/* Buttons */
 @mixin button($color) {
   @include unstyled-link;
   @include transition(color 0.3s ease);
@@ -76,12 +92,13 @@
     height: 0%;
   }
 
-  &:hover:after {
+  &:hover:after, &:focus:after {
     top: 8%;
     height: 84%;
   }
 }
 
+/* Nav Buttons */
 @mixin nav-button() {
   @include unstyled-link;
 
@@ -127,7 +144,7 @@
     right: 0;
   }
 
-  &:hover:before {
+  &:hover:before, &:focus:before {
     @include rotate(0);
     @include translateX(-50%);
 
@@ -137,7 +154,7 @@
     background: $main-accent;
   }
 
-  &:hover:after {
+  &:hover:after, &:focus:after {
     @include rotate(0);
     @include translateX(50%);
 
@@ -148,6 +165,7 @@
   }
 }
 
+/* Icons */
 @mixin icon-border() {
   @include icon-font;
 
@@ -166,6 +184,25 @@
   border-radius: 50%;
 }
 
+@mixin icon-fill() {
+  @include icon-font;
+
+  flex-shrink: 0;
+  text-align: center;
+
+  height: 48px;
+  width: 48px;
+  padding: 16px;
+
+  font-size: 48px;
+  line-height: 48px;
+
+  color: $main;
+  background: $main-secondary;
+  border-radius: 50%;
+}
+
+/* Block Title */
 @mixin block-title {
   font-family: $main-font;
   font-weight: normal;

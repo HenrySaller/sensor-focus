@@ -23,7 +23,7 @@
   },
   "hero": {
     "bg-img": "img/home/hero.jpg",
-    "subtitle": "Learn How To",
+    "subtitle": "Learn how to",
     "title": "Put Your Retired Phone Back to Work",
     "text": "Make your retired phone smart again with the latest Artificial Intelligence technologies.<br><br>Select from our list of innovative solutions for home and businesses.",
     "cta": "Learn More"
@@ -54,12 +54,85 @@
     "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.<br><br>With Sensor Focus you can make your phone aware of its environment and control all its cameras and sensors remotely.<br><br>You have access to a wide range of solutions that help you at home and at work.",
     "cta": "Learn More"
   },
+  "areas": {
+    "title": "Solutions for Everyone",
+    "items": [
+      {
+        "icon": "img/area-home.svg",
+        "alt": "Home Image",
+        "title": "Home",
+        "text": "Easy to install solutions to improve home safety and family lifestyle. Create and share memories along the way."
+      },
+      {
+        "icon": "img/area-business.svg",
+        "alt": "Small Store Image",
+        "title": "Small Business",
+        "text": "Monitor your store in brand new ways. Improve client service and satisfaction. Monitor performance."
+      },
+      {
+        "icon": "img/area-enterprise.svg",
+        "alt": "Corporation Building Image",
+        "title": "Enterprise",
+        "text": "Your first steps into the digital enterprise. Develop reliable and low cost solutions tailored to your needs."
+      }
+    ]
+  },
+  "devices": {
+    "sensor": {
+      "bg-img": "",
+      "title": "",
+      "text": "",
+      "cta": ""
+    },
+    "client": {
+      "bg-img": "",
+      "title": "",
+      "text": "",
+      "cta": ""
+    }
+  },
+  "steps": {
+    "title": "How It Works",
+    "cta": "Try it Now",
+    "items": [
+      {
+        "title": "Create Your Account",
+        "text": "Create your account on the SensorFocus platform. It’s free and secure."
+      },
+      {
+        "title": "Install the App",
+        "text": "Download and install the <a href='\/'>SensorFocus app<\/a> on your retired smart phone. "
+      },
+      {
+        "title": "Pick Your Solution",
+        "text": "Your first steps into the digital enterprise. Develop reliable and low cost solutions tailored to your needs."
+      }
+    ]
+  },
   "notifications": {
     "bg-img": "img/home/notifications.jpg",
-    "subtitle": "We Let You",
+    "subtitle": "We let you",
     "title": "Stay Informed, Stay in Control",
     "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
     "cta": "Learn More"
+  },
+  "team": {
+    "title": "Our Team",
+    "cta": "Join the Team",
+    "items": [
+      {
+        "icon": "school",
+        "text": "Made of top performers from schools like MIT and Columbia University."
+      },
+      {
+        "icon": "code",
+        "text": "Focused on client services with a passion for technology and great product design with the latest AI technologies."
+      },
+      {
+        "icon": "public",
+        "text": "Based in Montreal and working globally in a fun and collaborative atmosphere."
+      }
+    ]
   },
   "footer": {
     "logo": "img/logo.svg",

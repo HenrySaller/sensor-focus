@@ -22,6 +22,8 @@
         max-width: 288px; } }
 
       .idea__item-text {
+        @include inner-link;
+
         color: $black;
         margin-left: 16px;
 
@@ -29,11 +31,4 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 24px;
-        letter-spacing: 0.5px;
-
-        & a {
-          @include unstyled-link;
-
-          color: $main-accent;
-          cursor: pointer;
-          text-decoration: underline; } }
+        letter-spacing: 0.5px; }
