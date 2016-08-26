@@ -1,49 +1,44 @@
-.concept {
-  position: relative;
-  width: 100%;
-  background: $white; }
+.concept__container {
+  position: relative; }
 
-  .concept__container {
-    position: relative; }
+  .concept__image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    height: 640px;
 
-    .concept__image {
-      display: block;
-      position: relative;
-      overflow: hidden;
-      height: 640px;
+    @include breakpoint($bp-laptop-l) {
+      position: absolute;
+      height: auto;
 
-      @include breakpoint($bp-laptop-l) {
-        position: absolute;
-        height: auto;
+      top: 0;
+      bottom: 0;
+      left: 65%;
+      right: 0; }
 
-        top: 0;
-        bottom: 0;
-        left: 65%;
-        right: 0; }
+    @include breakpoint($bp-laptop-xl) {
+      left: 50%; } }
 
-      @include breakpoint($bp-laptop-xl) {
-        left: 50%; } }
+  .concept__content {
+    box-sizing: border-box;
+    padding: 80px 40px;
 
-    .concept__content {
-      box-sizing: border-box;
-      padding: 80px 40px;
+    @include breakpoint($bp-laptop) {
+      padding: 80px; }
 
-      @include breakpoint($bp-laptop) {
-        padding: 80px; }
+    @include breakpoint($bp-laptop-l) {
+      width: 65%;
+      padding: 80px 80px 80px 160px; }
 
-      @include breakpoint($bp-laptop-l) {
-        width: 65%;
-        padding: 80px 80px 80px 160px; }
+    @include breakpoint($bp-laptop-xl) {
+      width: 50%; } }
 
-      @include breakpoint($bp-laptop-xl) {
-        width: 50%; } }
+    .concept__text {
+      color: $black;
+      margin: 56px 0;
 
-      .concept__text {
-        color: $black;
-        margin: 56px 0;
-
-        font-family: $text-font;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.5px; }
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px; }

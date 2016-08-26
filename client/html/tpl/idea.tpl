@@ -1,4 +1,4 @@
-<footer class="idea">
+<div class="idea section--grey-100" id="{{id}}">
   <div class="wrap">
     <div class="idea__container">
 
@@ -11,4 +11,4 @@
 
     </div>
   </div>
-</footer>
+</div>

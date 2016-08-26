@@ -1,19 +1,19 @@
-<footer class="cards">
+<div class="areas section--grey-100" id="{{id}}">
   <div class="wrap">
-    <div class="cards__container">
+    <div class="card__container">
 
-      <div class="cards__title block-title--black block-title--center">{{title}}</div>
+      <div class="card__title block-title--black block-title--center">{{title}}</div>
 
       {{#items}}
-      <div class="cards__item">
-        <div class="cards__item-icon">
+      <div class="card__item--dark">
+        <div class="areas__item-icon">
           <img alt="{{alt}}" src="{{icon}}">
         </div>
-        <div class="cards__item-title">{{title}}</div>
-        <div class="cards__item-text">{{{text}}}</div>
+        <div class="card__item-title">{{title}}</div>
+        <div class="card__item-text">{{{text}}}</div>
       </div>
       {{/items}}
 
     </div>
   </div>
-</footer>
+</div>

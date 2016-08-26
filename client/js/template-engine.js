@@ -17,10 +17,12 @@ Handlebars.getTemplate = function(name) {
 };
 
 Handlebars.render = function(currentPage, templates, target) {
+  $.holdReady( true );
   $.get( '/data', { page: currentPage } ).done(function( data ) {
     $.each(templates, function( index, item ) {
       var compiledTemplate = Handlebars.getTemplate(item.template);
       target.append(compiledTemplate(data[item.data]));
     });
+    $.holdReady( false );
   });
 }

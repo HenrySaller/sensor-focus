@@ -1,6 +1,11 @@
 {
   "header": {
+    "id": "header",
     "logo": "img/logo.svg",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#featured"
+    },
     "nav": [
       {
         "name": "Solutions",
@@ -18,17 +23,21 @@
         "name": "Sign In",
         "url": "login"
       }
-    ],
-    "cta": "Subscribe"
+    ]
   },
   "hero": {
+    "id": "hero",
     "bg-img": "img/home/hero.jpg",
     "subtitle": "Learn how to",
     "title": "Put Your Retired Phone Back to Work",
     "text": "Make your retired phone smart again with the latest Artificial Intelligence technologies.<br><br>Select from our list of innovative solutions for home and businesses.",
-    "cta": "Learn More"
+    "cta": {
+      "name": "Learn More",
+      "url": "/#idea"
+    }
   },
   "idea": {
+    "id": "idea",
     "items": [
       {
         "icon": "autorenew",
@@ -49,28 +58,33 @@
     ]
   },
   "concept": {
+    "id": "concept",
     "bg-img": "img/home/concept.jpg",
     "title": "Our Concept",
     "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.<br><br>With Sensor Focus you can make your phone aware of its environment and control all its cameras and sensors remotely.<br><br>You have access to a wide range of solutions that help you at home and at work.",
-    "cta": "Learn More"
+    "cta": {
+      "name": "Learn More",
+      "url": "/#steps"
+    }
   },
   "areas": {
+    "id": "areas",
     "title": "Solutions for Everyone",
     "items": [
       {
-        "icon": "img/area-home.svg",
+        "icon": "img/icon/area-home.svg",
         "alt": "Home Image",
         "title": "Home",
         "text": "Easy to install solutions to improve home safety and family lifestyle. Create and share memories along the way."
       },
       {
-        "icon": "img/area-business.svg",
+        "icon": "img/icon/area-business.svg",
         "alt": "Small Store Image",
         "title": "Small Business",
         "text": "Monitor your store in brand new ways. Improve client service and satisfaction. Monitor performance."
       },
       {
-        "icon": "img/area-enterprise.svg",
+        "icon": "img/icon/area-enterprise.svg",
         "alt": "Corporation Building Image",
         "title": "Enterprise",
         "text": "Your first steps into the digital enterprise. Develop reliable and low cost solutions tailored to your needs."
@@ -78,6 +92,7 @@
     ]
   },
   "devices": {
+    "id": "devices",
     "sensor": {
       "bg-img": "",
       "title": "",
@@ -92,8 +107,12 @@
     }
   },
   "steps": {
-    "title": "How It Works",
-    "cta": "Try it Now",
+    "id": "steps",
+    "title": "How it Works",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#featured"
+    },
     "items": [
       {
         "title": "Create Your Account",
@@ -109,16 +128,107 @@
       }
     ]
   },
+  "locations": {
+    "id": "locations"
+  },
   "notifications": {
-    "bg-img": "img/home/notifications.jpg",
-    "subtitle": "We let you",
+    "id": "notifications",
+    "bg-img": "img/global/notifications.jpg",
+    "subtitle": "Lets you",
     "title": "Stay Informed, Stay in Control",
     "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
-    "cta": "Learn More"
+    "cta": {
+      "name": "Learn More",
+      "url": "/#featured"
+    }
+  },
+  "companies": {
+    "id": "companies",
+    "caption": "Users from these world class organizations are using our solutions.",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#featured"
+    },
+    "items": [
+      {
+        "img": "img/companies/logo-chevron.svg",
+        "alt": "Chevron"
+      },
+      {
+        "img": "img/companies/logo-columbia-university.svg",
+        "alt": "Columbia University"
+      },
+      {
+        "img": "img/companies/logo-deutsche-bank.svg",
+        "alt": "Deutsche Bank"
+      },
+      {
+        "img": "img/companies/logo-gdf-suez.svg",
+        "alt": "GDF SUEZ"
+      },
+      {
+        "img": "img/companies/logo-university-of-toronto.svg",
+        "alt": "University of Toronto"
+      },
+      {
+        "img": "img/companies/logo-shell.svg",
+        "alt": "Shell"
+      },
+      {
+        "img": "img/companies/logo-yale-university.svg",
+        "alt": "Yale University"
+      }
+    ]
+  },
+  "featured": {
+    "id": "featured",
+    "bg-img": "img/home/featured.jpg",
+    "title": "Featured Solutions",
+    "caption": "Wide range of solutions that help you at home and at work.",
+    "cta": {
+      "name": "Browse All Solutions",
+      "url": "/"
+    },
+    "items": [
+      {
+        "img": "",
+        "alt": "",
+        "title": "Kids Playroom Monitoring",
+        "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+        "cta": {
+          "name": "Learn More",
+          "url": "/"
+        }
+      },
+      {
+        "img": "",
+        "alt": "",
+        "title": "Earthquake Detector",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+        "cta": {
+          "name": "Learn More",
+          "url": "/"
+        }
+      },
+      {
+        "img": "",
+        "alt": "",
+        "title": "Door Bell for Deaf People",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+        "cta": {
+          "name": "Learn More",
+          "url": "/"
+        }
+      }
+    ]
   },
   "team": {
+    "id": "team",
     "title": "Our Team",
-    "cta": "Join the Team",
+    "cta": {
+      "name": "Join the Team",
+      "url": "/"
+    },
     "items": [
       {
         "icon": "school",
@@ -135,7 +245,9 @@
     ]
   },
   "footer": {
+    "id": "footer",
     "logo": "img/logo.svg",
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
     "groups": [
       {
         "name": "Product",
@@ -196,7 +308,6 @@
           }
         ]
       }
-    ],
-    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved"
+    ]
   }
 }

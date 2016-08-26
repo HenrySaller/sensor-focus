@@ -1,0 +1,27 @@
+.companies__container {
+  padding: 40px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 80px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 80px 160px; } }
+
+  .companies__logo {
+    text-align: center;
+    font-size: 0;
+
+    @include breakpoint($bp-laptop-l) {
+      text-align: left; }
+
+    &:after {
+      content: '';
+      display: block;
+      height: 2px;
+      margin: 80px 0 40px 0;
+      background: $black-separator; } }
+
+    .companies__logo-item {
+      display: inline-block;
+      margin: 16px;
+      @include user-select(none); }

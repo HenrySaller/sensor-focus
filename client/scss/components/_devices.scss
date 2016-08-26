@@ -1,6 +1,2 @@
-.devices {
-  width: 100%;
-  background: $white; }
-
-  .devices__container {
-    height: 640px; }
+.devices__container {
+  min-height: 640px; }

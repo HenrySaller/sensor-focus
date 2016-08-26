@@ -1,4 +1,4 @@
-<div class="devices section--white" id="{{id}}">
+<div class="locations section--white" id="{{id}}">
   <div class="wrap">
     <div class="devices__container">
 

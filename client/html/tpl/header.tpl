@@ -1,4 +1,4 @@
-<header class="header">
+<header class="header" id="{{id}}">
   <div class="wrap">
     <div class="header__container">
 
@@ -17,7 +17,7 @@
       </nav>
 
       <div class="header__cta">
-        <a class="button__standard" href="">{{cta}}</a>
+        <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
       </div>
 
     </div>
@@ -29,12 +29,15 @@
 <script>
   $(function() {
 
+    // Set active nav item
     $('nav a[href^="/' + location.pathname.split("/")[1] + '"]')
       .addClass('nav-button--active');
 
+    // Mobile nav toggle
     $('.header__toggle').click(function(e) {
       $('.header__nav').toggleClass('header__nav--active');
       $(e.target).html($(e.target).text() == 'menu' ? 'close' : 'menu');
     });
+
   });
 </script>

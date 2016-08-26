@@ -1,12 +1,12 @@
 @import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
 @import "../../bower_components/normalize-scss/sass/normalize";
 
-@include normalize();
-
 @import 'compass/css3/transition';
 @import 'compass/css3/transform';
 @import 'compass/css3/user-interface';
 @import 'compass/typography/links/unstyled-link';
+
+@include normalize();
 
 @import 'base/colors';
 @import 'base/reset';
@@ -17,10 +17,14 @@
 
 @import 'base/global';
 
-@import 'components/header';
-@import 'components/footer';
-@import 'components/hero';
-@import 'components/cards';
-@import 'components/idea';
+@import 'components/areas';
 @import 'components/concept';
+@import 'components/companies';
 @import 'components/devices';
+@import 'components/featured';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/idea';
+@import 'components/steps';
+@import 'components/team';
