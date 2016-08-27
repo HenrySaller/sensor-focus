@@ -135,7 +135,7 @@
     "id": "notifications",
     "bg-img": "img/global/notifications.jpg",
     "subtitle": "Lets you",
-    "title": "Stay Informed, Stay in Control",
+    "title": "Stay Informed,<br>Stay in Control",
     "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
     "cta": {
       "name": "Learn More",
@@ -191,13 +191,13 @@
     },
     "items": [
       {
-        "img": "",
+        "img": "img/thumbnails/playroom-monitoring.jpg",
         "alt": "",
         "title": "Kids Playroom Monitoring",
         "text": "Monitor your kids TV and video game consumption to prevent abuse.",
         "cta": {
           "name": "Learn More",
-          "url": "/"
+          "url": "/playroom-monitoring"
         }
       },
       {

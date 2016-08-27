@@ -65,13 +65,13 @@
         "title": "Home Solutions",
         "items": [
           {
-            "img": "",
+            "img": "img/thumbnails/playroom-monitoring.jpg",
             "alt": "",
             "title": "Kids Playroom Monitoring",
             "text": "Monitor your kids TV and video game consumption to prevent abuse.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "/playroom-monitoring"
             }
           },
           {

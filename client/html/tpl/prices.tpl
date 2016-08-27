@@ -13,7 +13,7 @@
       <div class="card__item--light card__item--flex">
 
         <div class="card__price">
-          <div class="card__price-title">{{price}}</div>
+          <div class="card__price-title {{#unless price}}card__price-title--free{{/unless}}">{{#unless price}}Free{{/unless}}{{price}}</div>
           <div class="card__price-caption">{{caption}}</div>
         </div>
 

@@ -1,0 +1,271 @@
+{
+  "header": {
+    "id": "header",
+    "logo": "img/logo.svg",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#"
+    },
+    "nav": [
+      {
+        "name": "Solutions",
+        "url": "/solutions"
+      },
+      {
+        "name": "Developers",
+        "url": "/developers"
+      },
+      {
+        "name": "Support",
+        "url": "#"
+      },
+      {
+        "name": "Sign In",
+        "url": "#"
+      }
+    ]
+  },
+  "hero": {
+    "id": "hero",
+    "bg-img": "img/playroom-monitoring/hero.jpg",
+    "subtitle": "Learn about",
+    "title": "Kid’s Playroom<br>Monitoring",
+    "text": "Monitor your kids TV and video game consumption to prevent abuse.<br><br>Use the sensors available on your mobile device to monitor your environment.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#"
+    }
+  },
+  "elements": {
+    "id": "elements",
+    "title": "",
+    "caption": "Ready to get started?",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#"
+    },
+    "items": [
+      {
+        "icon": "tv",
+        "title": "Promote health TV and video game usage habits.",
+        "text": "Measure how many minutes of TV and Video game your kids are consuming."
+      },
+      {
+        "icon": "remove_red_eye",
+        "title": "Help prevent your kids from suffering from eyestrain.",
+        "text": "Get alerted when your kids are watching TV in the dark, a condition that might results in dry tired eye, and potentially cause headache to your kids."
+      },
+      {
+        "icon": "group",
+        "title": "Have fun and enjoy social and easy to use environment.",
+        "text": "Get daily photo and video highlights from your kids room to save as souvenir or share on Facebook and Twitter."
+      },
+      {
+        "icon": "hearing",
+        "title": "Help prevent hearing losses.",
+        "text": "Monitor the noise level in the play room and ensure that the TV volume is set at a healthy level. Get alerted when it goes above limits."
+      },
+      {
+        "icon": "dvr",
+        "title": "Know what your kids are watching.",
+        "text": "Get live images from the play room, see what your kids are doing and what they are watching."
+      }
+    ]
+  },
+  "testimonials": {
+    "id": "testimonials"
+  },
+  "subhero": {
+    "id": "subhero",
+    "bg-img": "img/playroom-monitoring/subhero.jpg",
+    "subtitle": "Make sure to",
+    "title": "Set Limits<br>Together",
+    "text": "Help them monitor their behaviour without being intrusive.<br><br>Set limits with your kids using SensorFocus App.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#"
+    }
+  },
+  "app": {
+    "id": "app"
+  },
+  "notifications": {
+    "id": "notifications",
+    "bg-img": "img/global/notifications.jpg",
+    "subtitle": "Lets you",
+    "title": "Stay Informed,<br>Stay in Control",
+    "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#"
+    }
+  },
+  "summary": {
+    "id": "summary",
+    "title": "What You Get",
+    "items": [
+      {
+        "icon": "insert_chart",
+        "title": "Set Limits Together",
+        "text": "Set limits with your kids. Help them monitor their behaviour without being intrusive."
+      },
+      {
+        "icon": "speaker_phone",
+        "title": "React Quickly on Abuse",
+        "text": "SMS Text or email alerts delivered to your phone when TV or video game usage goes above custom limits."
+      },
+      {
+        "icon": "timeline",
+        "title": "Track Usage Over Time",
+        "text": "Real time TV usage and noise exposure data. Reports for the last 1h, 24h and 7 day periods."
+      }
+    ]
+  },
+  "install": {
+    "id": "install"
+  },
+  "features": {
+    "id": "features",
+    "title": "",
+    "caption": "Ready to get started?",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#"
+    },
+    "items": [
+      {
+        "icon": "security",
+        "title": "Secured solution",
+        "text": "We work with Amazon Servers, most trusted secure solution."
+      },
+      {
+        "icon": "group",
+        "title": "Social",
+        "text": "Easy to share content in social networks."
+      },
+      {
+        "icon": "thumb_up",
+        "title": "Easy to use",
+        "text": "Our solution is designed to be used by everyone, not only experts."
+      },
+      {
+        "icon": "build",
+        "title": "Easy to install",
+        "text": "The complete solution can be installed in a matter of minutes."
+      },
+      {
+        "icon": "public",
+        "title": "Green",
+        "text": "Bring your old phones back to life!"
+      },
+      {
+        "icon": "star",
+        "title": "Fun",
+        "text": "Get notifications and pictures of the most important events."
+      }
+    ]
+  },
+  "prices": {
+    "id": "prices",
+    "bg-img": "img/global/prices.jpg",
+    "title": "Pricing Plans",
+    "items": [
+      {
+        "price": "4.99",
+        "caption": "",
+        "title": "1 Month",
+        "text": "Setup included.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      },
+      {
+        "price": "4.59",
+        "caption": "Save 10%",
+        "title": "3 Month",
+        "text": "Setup included.<br>Save 10% of subscription.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      },
+      {
+        "price": "89.59",
+        "caption": "Save 10%",
+        "title": "Device & 3 Month",
+        "text": "1 preconfigured <a href=''>Moto G</a> device.<br>Setup and subscription included.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "logo": "img/logo.svg",
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
+    "groups": [
+      {
+        "name": "Product",
+        "links": [
+          {
+            "name": "Features",
+            "url": "/"
+          },
+          {
+            "name": "Catalog",
+            "url": "solutions"
+          },
+          {
+            "name": "Popular",
+            "url": "/"
+          },
+          {
+            "name": "Trending",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Company",
+        "links": [
+          {
+            "name": "About",
+            "url": "/"
+          },
+          {
+            "name": "Strategy",
+            "url": "/"
+          },
+          {
+            "name": "Team",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Info",
+        "links": [
+          {
+            "name": "Support",
+            "url": "support"
+          },
+          {
+            "name": "Developers",
+            "url": "developers"
+          },
+          {
+            "name": "Customer Service",
+            "url": "/"
+          },
+          {
+            "name": "Getting Started",
+            "url": "/"
+          }
+        ]
+      }
+    ]
+  }
+}

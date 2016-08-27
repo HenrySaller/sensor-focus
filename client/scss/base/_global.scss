@@ -284,6 +284,10 @@ body {
   &:after {
     content: '/mo'; } }
 
+.card__price-title--free {
+  &:before, &:after {
+    content: ''; } }
+
 .card__price-caption {
   height: 24px;
   color: $main;

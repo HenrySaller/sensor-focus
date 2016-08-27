@@ -279,7 +279,7 @@
     "id": "join",
     "bg-img": "img/developers/join.jpg",
     "subtitle": "join the team of",
-    "title": "Amazing Developers",
+    "title": "Amazing<br>Developers",
     "text": "If you create something amazing with SensorFocus let us know.<br><br>We want to hear success stories from our users. We might buy your solution or hire you ",
     "cta": {
       "name": "Contact Us",

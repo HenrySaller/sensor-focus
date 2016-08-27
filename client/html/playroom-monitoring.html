@@ -1,0 +1,85 @@
+<html>
+  <head>
+
+    <base href="/playroom-monitoring">
+    <title>Sensor Focus / Kids Playroom Monitoring</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Monitor your kids TV and video game consumption to prevent abuse.">
+    <meta name="keywords" content="">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- 1. Load libraries -->
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="handlebars/handlebars.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- 2. Configure template -->
+    <script>
+      const PAGE = "playroom-monitoring";
+      const TEMPLATES = [
+        {
+          "template": "header",
+          "data": "header"
+        },
+        {
+          "template": "hero",
+          "data": "hero"
+        },
+        {
+          "template": "features",
+          "data": "elements"
+        },
+        {
+          "template": "testimonials",
+          "data": "testimonials"
+        },
+        {
+          "template": "hero",
+          "data": "subhero"
+        },
+        {
+          "template": "app",
+          "data": "app"
+        },
+        {
+          "template": "hero",
+          "data": "notifications"
+        },
+        {
+          "template": "summary",
+          "data": "summary"
+        },
+        {
+          "template": "install",
+          "data": "install"
+        },
+        {
+          "template": "features",
+          "data": "features"
+        },
+        {
+          "template": "prices",
+          "data": "prices"
+        },
+        {
+          "template": "footer",
+          "data": "footer"
+        }
+      ]
+    </script>
+
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <!-- 3. Render template -->
+    <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
+
+  </body>
+</html>

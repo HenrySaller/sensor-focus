@@ -9,10 +9,11 @@
     margin-right: 15%; }
 
   @include breakpoint($bp-laptop-l) {
+    margin-right: 25%;
     padding: 120px 160px; }
 
   @include breakpoint($bp-laptop-xl) {
-    margin-right: 30%; } }
+    margin-right: 40%; } }
 
   .hero__subtitle {
     color: $white-secondary;
