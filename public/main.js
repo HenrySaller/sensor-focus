@@ -5,7 +5,8 @@ Handlebars.registerHelper("inc", function(value, options) {
 Handlebars.getTemplate = function(name) {
 	if (Handlebars.templates === undefined || Handlebars.templates[name] === undefined) {
 		$.ajax({
-			url : 'tpl/' + name + '.tpl',
+			url : '/tpl',
+      data: { 'tpl': name },
       async : false,
 			success : function(data) {
 				if (Handlebars.templates === undefined) {	Handlebars.templates = {}; }

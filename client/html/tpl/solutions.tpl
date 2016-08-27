@@ -1,13 +1,26 @@
-<div class="featured section" id="{{id}}">
+<div class="solutions section--grey-100" id="{{id}}">
 
-  <div class="full-width-img--bg">
-    <img src="{{bg-img}}">
+  <div class="section--white">
+    <div class="wrap">
+      <div class="solutions__filter">
+
+        {{#filters}}
+        <div class="solutions__filter-item">
+          <a class="button__grey" href="{{target}}">{{title}}</a>
+        </div>
+        {{/filters}}
+
+      </div>
+    </div>
   </div>
 
   <div class="wrap">
-    <div class="card__container">
+    <div class="solutions__container">
 
-      <div class="card__title block-title--white block-title--center">{{title}}</div>
+    {{#groups}}
+    <div class="solutions__card-title card__title block-title--black block-title" id={{id}}>{{title}}</div>
+
+    <div class="solutions__card-container card__container">
 
       {{#items}}
       <div class="card__item--light card__item--flex">
@@ -32,12 +45,15 @@
       {{/items}}
 
     </div>
+    {{/groups}}
+
+    </div>
   </div>
 
   <div class="section--white">
     <div class="wrap">
 
-      <div class="featured__footer section__footer">
+      <div class="solutions__footer section__footer">
         <div class="section__footer-cta">
           <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
         </div>

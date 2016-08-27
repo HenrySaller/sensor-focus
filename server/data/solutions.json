@@ -1,0 +1,277 @@
+{
+  "header": {
+    "id": "header",
+    "logo": "img/logo.svg",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#solutions"
+    },
+    "nav": [
+      {
+        "name": "Solutions",
+        "url": "/solutions"
+      },
+      {
+        "name": "Developers",
+        "url": "/developers"
+      },
+      {
+        "name": "Support",
+        "url": "#"
+      },
+      {
+        "name": "Sign In",
+        "url": "#"
+      }
+    ]
+  },
+  "breadcrumbs": {
+    "id": "breadcrumbs",
+    "links": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "Solutions",
+        "url": "#"
+      }
+    ]
+  },
+  "solutions": {
+    "id": "solutions",
+    "caption": "Looking for something more specific?",
+    "cta": {
+      "name": "Contact Us",
+      "url": "/"
+    },
+    "filters": [
+      {
+        "title": "Home",
+        "target": "/#solutions-home"
+      },
+      {
+        "title": "Office",
+        "target": "/#solutions-office"
+      },
+      {
+        "title": "Enterprise",
+        "target": "/#solutions-enterprise"
+      }
+    ],
+    "groups": [
+      {
+        "id": "solutions-home",
+        "title": "Home Solutions",
+        "items": [
+          {
+            "img": "",
+            "alt": "",
+            "title": "Kids Playroom Monitoring",
+            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          },
+          {
+            "img": "",
+            "alt": "",
+            "title": "Earthquake Detector",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          },
+          {
+            "img": "",
+            "alt": "",
+            "title": "Door Bell for Deaf People",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          }
+        ]
+      },
+      {
+        "id": "solutions-office",
+        "title": "Office Solutions",
+        "items": [
+          {
+            "img": "",
+            "alt": "",
+            "title": "Kids Playroom Monitoring",
+            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          },
+          {
+            "img": "",
+            "alt": "",
+            "title": "Earthquake Detector",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          },
+          {
+            "img": "",
+            "alt": "",
+            "title": "Door Bell for Deaf People",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          },
+          {
+            "img": "",
+            "alt": "",
+            "title": "Kids Playroom Monitoring",
+            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          }
+        ]
+      },
+      {
+        "id": "solutions-enterprise",
+        "title": "Enterprise Solutions",
+        "items": [
+          {
+            "img": "",
+            "alt": "",
+            "title": "Kids Playroom Monitoring",
+            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          },
+          {
+            "img": "",
+            "alt": "",
+            "title": "Earthquake Detector",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "cta": {
+              "name": "Learn More",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "companies": {
+    "id": "companies",
+    "caption": "Users from these world class organizations are using our solutions.",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#solutions"
+    },
+    "items": [
+      {
+        "img": "img/companies/logo-chevron.svg",
+        "alt": "Chevron"
+      },
+      {
+        "img": "img/companies/logo-columbia-university.svg",
+        "alt": "Columbia University"
+      },
+      {
+        "img": "img/companies/logo-deutsche-bank.svg",
+        "alt": "Deutsche Bank"
+      },
+      {
+        "img": "img/companies/logo-gdf-suez.svg",
+        "alt": "GDF SUEZ"
+      },
+      {
+        "img": "img/companies/logo-university-of-toronto.svg",
+        "alt": "University of Toronto"
+      },
+      {
+        "img": "img/companies/logo-shell.svg",
+        "alt": "Shell"
+      },
+      {
+        "img": "img/companies/logo-yale-university.svg",
+        "alt": "Yale University"
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "logo": "img/logo.svg",
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
+    "groups": [
+      {
+        "name": "Product",
+        "links": [
+          {
+            "name": "Features",
+            "url": "/"
+          },
+          {
+            "name": "Catalog",
+            "url": "solutions"
+          },
+          {
+            "name": "Popular",
+            "url": "/"
+          },
+          {
+            "name": "Trending",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Company",
+        "links": [
+          {
+            "name": "About",
+            "url": "/"
+          },
+          {
+            "name": "Strategy",
+            "url": "/"
+          },
+          {
+            "name": "Team",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Info",
+        "links": [
+          {
+            "name": "Support",
+            "url": "support"
+          },
+          {
+            "name": "Developers",
+            "url": "developers"
+          },
+          {
+            "name": "Customer Service",
+            "url": "/"
+          },
+          {
+            "name": "Getting Started",
+            "url": "/"
+          }
+        ]
+      }
+    ]
+  }
+}

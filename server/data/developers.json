@@ -1,0 +1,414 @@
+{
+  "header": {
+    "id": "header",
+    "logo": "img/logo.svg",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#featured"
+    },
+    "nav": [
+      {
+        "name": "Solutions",
+        "url": "/solutions"
+      },
+      {
+        "name": "Developers",
+        "url": "/developers"
+      },
+      {
+        "name": "Support",
+        "url": "#"
+      },
+      {
+        "name": "Sign In",
+        "url": "#"
+      }
+    ]
+  },
+  "breadcrumbs": {
+    "id": "breadcrumbs",
+    "links": [
+      {
+        "name": "Home",
+        "url": "/"
+      },
+      {
+        "name": "Developers",
+        "url": "#"
+      }
+    ]
+  },
+  "concept": {
+    "id": "concept",
+    "bg-img": "img/developers/concept.jpg",
+    "title": "What is SensorFocus",
+    "text": "SensorFocus is a complete IoT and advanced analytics platform offered as a service in the cloud.<br><br>SensorFocus gives access to the power of some of the most powerful machine learning (e.g. Scikit-learn), computer vision (e.g. OpenCV 3.0) and data analytics (e.g. Pandas) in one single integrated environment.<br><br>We offers real time data streaming and management capabilities based on MQTT and Celery.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#"
+    }
+  },
+  "features": {
+    "id": "features",
+    "title": "",
+    "caption": "Ready to get started?",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#"
+    },
+    "items": [
+      {
+        "icon": "security",
+        "title": "Secured solution",
+        "text": "We work with Amazon Servers, most trusted secure solution."
+      },
+      {
+        "icon": "group",
+        "title": "Social",
+        "text": "Easy to share content in social networks."
+      },
+      {
+        "icon": "thumb_up",
+        "title": "Easy to use",
+        "text": "Our solution is designed to be used by everyone, not only experts."
+      },
+      {
+        "icon": "build",
+        "title": "Easy to install",
+        "text": "The complete solution can be installed in a matter of minutes."
+      },
+      {
+        "icon": "public",
+        "title": "Green",
+        "text": "Bring your old phones back to life!"
+      },
+      {
+        "icon": "star",
+        "title": "Fun",
+        "text": "Get notifications and pictures of the most important events."
+      }
+    ]
+  },
+  "screens": {
+    "id": "screens"
+  },
+  "model": {
+    "id": "model",
+    "groups": [
+      {
+        "title": "Get Data",
+        "items": [
+          {
+            "icon": "wifi_tethering",
+            "title": "Sensors",
+            "text": "Real time sensor input with MQTT connectivity. Up to 100Hz per series. Camera enabled. Wifi and LTE/3G communication. Android based devices."
+          },
+          {
+            "icon": "timeline",
+            "title": "Connections",
+            "text": "Secure API connectivity to proprietary databases (e.g. SAP, Oracle, CRM), open data sources (e.g. Census) and other sources such as websites."
+          },
+          {
+            "icon": "dns",
+            "title": "API",
+            "text": "Secured REST based API available to third party. Enable use of DIY sensor platform such as Rasbery Pi and Arduino."
+          },
+          {
+            "icon": "view_list",
+            "title": "Excel",
+            "text": "Excel connectivity via real time data server. Allow for manual input in spread sheets."
+          }
+        ]
+      },
+      {
+        "title": "Analize Data",
+        "items": [
+          {
+            "icon": "trending_up",
+            "title": "Analytics",
+            "text": "Cloud based data manipulation and analytics platform. Command line interface to Pandas Python."
+          },
+          {
+            "icon": "school",
+            "title": "Machine Learning",
+            "text": "Enable training and automatic state detection. Implement key machine learning modules from ScikitLearnand Google’s TensorFlow."
+          },
+          {
+            "icon": "image",
+            "title": "Image Analysis",
+            "text": "Implement key image analysis routines: movement, heatmap, object detection."
+          },
+          {
+            "icon": "event",
+            "title": "Alerts & Scheduler",
+            "text": "Condition based alert systems implementing a distributed task queue. Allows for the implementation of condition logics and state machines. Automatically triggers device actions, tasks, user notifications."
+          }
+        ]
+      },
+      {
+        "title": "Use Data",
+        "items": [
+          {
+            "icon": "dashboard",
+            "title": "Dashboards",
+            "text": "Flexible, command line implementation of D3JS visualization. Allows for public and private sharing."
+          },
+          {
+            "icon": "map",
+            "title": "Maps",
+            "text": "Implementation of Google maps to visualize social data. (e.g. fleet tracking)"
+          },
+          {
+            "icon": "dns",
+            "title": "API",
+            "text": "Secure data connection allowing for use of data at scale. Integrates with third party tools such as Tableau and Alterix."
+          },
+          {
+            "icon": "view_list",
+            "title": "Excel Addon",
+            "text": "Real time data connection in excel allowing for direct use into models."
+          },
+          {
+            "icon": "event_available",
+            "title": "Task Management",
+            "text": "Task / Service ticket management tools including notification and work schedule management."
+          },
+          {
+            "icon": "view_day",
+            "title": "News Feed",
+            "text": "Facebook like news feed integrating all other data sinks into one interface. Enable the digital enterprise paradigm with mobile devices."
+          },
+          {
+            "icon": "devices",
+            "title": "Device Actions",
+            "text": "Device side actions allowing for interactions with the real world (e.g. warning message, visual display). HTTP request enabling connection to third party systems."
+          }
+        ]
+      }
+    ]
+  },
+  "support": {
+    "id": "support",
+    "bg-img": "img/developers/support.jpg",
+    "subtitle": "Enjoy extensive",
+    "title": "Documentation & Support",
+    "text": "We are continually working on documentation and adding to it every week.<br><br>If you have any questions our friendly developers will be happy to help.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#"
+    }
+  },
+  "groups": {
+    "id": "groups",
+    "title": "Who is it For?",
+    "caption": "Ready to get started?",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#"
+    },
+    "items": [
+      {
+        "icon": "build",
+        "title": "Technicians and Engineers",
+        "text": "Test drive IoT in your company. Monitor equipments in real time and get results quick."
+      },
+      {
+        "icon": "dns",
+        "title": "Geeks and Hobbyists",
+        "text": "You like to play with Ardruino and Rasberry Pi? SensorFocus brings your project to the next level with its API combined to a complete real time data management platform."
+      },
+      {
+        "icon": "assignment",
+        "title": "Scientists and Researchers",
+        "text": "You have some lab project that require data acquisition from sensors? SensorFocus helps you get results faster at rate of up to 100Hz."
+      },
+      {
+        "icon": "school",
+        "title": "Sciences Teachers",
+        "text": "SensorFocus helps illustrate physics at its best with real time demonstration and ubiquitous sensors available on any android phones. Contact us to hear about our educational discounts."
+      },
+      {
+        "icon": "brush",
+        "title": "Artists",
+        "text": "looking to easily create amazing arts without having to bother with complex technology? SensorFocus might offer exactly what you are looking for."
+      }
+    ]
+  },
+  "app": {
+    "id": "app"
+  },
+  "companies": {
+    "id": "companies",
+    "caption": "Users from these world class organizations are using our solutions.",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#featured"
+    },
+    "items": [
+      {
+        "img": "img/companies/logo-chevron.svg",
+        "alt": "Chevron"
+      },
+      {
+        "img": "img/companies/logo-columbia-university.svg",
+        "alt": "Columbia University"
+      },
+      {
+        "img": "img/companies/logo-deutsche-bank.svg",
+        "alt": "Deutsche Bank"
+      },
+      {
+        "img": "img/companies/logo-gdf-suez.svg",
+        "alt": "GDF SUEZ"
+      },
+      {
+        "img": "img/companies/logo-university-of-toronto.svg",
+        "alt": "University of Toronto"
+      },
+      {
+        "img": "img/companies/logo-shell.svg",
+        "alt": "Shell"
+      },
+      {
+        "img": "img/companies/logo-yale-university.svg",
+        "alt": "Yale University"
+      }
+    ]
+  },
+  "join": {
+    "id": "join",
+    "bg-img": "img/developers/join.jpg",
+    "subtitle": "join the team of",
+    "title": "Amazing Developers",
+    "text": "If you create something amazing with SensorFocus let us know.<br><br>We want to hear success stories from our users. We might buy your solution or hire you ",
+    "cta": {
+      "name": "Contact Us",
+      "url": "#"
+    }
+  },
+  "team": {
+    "id": "team",
+    "title": "Our Team",
+    "cta": {
+      "name": "Join the Team",
+      "url": "/"
+    },
+    "items": [
+      {
+        "icon": "school",
+        "text": "Made of top performers from schools like MIT and Columbia University."
+      },
+      {
+        "icon": "code",
+        "text": "Focused on client services with a passion for technology and great product design with the latest AI technologies."
+      },
+      {
+        "icon": "public",
+        "text": "Based in Montreal and working globally in a fun and collaborative atmosphere."
+      }
+    ]
+  },
+  "prices": {
+    "id": "prices",
+    "bg-img": "img/global/prices.jpg",
+    "title": "Pricing Plans",
+    "items": [
+      {
+        "price": "8.99",
+        "caption": "",
+        "title": "Geek",
+        "text": "Setup included.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      },
+      {
+        "price": "18.99",
+        "caption": "Save 10%",
+        "title": "Engineer",
+        "text": "Setup included.<br>Save 10% of subscription.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      },
+      {
+        "price": "49.99",
+        "caption": "Save 10%",
+        "title": "Unlimiter",
+        "text": "1 preconfigured <a href=''>Moto G</a> device.<br>Setup and subscription included.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "logo": "img/logo.svg",
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
+    "groups": [
+      {
+        "name": "Product",
+        "links": [
+          {
+            "name": "Features",
+            "url": "/"
+          },
+          {
+            "name": "Catalog",
+            "url": "solutions"
+          },
+          {
+            "name": "Popular",
+            "url": "/"
+          },
+          {
+            "name": "Trending",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Company",
+        "links": [
+          {
+            "name": "About",
+            "url": "/"
+          },
+          {
+            "name": "Strategy",
+            "url": "/"
+          },
+          {
+            "name": "Team",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Info",
+        "links": [
+          {
+            "name": "Support",
+            "url": "support"
+          },
+          {
+            "name": "Developers",
+            "url": "developers"
+          },
+          {
+            "name": "Customer Service",
+            "url": "/"
+          },
+          {
+            "name": "Getting Started",
+            "url": "/"
+          }
+        ]
+      }
+    ]
+  }
+}

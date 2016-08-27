@@ -1,0 +1,26 @@
+.breadcrumbs__container {
+  padding: 8px 40px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 8px 80px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 8px 160px; } }
+
+  .breadcrumbs__item {
+    @include unstyled-link;
+
+    color: $black-disabled;
+
+    font-family: $main-font;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+
+    &:after {
+      content: '  /  '; }
+
+    &:last-child {
+      &:after {
+        content: none; } } }

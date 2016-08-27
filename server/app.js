@@ -7,7 +7,6 @@ app.set('port', (process.env.PORT || 5000));
 
 app.use(express.static(path.resolve(__dirname, '..', 'node_modules')));
 app.use(express.static(path.resolve(__dirname, '..', 'bower_components')));
-app.use(express.static(path.resolve(__dirname, '..', 'client/html')));
 app.use(express.static(path.resolve(__dirname, '..', 'public')));
 
 app.get('/', function(req, res) {
@@ -15,10 +14,18 @@ app.get('/', function(req, res) {
 });
 
 app.get('/data', function(req,res) {
-  var filePath = path.resolve(__dirname + '/data/' + req.query.page + '.json');
-  res.sendFile(filePath, function (err) {
-    if (err) throw err;
-  });
+  var filePath = path.resolve(__dirname, 'data/' + path.basename(req.query.page) + '.json');
+  res.sendFile(filePath, function (err) { if (err) throw err; });
+});
+
+app.get('/tpl', function(req,res) {
+  var filePath = path.resolve(__dirname, '..', 'client/html/tpl/' + path.basename(req.query.tpl)+ '.tpl');
+  console.log(filePath);
+  res.sendFile(filePath, function (err) { if (err) throw err; });
+});
+
+app.get('/:page', function(req, res) {
+  res.sendFile(path.resolve(__dirname, '..', 'client/html/' + path.basename(req.params.page) + '.html'));
 });
 
 app.listen(app.get('port'), function() {

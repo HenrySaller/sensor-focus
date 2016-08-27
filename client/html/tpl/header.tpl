@@ -30,7 +30,7 @@
   $(function() {
 
     // Set active nav item
-    $('nav a[href^="/' + location.pathname.split("/")[1] + '"]')
+    $('nav a[href="/' + location.pathname.split("/")[1] + '"]')
       .addClass('nav-button--active');
 
     // Mobile nav toggle

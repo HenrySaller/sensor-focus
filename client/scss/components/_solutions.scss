@@ -1,0 +1,51 @@
+.solutions__filter {
+  padding: 32px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 32px 72px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 32px 112px; }
+
+  @include breakpoint($bp-laptop-xl) {
+    padding: 32px 152px; } }
+
+  .solutions__filter {
+    display: flex;
+    flex-wrap: wrap; }
+
+    .solutions__filter-item {
+      margin: 8px; }
+
+
+.solutions__container {
+  padding: 16px 24px 64px 24px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 16px 64px 64px 64px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 16px 104px 64px 104px; }
+
+  @include breakpoint($bp-laptop-xl) {
+    padding: 16px 144px 64px 144px; } }
+
+  .solutions__card-title {
+    margin: 0 16px;
+    padding: 64px 0 32px 0; }
+
+  .solutions__card-container {
+    justify-content: flex-start;
+    padding: 0; }
+
+.solutions__footer {
+  padding: 40px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 40px 80px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 40px 120px; }
+
+  @include breakpoint($bp-laptop-xl) {
+    padding: 40px 160px; } }

@@ -18,6 +18,9 @@ body {
 .section--grey-100 {
   @include section($grey-100); }
 
+.section--grey-200 {
+  @include section($grey-200); }
+
 /* Section Footer */
 .section__footer {
   @include section-footer(none); }
@@ -101,6 +104,14 @@ body {
   font-size: 36px;
   line-height: 48px; }
 
+.icon-fill--small {
+  @include icon-fill;
+  height: 16px;
+  width: 16px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 16px; }
+
 /* Block Titles */
 .block-title--black {
   @include block-title;
@@ -130,9 +141,14 @@ body {
 .card__container--left-align {
   @extend .card__container;
   justify-content: flex-start;
+  margin: 24px;
+  padding: 56px 0;
 
-  @include breakpoint($bp-laptop-xl) {
-    justify-content: center; } }
+  @include breakpoint($bp-laptop) {
+    margin: 24px 64px; }
+
+  @include breakpoint($bp-laptop-l) {
+    margin: 24px 144px; } }
 
 .card__title {
   flex-basis: 100%;
@@ -160,10 +176,10 @@ body {
   &:before, &:after { display: none; }
 
   @include breakpoint($bp-laptop) {
-    max-width: 50%; }
+    min-width: 50%; }
 
   @include breakpoint($bp-laptop-xl) {
-    max-width: 400px; } }
+    min-width: 384px; } }
 
 .card__item--flex {
   display: flex;
@@ -195,6 +211,29 @@ body {
   line-height: 24px;
   letter-spacing: 1.5px; }
 
+.card__item-inner-wrap {
+  text-align: left;
+  margin-left: 16px; }
+
+.card__item-inner-title {
+  margin: 0 0 8px 0;
+  color: $black;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px; }
+
+.card__item-inner-text {
+  color: $black;
+
+  font-family: $text-font;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px; }
+
 .card__item-text {
   @include inner-link;
   flex-grow: 1;
@@ -213,3 +252,44 @@ body {
 
 .card__item-cta {
   margin-top: 40px; }
+
+.card__item-img {
+  overflow: hidden;
+  position: relative;
+  height: 160px; }
+
+.card__price-title {
+  display: inline-block;
+  width: 144px;
+  height: 40px;
+  padding: 8px;
+  margin-top: 16px;
+  border-radius: 28px;
+
+  color: $main;
+  background: $main-secondary;
+
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+
+  &:before, &:after {
+    font-size: 12px;}
+
+  &:before {
+    content: '$'; }
+
+  &:after {
+    content: '/mo'; } }
+
+.card__price-caption {
+  height: 24px;
+  color: $main;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.5px; }

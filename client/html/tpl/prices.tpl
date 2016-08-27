@@ -1,4 +1,4 @@
-<div class="featured section" id="{{id}}">
+<div class="prices section" id="{{id}}">
 
   <div class="full-width-img--bg">
     <img src="{{bg-img}}">
@@ -12,10 +12,9 @@
       {{#items}}
       <div class="card__item--light card__item--flex">
 
-        <div class="card__item-img">
-          <div class="full-width-img">
-            <img alt="{{alt}}" src="{{img}}">
-          </div>
+        <div class="card__price">
+          <div class="card__price-title">{{price}}</div>
+          <div class="card__price-caption">{{caption}}</div>
         </div>
 
         <div class="card__item-wrap">
@@ -33,18 +32,4 @@
 
     </div>
   </div>
-
-  <div class="section--white">
-    <div class="wrap">
-
-      <div class="featured__footer section__footer">
-        <div class="section__footer-cta">
-          <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
-        </div>
-        <div class="section__footer-caption">{{caption}}</div>
-      </div>
-
-    </div>
-  </div>
-
 </div>

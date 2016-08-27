@@ -9,19 +9,19 @@
     "nav": [
       {
         "name": "Solutions",
-        "url": "solutions"
+        "url": "/solutions"
       },
       {
         "name": "Developers",
-        "url": "developers"
+        "url": "/developers"
       },
       {
         "name": "Support",
-        "url": "support"
+        "url": "#"
       },
       {
         "name": "Sign In",
-        "url": "login"
+        "url": "#"
       }
     ]
   },
@@ -187,7 +187,7 @@
     "caption": "Wide range of solutions that help you at home and at work.",
     "cta": {
       "name": "Browse All Solutions",
-      "url": "/"
+      "url": "/solutions"
     },
     "items": [
       {
