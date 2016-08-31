@@ -1,0 +1,43 @@
+/* Section */
+.section {
+  @include section(none); }
+
+.section--white {
+  @include section($white); }
+
+.section--grey-100 {
+  @include section($grey-100); }
+
+.section--grey-200 {
+  @include section($grey-200); }
+
+/* Section Footer */
+.section__footer {
+  @include section-footer(none); }
+
+.section__footer-cta {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  text-align: center;
+  @include breakpoint($bp-laptop-l) {
+    text-align: left;
+    flex-basis: auto; } }
+
+.section__footer-caption {
+  flex-grow: 1;
+  flex-basis: 100%;
+  margin-top: 24px;
+  color: $black-disabled;
+
+  text-align: center;
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  @include breakpoint($bp-laptop-l) {
+    margin: 8px 24px;
+    text-align: left;
+    flex-basis: auto; } }

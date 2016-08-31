@@ -4,7 +4,7 @@
     "logo": "img/logo.svg",
     "cta": {
       "name": "Try it Now",
-      "url": "#"
+      "url": "#prices"
     },
     "nav": [
       {
@@ -33,7 +33,7 @@
     "text": "Monitor your kids TV and video game consumption to prevent abuse.<br><br>Use the sensors available on your mobile device to monitor your environment.",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#elements"
     }
   },
   "elements": {
@@ -42,7 +42,7 @@
     "caption": "Ready to get started?",
     "cta": {
       "name": "Try it Now",
-      "url": "#"
+      "url": "#prices"
     },
     "items": [
       {
@@ -72,8 +72,50 @@
       }
     ]
   },
+  "devices": {
+    "id": "devices",
+    "items": [
+      {
+        "bg-img": "img/home/device-sensor.jpg",
+        "caption-type": "white",
+        "caption": "Tran, Stephanie. Samsung - #notemyday Galaxy Note 4 - Rudy's Double Act. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/www.stephanietran.com'>stephanietran.com<\/a>",
+        "title": "Sensor Device",
+        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
+      },
+      {
+        "bg-img": "img/home/device-client.jpg",
+        "caption-type": "",
+        "caption": "",
+        "title": "Client Device",
+        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
+      }
+    ]
+  },
   "testimonials": {
-    "id": "testimonials"
+    "id": "testimonials",
+    "items": [
+      {
+        "id": "tes-1",
+        "img": "img/playroom-monitoring/avatar-1.jpg",
+        "text": "Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids, making sure they respect the limits we agreed.",
+        "name": "Nellie Graham",
+        "position": "Designer"
+      },
+      {
+        "id": "tes-2",
+        "img": "img/playroom-monitoring/avatar-2.jpg",
+        "text": "Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids.",
+        "name": "Jack Scott",
+        "position": "Developer"
+      },
+      {
+        "id": "tes-3",
+        "img": "img/playroom-monitoring/avatar-3.jpg",
+        "text": "Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids, making sure they respect the limits we agreed. Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids.",
+        "name": "Sherri Meyer",
+        "position": "CEO"
+      }
+    ]
   },
   "subhero": {
     "id": "subhero",
@@ -83,11 +125,41 @@
     "text": "Help them monitor their behaviour without being intrusive.<br><br>Set limits with your kids using SensorFocus App.",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#summary"
     }
   },
   "app": {
-    "id": "app"
+    "id": "app",
+    "bg-img": "img/global/device-ios.jpg",
+    "title": "Your News Feed",
+    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
+    "items": [
+      {
+        "id": "app-1",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "Live image from the room."
+      },
+      {
+        "id": "app-2",
+        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "cta": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "app-3",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "app-4",
+        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "cta": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "app-5",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
   },
   "notifications": {
     "id": "notifications",
@@ -97,7 +169,7 @@
     "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#summary"
     }
   },
   "summary": {
@@ -122,7 +194,35 @@
     ]
   },
   "install": {
-    "id": "install"
+    "id": "install",
+    "title": "Easy to Install",
+    "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
+    "items": [
+      {
+        "id": "install-tripod",
+        "bg-img": "img/global/install-tripod.jpg",
+        "caption-type": "white",
+        "caption": "Joby GripTight Gorillapod Pro. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/joby.com'>joby.com<\/a>",
+        "cta": "Use a car holder, tripod, selfie stick that you already own. <a href=''>Learn more.<\/a>",
+        "icon": "img/icon/phone-tripod.svg"
+      },
+      {
+        "id": "install-mount",
+        "bg-img": "img/global/install-mount.jpg",
+        "caption-type": "black",
+        "caption": "Dockem Koala Wall Mount. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/dockem.com'>dockem.com<\/a>",
+        "cta": "Purchase a wall mount from <a href=''>Amazon<\/a> or <a href=''>Ebay<\/a>. There are dozen available at low cost.",
+        "icon": "img/icon/phone-mount.svg"
+      },
+      {
+        "id": "install-holder",
+        "bg-img": "img/global/install-holder.jpg",
+        "caption-type": "",
+        "caption": "",
+        "cta": "Do your own solutions with hundreds of ideas available. <a href=''>Learn more.<\/a>",
+        "icon": "img/icon/phone-dock.svg"
+      }
+    ]
   },
   "features": {
     "id": "features",
@@ -130,7 +230,7 @@
     "caption": "Ready to get started?",
     "cta": {
       "name": "Try it Now",
-      "url": "#"
+      "url": "#prices"
     },
     "items": [
       {

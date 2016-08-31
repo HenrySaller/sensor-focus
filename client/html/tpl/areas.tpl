@@ -1,4 +1,4 @@
-<div class="areas section--grey-100" id="{{id}}">
+<div class="section--grey-100" id="{{id}}">
   <div class="wrap">
     <div class="card__container">
 

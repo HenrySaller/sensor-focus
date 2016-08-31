@@ -3,8 +3,8 @@
     "id": "header",
     "logo": "img/logo.svg",
     "cta": {
-      "name": "Try it Now",
-      "url": "/#featured"
+      "name": "Subscribe",
+      "url": "/#prices"
     },
     "nav": [
       {
@@ -40,12 +40,12 @@
   },
   "concept": {
     "id": "concept",
-    "bg-img": "img/developers/concept.jpg",
+    "bg-img": "img/developers/concept-2.jpg",
     "title": "What is SensorFocus",
     "text": "SensorFocus is a complete IoT and advanced analytics platform offered as a service in the cloud.<br><br>SensorFocus gives access to the power of some of the most powerful machine learning (e.g. Scikit-learn), computer vision (e.g. OpenCV 3.0) and data analytics (e.g. Pandas) in one single integrated environment.<br><br>We offers real time data streaming and management capabilities based on MQTT and Celery.",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#features"
     }
   },
   "features": {
@@ -54,7 +54,7 @@
     "caption": "Ready to get started?",
     "cta": {
       "name": "Try it Now",
-      "url": "#"
+      "url": "#prices"
     },
     "items": [
       {
@@ -90,7 +90,41 @@
     ]
   },
   "screens": {
-    "id": "screens"
+    "id": "screens",
+    "title": "Screenshot Section",
+    "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
+    "items": [
+      {
+        "id": "scr-1",
+        "bg-img": "img/developers/screen-1.jpg",
+        "cta": "Home",
+        "text": "Live image from the room."
+      },
+      {
+        "id": "scr-2",
+        "bg-img": "img/developers/screen-2.jpg",
+        "cta": "Office",
+        "text": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "scr-3",
+        "bg-img": "img/developers/screen-1.jpg",
+        "cta": "Loved One's Place",
+        "text": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "scr-4",
+        "bg-img": "img/developers/screen-2.jpg",
+        "cta": "Country House",
+        "text": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "loc-5",
+        "bg-img": "img/developers/screen-1.jpg",
+        "cta": "And Many More",
+        "text": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
   },
   "model": {
     "id": "model",
@@ -195,7 +229,7 @@
     "text": "We are continually working on documentation and adding to it every week.<br><br>If you have any questions our friendly developers will be happy to help.",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#groups"
     }
   },
   "groups": {
@@ -204,7 +238,7 @@
     "caption": "Ready to get started?",
     "cta": {
       "name": "Try it Now",
-      "url": "#"
+      "url": "#prices"
     },
     "items": [
       {
@@ -235,14 +269,44 @@
     ]
   },
   "app": {
-    "id": "app"
+    "id": "app",
+    "bg-img": "img/global/device-android.jpg",
+    "title": "App Section",
+    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
+    "items": [
+      {
+        "id": "app-1",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "Live image from the room."
+      },
+      {
+        "id": "app-2",
+        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "cta": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "app-3",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "app-4",
+        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "cta": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "app-5",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
   },
   "companies": {
     "id": "companies",
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
-      "url": "/#featured"
+      "url": "/#prices"
     },
     "items": [
       {

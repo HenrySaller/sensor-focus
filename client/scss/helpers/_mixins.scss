@@ -58,6 +58,23 @@
     min-width: 50%;
     min-height: 50%; } }
 
+@mixin full-width-img__caption {
+  position: absolute;
+  text-align: center;
+
+  bottom: 16px;
+  left: 24px;
+  right: 24px;
+
+  font-family: $text-font;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+
+  & a {
+    @include unstyled-link; } }
+
 /* Inner Links */
 @mixin inner-link() {
   & a {

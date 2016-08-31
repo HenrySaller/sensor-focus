@@ -1,4 +1,4 @@
-<footer class="breadcrumbs section--grey-200" id="{{id}}">
+<footer class="section--grey-200" id="{{id}}">
   <div class="wrap">
     <div class="breadcrumbs__container">
 

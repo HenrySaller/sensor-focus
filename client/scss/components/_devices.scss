@@ -1,2 +1,58 @@
 .devices__container {
-  min-height: 640px; }
+  font-size: 0;
+  outline: 1px solid $grey-200; }
+
+  .devices__section {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+    @include breakpoint($bp-laptop-l) {
+      width: 50%; }}
+
+    .devices__wrap {
+      position: relative;
+      text-align: center;
+      padding: 64px 40px 80px 40px;
+
+      @include breakpoint($bp-laptop-xl) {
+        padding: 64px 120px 80px 120px; } }
+
+    .devices__wrap--separator {
+
+      &:before, &:after {
+        content: '';
+        display: none;
+        position: absolute;
+        background: $grey-300; }
+
+      &:before {
+        top: 80px;
+        bottom: 80px;
+        right: -2px;
+        width: 4px;
+      }
+
+      &:after {
+        @include rotate(45deg);
+
+        width: 16px;
+        height: 16px;
+
+        bottom: 50%;
+        right: -8px;
+        margin-bottom: -8px; }
+
+      @include breakpoint($bp-laptop-l) {
+        &:before, &:after {
+          display: block; } } }
+
+    .devices__image {
+      position: relative;
+      overflow: hidden;
+
+      width: 100%;
+
+      @include breakpoint($bp-laptop-l) {
+        height: 480px; } }

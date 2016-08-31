@@ -1,2 +1,138 @@
 .app__container {
-  min-height: 640px; }
+  position: relative; }
+
+  .app__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    min-height: 744px;
+    margin-top: -80px;
+
+    @include breakpoint($bp-laptop-l) {
+      position: absolute;
+      height: auto;
+      margin-top: 0;
+
+      top: 0;
+      bottom: 0;
+      left: 65%;
+      right: 0; }
+
+    @include breakpoint($bp-laptop-xl) {
+      left: 50%; } }
+
+    .app__image-device {
+      position: absolute; }
+
+    .app__image-screen {
+      box-sizing: border-box;
+      z-index: 1;
+
+      & img {
+        border: 1px solid $black-disabled;
+        border-radius: 4px; } }
+
+  .app__steps {
+    position: absolute;
+    bottom: 24px;
+  }
+
+  .app__content {
+    box-sizing: border-box;
+    padding: 80px 40px;
+
+    @include breakpoint($bp-laptop) {
+      padding: 80px; }
+
+    @include breakpoint($bp-laptop-l) {
+      width: 65%;
+      padding: 80px 80px 80px 160px; }
+
+    @include breakpoint($bp-laptop-xl) {
+      width: 50%; } }
+
+    .app__text {
+      color: $black;
+      margin: 56px 0 32px 0;
+
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px; }
+
+    .app__cta-button {
+      cursor: pointer;
+      display: flex;
+      position: relative;
+      align-items: center;
+
+      min-height: 48px;
+      padding: 8px;
+      margin-top: 16px;
+      border-radius: 32px;
+
+      &:hover {
+        background: $grey-100; } }
+
+    .app__cta-button--active {
+      background: $grey-50; }
+
+      .app__cta-icon {
+        flex-shrink: 0;
+        padding: 6px;
+        width: 32px;
+        height: 32px;
+
+        text-align: center;
+        border-radius: 50%;
+        border: 2px solid $main;
+        color: $main;
+
+        font-family: $main-font;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 32px; }
+
+      .app__cta-icon--active {
+        padding: 8px;
+        border-radius: 50%;
+        border: 0;
+        background: $main-secondary; }
+
+      .app__cta-text {
+        @include inner-link;
+
+        flex-grow: 1;
+        color: $black;
+        margin-left: 16px;
+
+        font-family: $text-font;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.5px; }
+
+      .app__cta-chevron {
+        @include icon-font;
+
+        cursor: pointer;
+        display: none;
+        text-align: center;
+        opacity: 0;
+
+        margin-left: 16px;
+        width: 48px;
+        font-size: 32px;
+        line-height: 48px;
+
+        color: $black-disabled;
+
+        @include breakpoint($bp-laptop-l) {
+          display: inline-block; } }
+
+      .app__cta-chevron--active {
+        opacity: 1; }

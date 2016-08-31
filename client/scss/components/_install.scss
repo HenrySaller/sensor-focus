@@ -1,2 +1,109 @@
 .install__container {
-  min-height: 640px; }
+  position: relative;
+  outline: 1px solid $grey-200; }
+
+  .install__image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    @include breakpoint($bp-laptop-l) {
+      position: absolute;
+      height: auto;
+
+      top: 0;
+      bottom: 0;
+      left: 65%;
+      right: 0; }
+
+    @include breakpoint($bp-laptop-xl) {
+      left: 50%; } }
+
+  .install__content {
+    box-sizing: border-box;
+    padding: 80px 40px;
+
+    @include breakpoint($bp-laptop) {
+      padding: 80px; }
+
+    @include breakpoint($bp-laptop-l) {
+      width: 65%;
+      padding: 80px 80px 80px 160px; }
+
+    @include breakpoint($bp-laptop-xl) {
+      width: 50%; } }
+
+    .install__text {
+      color: $black;
+      margin: 56px 0 32px 0;
+
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px; }
+
+    .install__cta-button {
+      cursor: pointer;
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+
+      min-height: 48px;
+      padding: 8px;
+      margin-top: 16px;
+      border-radius: 32px;
+
+      &:hover {
+        background: $grey-100; }
+
+      @include breakpoint($bp-tablet) {
+        align-items: center; } }
+
+    .install__cta-button--active {
+      background: $grey-50; }
+
+      .install__cta-icon {
+        padding: 6px;
+        border-radius: 50%;
+        border: 2px solid $main; }
+
+      .install__cta-icon--active {
+        padding: 8px;
+        border-radius: 50%;
+        border: 0;
+        background: $main-secondary; }
+
+      .install__cta-text {
+        @include inner-link;
+
+        flex-grow: 1;
+        color: $black;
+        margin-left: 16px;
+
+        font-family: $text-font;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.5px; }
+
+      .install__cta-chevron {
+        @include icon-font;
+
+        cursor: pointer;
+        display: none;
+        text-align: center;
+        opacity: 0;
+
+        margin-left: 16px;
+        width: 48px;
+        font-size: 32px;
+        line-height: 48px;
+
+        color: $black-disabled;
+
+        @include breakpoint($bp-laptop-l) {
+          display: inline-block; } }
+
+      .install__cta-chevron--active {
+        opacity: 1; }

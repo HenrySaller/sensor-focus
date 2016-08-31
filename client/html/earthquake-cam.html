@@ -1,0 +1,89 @@
+<html>
+  <head>
+
+    <base href="/playroom-monitoring">
+    <title>Sensor Focus / Earthquake Cam</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Get alerted when an earthquake hits your home.  Immediately look for any damages with real times images from your home.">
+    <meta name="keywords" content="">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- 1. Load libraries -->
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="handlebars/handlebars.min.js"></script>
+    <script src="main.js"></script>
+
+    <!-- 2. Configure template -->
+    <script>
+      const PAGE = "earthquake-cam";
+      const TEMPLATES = [
+        {
+          "template": "header",
+          "data": "header"
+        },
+        {
+          "template": "hero",
+          "data": "hero"
+        },
+        {
+          "template": "features",
+          "data": "elements"
+        },
+        {
+          "template": "devices",
+          "data": "devices"
+        },
+        {
+          "template": "testimonials",
+          "data": "testimonials"
+        },
+        {
+          "template": "hero",
+          "data": "subhero"
+        },
+        {
+          "template": "app",
+          "data": "app"
+        },
+        {
+          "template": "hero",
+          "data": "notifications"
+        },
+        {
+          "template": "summary",
+          "data": "summary"
+        },
+        {
+          "template": "install",
+          "data": "install"
+        },
+        {
+          "template": "features",
+          "data": "features"
+        },
+        {
+          "template": "prices",
+          "data": "prices"
+        },
+        {
+          "template": "footer",
+          "data": "footer"
+        }
+      ]
+    </script>
+
+  </head>
+
+  <body>
+    <div id="app"></div>
+
+    <!-- 3. Render template -->
+    <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
+
+  </body>
+</html>

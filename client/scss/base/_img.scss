@@ -1,0 +1,22 @@
+/* Full Width Images */
+.full-width-img {
+  @include full-width-img; }
+
+.full-width-img--bg {
+  @include full-width-img;
+  z-index: -1; }
+
+.full-width-img--optimized {
+  & img { width: 100%; }
+
+  @include breakpoint($bp-laptop-l) {
+    & img { width: auto; }
+    @include full-width-img; } }
+
+.full-width-img__caption--white {
+  @include full-width-img__caption;
+  color: $white-disabled; }
+
+.full-width-img__caption--black {
+  @include full-width-img__caption;
+  color: $black-disabled; }

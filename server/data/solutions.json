@@ -75,13 +75,13 @@
             }
           },
           {
-            "img": "",
+            "img": "img/thumbnails/earthquake-cam.jpg",
             "alt": "",
             "title": "Earthquake Detector",
-            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "text": "Get alerted when an earthquake hits your home. Immediately look for any damages with real times images from your home.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "/earthquake-cam"
             }
           },
           {

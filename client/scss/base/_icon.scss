@@ -1,0 +1,22 @@
+/* Icons */
+.icon-border {
+  @include icon-border; }
+
+.icon-fill {
+  @include icon-fill; }
+
+.icon-fill--counter {
+  @include icon-fill;
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px; }
+
+.icon-fill--small {
+  @include icon-fill;
+  height: 16px;
+  width: 16px;
+  padding: 8px;
+  font-size: 16px;
+  line-height: 16px; }
+  

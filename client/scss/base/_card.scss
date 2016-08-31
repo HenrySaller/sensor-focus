@@ -1,0 +1,181 @@
+/* ----- Card Elements ----- */
+
+/* Card Container */
+.card__container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 64px 24px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 64px; } }
+
+.card__container--left-align {
+  @extend .card__container;
+  justify-content: flex-start;
+  margin: 24px;
+  padding: 56px 0;
+
+  @include breakpoint($bp-laptop) {
+    margin: 24px 64px; }
+
+  @include breakpoint($bp-laptop-l) {
+    margin: 24px 144px; } }
+
+/* Card Title */
+.card__title {
+  flex-basis: 100%;
+  margin: 16px 0 32px 0; }
+
+/* Card CTA */
+.card__cta {
+  flex-basis: 100%;
+  margin: 32px 0 16px 0;
+  text-align: center; }
+
+/* Card Item */
+.card__item--dark {
+  @include card-item;
+  &:after, &:before { background: $grey-200; } }
+
+.card__item--light {
+  @include card-item;
+  background: $white;
+  &:after, &:before { background: $white-separator; } }
+
+.card__item--left-align {
+  box-sizing: border-box;
+  display: flex;
+  margin: 0 0 24px 0;
+
+  &:before, &:after { display: none; }
+
+  @include breakpoint($bp-laptop) {
+    min-width: 50%; }
+
+  @include breakpoint($bp-laptop-xl) {
+    min-width: 384px; } }
+
+.card__item--flex {
+  display: flex;
+  flex-direction: column; }
+
+/* ----- Card Item Elements ----- */
+
+/* Card Item Wrapper */
+.card__item-wrap {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 16px; }
+
+/* Card Item Titles */
+.card__item-title {
+  margin: 16px 0;
+  color: $black;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2px; }
+
+.card__item-subtitle {
+  margin: 24px 0 16px 0;
+  color: $black;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1.5px; }
+
+/* Card Item Inner Elements */
+.card__item-inner-wrap {
+  text-align: left;
+  margin-left: 16px; }
+
+.card__item-inner-title {
+  margin: 0 0 8px 0;
+  color: $black;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px; }
+
+.card__item-inner-text {
+  color: $black;
+
+  font-family: $text-font;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px; }
+
+/* Card Item Text */
+.card__item-text {
+  @include inner-link;
+  flex-grow: 1;
+  color: $black;
+
+  font-family: $text-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.5px; }
+
+.card__item-text--left-align {
+  @extend .card__item-text;
+  text-align: left;
+  margin-left: 16px; }
+
+/* Card Item CTA */
+.card__item-cta {
+  margin-top: 40px; }
+
+/* Card Item Images */
+.card__item-img {
+  overflow: hidden;
+  position: relative;
+  height: 160px; }
+
+/* Card Price Elements */
+.card__price-title {
+  display: inline-block;
+  width: 144px;
+  height: 40px;
+  padding: 8px;
+  margin-top: 16px;
+  border-radius: 28px;
+
+  color: $main;
+  background: $main-secondary;
+
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+
+  &:before, &:after {
+    font-size: 12px;}
+
+  &:before { content: '$'; }
+  &:after { content: '/mo'; } }
+
+.card__price-title--free {
+  &:before, &:after {
+    content: ''; } }
+
+.card__price-caption {
+  height: 24px;
+  color: $main;
+
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.5px; }

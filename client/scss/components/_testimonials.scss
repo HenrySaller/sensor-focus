@@ -1,2 +1,107 @@
 .testimonials__container {
-  min-height: 320px; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  padding: 80px 40px;
+
+  outline: 1px solid $grey-200;
+
+  @include breakpoint($bp-laptop) {
+    padding: 80px; } }
+
+  .testimonials__steps {
+    flex-basis: 100%;
+    position: absolute;
+    bottom: 40px; }
+
+  .testimonials__wrap {
+    flex-basis: 100%;
+    display: none;
+
+    @include breakpoint($bp-laptop-l) {
+      flex-basis: 75%; }
+
+    @include breakpoint($bp-laptop-xl) {
+      flex-basis: 60%; } }
+
+  .testimonials__wrap--active {
+    display: block; }
+
+  .testimonials__item {
+    display: flex; }
+
+    .testimonials__item-avatar {
+      @include user-select(none);
+
+      width: 56px;
+      height: 56px;
+      margin-right: 24px;
+      margin-top: 6px; }
+
+    .testimonials__inner-wrap {
+      flex-grow: 1; }
+
+      .testimonials__item-text {
+        font-family: $main-font;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+
+        color: $black-secondary;
+
+        @include breakpoint($bp-tablet) {
+          font-size: 18px;
+          line-height: 32px; } }
+
+      .testimonials__item-user {
+        display: flex;
+        margin-top: 16px;
+
+        @include breakpoint($bp-tablet) {
+          margin-top: 24px; } }
+
+        .testimonials__item-separator {
+          display: none;
+          position: relative;
+          flex-grow: 1;
+          margin-right: 16px;
+          border-top: 2px solid $grey-300;
+
+          &:after {
+            content: '';
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+
+            top: 0;
+            right: 0;
+            height: 24px;
+            width: 24px;
+
+            border: 12px solid transparent;
+            border-top-color: $grey-300;
+            border-right-color: $grey-300;
+          }
+
+          @include breakpoint($bp-tablet) {
+            display: block; } }
+
+        .testimonials__item-name {
+          font-family: $main-font;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.5px;
+
+          color: $main; }
+
+        .testimonials__item-position {
+          font-family: $main-font;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.5px;
+
+          color: $black-secondary; }

@@ -93,18 +93,22 @@
   },
   "devices": {
     "id": "devices",
-    "sensor": {
-      "bg-img": "",
-      "title": "",
-      "text": "",
-      "cta": ""
-    },
-    "client": {
-      "bg-img": "",
-      "title": "",
-      "text": "",
-      "cta": ""
-    }
+    "items": [
+      {
+        "bg-img": "img/home/device-sensor.jpg",
+        "caption-type": "white",
+        "caption": "Tran, Stephanie. Samsung - #notemyday Galaxy Note 4 - Rudy's Double Act. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/www.stephanietran.com'>stephanietran.com<\/a>",
+        "title": "Sensor Device",
+        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
+      },
+      {
+        "bg-img": "img/home/device-client.jpg",
+        "caption-type": "",
+        "caption": "",
+        "title": "Client Device",
+        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
+      }
+    ]
   },
   "steps": {
     "id": "steps",
@@ -129,7 +133,42 @@
     ]
   },
   "locations": {
-    "id": "locations"
+    "id": "locations",
+    "bg-img": "img/home/device-ios-landscape.jpg",
+    "title": "Monitor Your Life",
+    "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
+    "items": [
+      {
+        "id": "loc-1",
+        "bg-img": "img/home/screen-1.jpg",
+        "cta": "Home",
+        "text": "Live image from the room."
+      },
+      {
+        "id": "loc-2",
+        "bg-img": "img/home/screen-2.jpg",
+        "cta": "Office",
+        "text": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "loc-3",
+        "bg-img": "img/home/screen-1.jpg",
+        "cta": "Loved One's Place",
+        "text": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "loc-4",
+        "bg-img": "img/home/screen-2.jpg",
+        "cta": "Country House",
+        "text": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "loc-5",
+        "bg-img": "img/home/screen-1.jpg",
+        "cta": "And Many More",
+        "text": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
   },
   "notifications": {
     "id": "notifications",
@@ -201,13 +240,13 @@
         }
       },
       {
-        "img": "",
+        "img": "img/thumbnails/earthquake-cam.jpg",
         "alt": "",
         "title": "Earthquake Detector",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+        "text": "Get alerted when an earthquake hits your home. Immediately look for any damages with real times images from your home.",
         "cta": {
           "name": "Learn More",
-          "url": "/"
+          "url": "/earthquake-cam"
         }
       },
       {

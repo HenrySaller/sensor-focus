@@ -1,4 +1,4 @@
-<div class="featured section" id="{{id}}">
+<div class="section" id="{{id}}">
 
   <div class="full-width-img--bg">
     <img src="{{bg-img}}">

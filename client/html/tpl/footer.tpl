@@ -1,4 +1,4 @@
-<footer class="footer section--white" id="{{id}}">
+<footer class="section--white" id="{{id}}">
   <div class="wrap">
     <div class="footer__container">
 

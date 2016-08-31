@@ -1,4 +1,4 @@
-<header class="header" id="{{id}}">
+<header class="header__section" id="{{id}}">
   <div class="wrap">
     <div class="header__container">
 

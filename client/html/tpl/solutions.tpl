@@ -1,4 +1,4 @@
-<div class="solutions section--grey-100" id="{{id}}">
+<div class="section--grey-100" id="{{id}}">
 
   <div class="section--white">
     <div class="wrap">

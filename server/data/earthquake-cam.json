@@ -1,0 +1,365 @@
+{
+  "header": {
+    "id": "header",
+    "logo": "img/logo.svg",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#prices"
+    },
+    "nav": [
+      {
+        "name": "Solutions",
+        "url": "/solutions"
+      },
+      {
+        "name": "Developers",
+        "url": "/developers"
+      },
+      {
+        "name": "Support",
+        "url": "#"
+      },
+      {
+        "name": "Sign In",
+        "url": "#"
+      }
+    ]
+  },
+  "hero": {
+    "id": "hero",
+    "bg-img": "img/earthquake-cam/hero.jpg",
+    "subtitle": "In danger of",
+    "title": "Earthquake? Know Your Family is Safe",
+    "text": "Get alerted when an earthquake hits your home.<br><br> Immediately look for any damages with real times images from your home.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#elements"
+    }
+  },
+  "elements": {
+    "id": "elements",
+    "title": "",
+    "caption": "Ready to get started?",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#prices"
+    },
+    "items": [
+      {
+        "icon": "speaker_phone",
+        "title": "Get peace of mind despite earthquake.",
+        "text": "We identify earth quake and send you notifications by text or email."
+      },
+      {
+        "icon": "remove_red_eye",
+        "title": "Quickly evaluate damages.",
+        "text": "With 1 minutes of an earthquake happening you get a short video of your home."
+      },
+      {
+        "icon": "security",
+        "title": "Make your house safer.",
+        "text": "When there is no earthquake our camera is still available. Use it to improve home safety."
+      },
+      {
+        "icon": "graphic_eq",
+        "title": "A security camera triggered by earth vibrations.",
+        "text": "Our app converts your phone to a seismograph and alerts you when needed."
+      }
+    ]
+  },
+  "devices": {
+    "id": "devices",
+    "items": [
+      {
+        "bg-img": "img/home/device-sensor.jpg",
+        "caption-type": "white",
+        "caption": "Tran, Stephanie. Samsung - #notemyday Galaxy Note 4 - Rudy's Double Act. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/www.stephanietran.com'>stephanietran.com<\/a>",
+        "title": "Sensor Device",
+        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
+      },
+      {
+        "bg-img": "img/home/device-client.jpg",
+        "caption-type": "",
+        "caption": "",
+        "title": "Client Device",
+        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
+      }
+    ]
+  },
+  "testimonials": {
+    "id": "testimonials",
+    "items": [
+      {
+        "id": "tes-1",
+        "img": "img/earthquake-cam/avatar-1.jpg",
+        "text": "Earthquake are getting more frequent and I'm worried about my familly. SensorFocus gives me peace of mind.",
+        "position": "Designer"
+      },
+      {
+        "id": "tes-2",
+        "img": "img/earthquake-cam/avatar-2.jpg",
+        "text": "Earthquake are getting more frequent and I'm worried about my familly.",
+        "name": "Jack Scott",
+        "position": "Developer"
+      },
+      {
+        "id": "tes-3",
+        "img": "img/earthquake-cam/avatar-3.jpg",
+        "text": "Earthquake are getting more frequent and I'm worried about my familly. SensorFocus gives me peace of mind. SensorFocus gives me peace of mind.",
+        "name": "Sherri Meyer",
+        "position": "CEO"
+      }
+    ]
+  },
+  "subhero": {
+    "id": "subhero",
+    "bg-img": "img/earthquake-cam/subhero.jpg",
+    "subtitle": "Allows you to",
+    "title": "Get Peace of Mind,<br>and Much More...",
+    "text": "Real time text alert when a earthquake hits your home.<br><br>More security and fun the rest of the time.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#summary"
+    }
+  },
+  "app": {
+    "id": "app",
+    "bg-img": "img/global/device-ios.jpg",
+    "title": "Your News Feed",
+    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
+    "items": [
+      {
+        "id": "app-1",
+        "bg-img": "img/earthquake-cam/screen-1.jpg",
+        "cta": "Live image from the room."
+      },
+      {
+        "id": "app-2",
+        "bg-img": "img/earthquake-cam/screen-2.jpg",
+        "cta": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "app-3",
+        "bg-img": "img/earthquake-cam/screen-1.jpg",
+        "cta": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "app-4",
+        "bg-img": "img/earthquake-cam/screen-2.jpg",
+        "cta": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "app-5",
+        "bg-img": "img/earthquake-cam/screen-1.jpg",
+        "cta": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
+  },
+  "notifications": {
+    "id": "notifications",
+    "bg-img": "img/global/notifications.jpg",
+    "subtitle": "Lets you",
+    "title": "Stay Informed,<br>Stay in Control",
+    "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
+    "cta": {
+      "name": "Learn More",
+      "url": "#summary"
+    }
+  },
+  "summary": {
+    "id": "summary",
+    "title": "What You Get",
+    "items": [
+      {
+        "icon": "speaker_phone",
+        "title": "Get Notified Quickly",
+        "text": "Set limits with your kids. Help them monitor their behaviour without being intrusive."
+      },
+      {
+        "icon": "remove_red_eye",
+        "title": "Get a Clear View of Damages",
+        "text": "SMS Text or email alerts delivered to your phone when TV or video game usage goes above custom limits."
+      },
+      {
+        "icon": "security",
+        "title": "No Earthquake: Just Get a Great Security Camera",
+        "text": "SensorFocus is a great security camera. You will see a ton a benefits even if there is no earthquake."
+      }
+    ]
+  },
+  "install": {
+    "id": "install",
+    "title": "Easy to Install",
+    "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
+    "items": [
+      {
+        "id": "install-tripod",
+        "bg-img": "img/global/install-tripod.jpg",
+        "caption-type": "white",
+        "caption": "Joby GripTight Gorillapod Pro. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/joby.com'>joby.com<\/a>",
+        "cta": "Use a car holder, tripod, selfie stick that you already own. <a href=''>Learn more.<\/a>",
+        "icon": "img/icon/phone-tripod.svg"
+      },
+      {
+        "id": "install-mount",
+        "bg-img": "img/global/install-mount.jpg",
+        "caption-type": "black",
+        "caption": "Dockem Koala Wall Mount. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/dockem.com'>dockem.com<\/a>",
+        "cta": "Purchase a wall mount from <a href=''>Amazon<\/a> or <a href=''>Ebay<\/a>. There are dozen available at low cost.",
+        "icon": "img/icon/phone-mount.svg"
+      },
+      {
+        "id": "install-holder",
+        "bg-img": "img/global/install-holder.jpg",
+        "caption-type": "",
+        "caption": "",
+        "cta": "Do your own solutions with hundreds of ideas available. <a href=''>Learn more.<\/a>",
+        "icon": "img/icon/phone-dock.svg"
+      }
+    ]
+  },
+  "features": {
+    "id": "features",
+    "title": "",
+    "caption": "Ready to get started?",
+    "cta": {
+      "name": "Try it Now",
+      "url": "#prices"
+    },
+    "items": [
+      {
+        "icon": "security",
+        "title": "Secured solution",
+        "text": "We work with Amazon Servers, most trusted secure solution."
+      },
+      {
+        "icon": "group",
+        "title": "Social",
+        "text": "Easy to share content in social networks."
+      },
+      {
+        "icon": "thumb_up",
+        "title": "Easy to use",
+        "text": "Our solution is designed to be used by everyone, not only experts."
+      },
+      {
+        "icon": "build",
+        "title": "Easy to install",
+        "text": "The complete solution can be installed in a matter of minutes."
+      },
+      {
+        "icon": "public",
+        "title": "Green",
+        "text": "Bring your old phones back to life!"
+      },
+      {
+        "icon": "star",
+        "title": "Fun",
+        "text": "Get notifications and pictures of the most important events."
+      }
+    ]
+  },
+  "prices": {
+    "id": "prices",
+    "bg-img": "img/global/prices.jpg",
+    "title": "Pricing Plans",
+    "items": [
+      {
+        "price": "4.99",
+        "caption": "",
+        "title": "1 Month",
+        "text": "Setup included.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      },
+      {
+        "price": "4.59",
+        "caption": "Save 10%",
+        "title": "3 Month",
+        "text": "Setup included.<br>Save 10% of subscription.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      },
+      {
+        "price": "89.59",
+        "caption": "Save 10%",
+        "title": "Device & 3 Month",
+        "text": "1 preconfigured <a href=''>Moto G</a> device.<br>Setup and subscription included.<br>100% money back guarantee.",
+        "cta": {
+          "name": "Subscribe",
+          "url": "#"
+        }
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "logo": "img/logo.svg",
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
+    "groups": [
+      {
+        "name": "Product",
+        "links": [
+          {
+            "name": "Features",
+            "url": "/"
+          },
+          {
+            "name": "Catalog",
+            "url": "solutions"
+          },
+          {
+            "name": "Popular",
+            "url": "/"
+          },
+          {
+            "name": "Trending",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Company",
+        "links": [
+          {
+            "name": "About",
+            "url": "/"
+          },
+          {
+            "name": "Strategy",
+            "url": "/"
+          },
+          {
+            "name": "Team",
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Info",
+        "links": [
+          {
+            "name": "Support",
+            "url": "support"
+          },
+          {
+            "name": "Developers",
+            "url": "developers"
+          },
+          {
+            "name": "Customer Service",
+            "url": "/"
+          },
+          {
+            "name": "Getting Started",
+            "url": "/"
+          }
+        ]
+      }
+    ]
+  }
+}

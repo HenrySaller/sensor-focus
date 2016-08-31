@@ -1,4 +1,4 @@
-<div class="concept section--white" id="{{id}}">
+<div class="section--white" id="{{id}}">
   <div class="wrap">
     <div class="concept__container">
 

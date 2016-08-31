@@ -1,0 +1,15 @@
+/* Block Titles */
+.block-title--black {
+  @include block-title;
+  color: $black-secondary;
+  &:after { background: $black-separator; } }
+
+.block-title--white {
+  @include block-title;
+  color: $white;
+  &:after { background: $white-disabled; } }
+
+.block-title--center {
+  text-align: center;
+  &:after { margin: 0 auto; } }
+  
