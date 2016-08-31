@@ -34,6 +34,7 @@
     .testimonials__item-avatar {
       @include user-select(none);
 
+      flex-shrink: 0;
       width: 56px;
       height: 56px;
       margin-right: 24px;
