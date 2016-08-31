@@ -6,7 +6,6 @@
     display: block;
     position: relative;
     overflow: hidden;
-    height: 640px;
 
     @include breakpoint($bp-laptop-l) {
       position: absolute;

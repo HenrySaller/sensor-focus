@@ -11,7 +11,7 @@
       </div>
 
       <div class="concept__image">
-        <div class="full-width-img">
+        <div class="full-width-img--optimized">
           <img src="{{bg-img}}">
         </div>
       </div>
