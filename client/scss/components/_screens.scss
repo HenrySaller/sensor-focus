@@ -47,9 +47,12 @@
           background: $black-separator; }
 
     .screens__steps {
+      @include translateX(-50%);
+      
       z-index: 2;
       position: absolute;
-      bottom: 16px; }
+      bottom: 16px;
+      left: 50%;}
 
     .screens__cta {
       display: flex;
