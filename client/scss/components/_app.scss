@@ -74,6 +74,8 @@
       letter-spacing: 0.5px; }
 
     .app__cta-button {
+      @include transition(background-color 0.3s ease);
+
       cursor: pointer;
       display: flex;
       position: relative;
@@ -126,6 +128,7 @@
         letter-spacing: 0.5px; }
 
       .app__cta-chevron {
+        @include transition(opacity 0.3s ease);
         @include icon-font;
 
         cursor: pointer;

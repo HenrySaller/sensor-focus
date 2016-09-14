@@ -52,6 +52,20 @@
   $(function() {
     var activeItemId;
 
+    /* Select next item */
+    function nextItem(itemId) {
+      var cta = $('.locations__cta #cta-' + itemId);
+      var nextItem = cta.next();
+
+      /* Check if item is not last */
+      if( nextItem.length == 0 ) {
+        /* Set first item as next */
+        nextItem = $('.locations__cta-button').first();
+      }
+
+      return nextItem.attr('data-target');
+    }
+
     /* Toggle active item */
     function toggle(itemId) {
       var cta = $('.locations__cta #cta-' + itemId);
@@ -106,6 +120,16 @@
 
       /* Triger active item */
       toggle(activeItemId);
+
+      /* Switch to next item */
+      window.setInterval(function(){
+        
+        /* Toggle previous and current item. Update current active item */
+        var nextId = nextItem(activeItemId);
+        toggle(activeItemId);
+        toggle(nextId);
+        activeItemId = nextId;
+      }, 7000);
     })();
 
   });
