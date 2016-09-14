@@ -23,6 +23,7 @@
 
     <div class="features__footer">
 
+      {{#if cta}}
       <div class="features__separator"></div>
 
       <div class="section__footer">
@@ -31,6 +32,7 @@
         </div>
         <div class="section__footer-caption">{{caption}}</div>
       </div>
+      {{/if}}
 
     </div>
   </div>

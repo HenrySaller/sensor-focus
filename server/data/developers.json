@@ -378,7 +378,9 @@
     "title": "Pricing Plans",
     "items": [
       {
+        "before": "$",
         "price": "8.99",
+        "after": "/mo",
         "caption": "",
         "title": "Geek",
         "text": "Setup included.<br>100% money back guarantee.",
@@ -388,7 +390,9 @@
         }
       },
       {
+        "before": "$",
         "price": "18.99",
+        "after": "/mo",
         "caption": "Save 10%",
         "title": "Engineer",
         "text": "Setup included.<br>Save 10% of subscription.<br>100% money back guarantee.",
@@ -398,7 +402,9 @@
         }
       },
       {
+        "before": "$",
         "price": "49.99",
+        "after": "/mo",
         "caption": "Save 10%",
         "title": "Unlimiter",
         "text": "1 preconfigured <a href=''>Moto G</a> device.<br>Setup and subscription included.<br>100% money back guarantee.",

@@ -158,13 +158,10 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 40px;
-  letter-spacing: 1px;
+  letter-spacing: 1px; }
 
-  &:before, &:after {
-    font-size: 12px;}
-
-  &:before { content: '$'; }
-  &:after { content: '/mo'; } }
+.card__price-subtitle {
+  font-size: 12px; }
 
 .card__price-title--free {
   &:before, &:after {

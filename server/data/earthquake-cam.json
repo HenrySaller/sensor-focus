@@ -73,7 +73,7 @@
       {
         "bg-img": "img/home/device-sensor.jpg",
         "caption-type": "white",
-        "caption": "Tran, Stephanie. Samsung - #notemyday Galaxy Note 4 - Rudy's Double Act. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/www.stephanietran.com'>stephanietran.com<\/a>",
+        "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
         "title": "Sensor Device",
         "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
       },
@@ -264,9 +264,28 @@
     "id": "prices",
     "bg-img": "img/global/prices.jpg",
     "title": "Pricing Plans",
+    "caption": "If you decide SensorFocus isn't for you - no problem. Cancel online anytime.",
+    "cta": {
+      "name": "Try Free for 2 Weeks",
+      "url": "#prices"
+    },
     "items": [
       {
+        "before": "",
+        "price": "FREE",
+        "after": "",
+        "caption": "Trial period",
+        "title": "2 Weeks",
+        "text": "Setup included.<br>Cancel when you want.",
+        "cta": {
+          "name": "Try It Now",
+          "url": "#"
+        }
+      },
+      {
+        "before": "$",
         "price": "4.99",
+        "after": "/mo",
         "caption": "",
         "title": "1 Month",
         "text": "Setup included.<br>100% money back guarantee.",
@@ -276,19 +295,11 @@
         }
       },
       {
-        "price": "4.59",
-        "caption": "Save 10%",
-        "title": "3 Month",
-        "text": "Setup included.<br>Save 10% of subscription.<br>100% money back guarantee.",
-        "cta": {
-          "name": "Subscribe",
-          "url": "#"
-        }
-      },
-      {
-        "price": "89.59",
-        "caption": "Save 10%",
-        "title": "Device & 3 Month",
+        "before": "$",
+        "price": "79.50",
+        "after": "",
+        "caption": "Save 15%",
+        "title": "Device & 1 Month",
         "text": "1 preconfigured <a href=''>Moto G</a> device.<br>Setup and subscription included.<br>100% money back guarantee.",
         "cta": {
           "name": "Subscribe",
