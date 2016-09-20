@@ -237,7 +237,11 @@
         "cta": {
           "name": "Learn More",
           "url": "/playroom-monitoring"
-        }
+        },
+        "tags": [
+          "home",
+          "health"
+        ]
       },
       {
         "img": "img/thumbnails/earthquake-cam.jpg",
@@ -247,7 +251,12 @@
         "cta": {
           "name": "Learn More",
           "url": "/earthquake-cam"
-        }
+        },
+        "tags": [
+          "home",
+          "safety",
+          "security"
+        ]
       },
       {
         "img": "",
@@ -257,7 +266,10 @@
         "cta": {
           "name": "Learn More",
           "url": "/"
-        }
+        },
+        "tags": [
+          "home"
+        ]
       }
     ]
   },

@@ -48,9 +48,80 @@
       "url": "#features"
     }
   },
-  "features": {
-    "id": "features",
-    "title": "",
+  "companies": {
+    "id": "companies",
+    "caption": "Users from these world class organizations are using our solutions.",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#prices"
+    },
+    "items": [
+      {
+        "img": "img/companies/logo-chevron.svg",
+        "alt": "Chevron"
+      },
+      {
+        "img": "img/companies/logo-columbia-university.svg",
+        "alt": "Columbia University"
+      },
+      {
+        "img": "img/companies/logo-deutsche-bank.svg",
+        "alt": "Deutsche Bank"
+      },
+      {
+        "img": "img/companies/logo-gdf-suez.svg",
+        "alt": "GDF SUEZ"
+      },
+      {
+        "img": "img/companies/logo-university-of-toronto.svg",
+        "alt": "University of Toronto"
+      },
+      {
+        "img": "img/companies/logo-shell.svg",
+        "alt": "Shell"
+      },
+      {
+        "img": "img/companies/logo-yale-university.svg",
+        "alt": "Yale University"
+      }
+    ]
+  },
+  "app": {
+    "id": "app",
+    "bg-img": "img/global/device-android.jpg",
+    "title": "App Section",
+    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
+    "items": [
+      {
+        "id": "app-1",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "Live image from the room."
+      },
+      {
+        "id": "app-2",
+        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "cta": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "app-3",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "app-4",
+        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "cta": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "app-5",
+        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "cta": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
+  },
+  "groups": {
+    "id": "groups",
+    "title": "Who is it For?",
     "caption": "Ready to get started?",
     "cta": {
       "name": "Try it Now",
@@ -58,71 +129,37 @@
     },
     "items": [
       {
-        "icon": "security",
-        "title": "Secured solution",
-        "text": "We work with Amazon Servers, most trusted secure solution."
-      },
-      {
-        "icon": "group",
-        "title": "Social",
-        "text": "Easy to share content in social networks."
-      },
-      {
-        "icon": "thumb_up",
-        "title": "Easy to use",
-        "text": "Our solution is designed to be used by everyone, not only experts."
-      },
-      {
         "icon": "build",
-        "title": "Easy to install",
-        "text": "The complete solution can be installed in a matter of minutes."
+        "title": "Technicians and Engineers",
+        "text": "Test drive IoT in your company. Monitor equipments in real time and get results quick."
       },
       {
-        "icon": "public",
-        "title": "Green",
-        "text": "Bring your old phones back to life!"
+        "icon": "dns",
+        "title": "Geeks and Hobbyists",
+        "text": "You like to play with Ardruino and Rasberry Pi? SensorFocus brings your project to the next level with its API combined to a complete real time data management platform."
       },
       {
-        "icon": "star",
-        "title": "Fun",
-        "text": "Get notifications and pictures of the most important events."
+        "icon": "assignment",
+        "title": "Scientists and Researchers",
+        "text": "You have some lab project that require data acquisition from sensors? SensorFocus helps you get results faster at rate of up to 100Hz."
+      },
+      {
+        "icon": "school",
+        "title": "Sciences Teachers",
+        "text": "SensorFocus helps illustrate physics at its best with real time demonstration and ubiquitous sensors available on any android phones. Contact us to hear about our educational discounts."
+      },
+      {
+        "icon": "brush",
+        "title": "Artists",
+        "text": "looking to easily create amazing arts without having to bother with complex technology? SensorFocus might offer exactly what you are looking for."
       }
     ]
   },
-  "screens": {
-    "id": "screens",
-    "title": "Screenshot Section",
-    "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
+  "illustration": {
     "items": [
       {
-        "id": "scr-1",
-        "bg-img": "img/developers/screen-1.jpg",
-        "cta": "Home",
-        "text": "Live image from the room."
-      },
-      {
-        "id": "scr-2",
-        "bg-img": "img/developers/screen-2.jpg",
-        "cta": "Office",
-        "text": "TV real time status so you know they agree to your house rules."
-      },
-      {
-        "id": "scr-3",
-        "bg-img": "img/developers/screen-1.jpg",
-        "cta": "Loved One's Place",
-        "text": "How many hours was watched today, this week, this month."
-      },
-      {
-        "id": "scr-4",
-        "bg-img": "img/developers/screen-2.jpg",
-        "cta": "Country House",
-        "text": "Hourly summary of the last 7 days and last month."
-      },
-      {
-        "id": "loc-5",
-        "bg-img": "img/developers/screen-1.jpg",
-        "cta": "And Many More",
-        "text": "Daily pattern of TV consumption so you can change the routin."
+        "id": "",
+        "bg-img": "img/developers/model.jpg"
       }
     ]
   },
@@ -198,11 +235,6 @@
             "text": "Secure data connection allowing for use of data at scale. Integrates with third party tools such as Tableau and Alterix."
           },
           {
-            "icon": "view_list",
-            "title": "Excel Addon",
-            "text": "Real time data connection in excel allowing for direct use into models."
-          },
-          {
             "icon": "event_available",
             "title": "Task Management",
             "text": "Task / Service ticket management tools including notification and work schedule management."
@@ -221,9 +253,46 @@
       }
     ]
   },
+  "screens": {
+    "id": "screens",
+    "title": "Screenshot Section",
+    "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
+    "items": [
+      {
+        "id": "scr-1",
+        "bg-img": "img/developers/screen-1.jpg",
+        "cta": "Home",
+        "text": "Live image from the room."
+      },
+      {
+        "id": "scr-2",
+        "bg-img": "img/developers/screen-2.jpg",
+        "cta": "Office",
+        "text": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "id": "scr-3",
+        "bg-img": "img/developers/screen-1.jpg",
+        "cta": "Loved One's Place",
+        "text": "How many hours was watched today, this week, this month."
+      },
+      {
+        "id": "scr-4",
+        "bg-img": "img/developers/screen-2.jpg",
+        "cta": "Country House",
+        "text": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "id": "loc-5",
+        "bg-img": "img/developers/screen-1.jpg",
+        "cta": "And Many More",
+        "text": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
+  },
   "support": {
     "id": "support",
-    "bg-img": "img/developers/support.jpg",
+    "bg-img": "img/developers/support-2.jpg",
     "subtitle": "Enjoy extensive",
     "title": "Documentation & Support",
     "text": "We are continually working on documentation and adding to it every week.<br><br>If you have any questions our friendly developers will be happy to help.",
@@ -232,9 +301,9 @@
       "url": "#groups"
     }
   },
-  "groups": {
-    "id": "groups",
-    "title": "Who is it For?",
+  "features": {
+    "id": "features",
+    "title": "",
     "caption": "Ready to get started?",
     "cta": {
       "name": "Try it Now",
@@ -242,106 +311,40 @@
     },
     "items": [
       {
+        "icon": "security",
+        "title": "Secured solution",
+        "text": "We work with Amazon Servers, most trusted secure solution."
+      },
+      {
+        "icon": "group",
+        "title": "Social",
+        "text": "Easy to share content in social networks."
+      },
+      {
+        "icon": "thumb_up",
+        "title": "Easy to use",
+        "text": "Our solution is designed to be used by everyone, not only experts."
+      },
+      {
         "icon": "build",
-        "title": "Technicians and Engineers",
-        "text": "Test drive IoT in your company. Monitor equipments in real time and get results quick."
+        "title": "Easy to install",
+        "text": "The complete solution can be installed in a matter of minutes."
       },
       {
-        "icon": "dns",
-        "title": "Geeks and Hobbyists",
-        "text": "You like to play with Ardruino and Rasberry Pi? SensorFocus brings your project to the next level with its API combined to a complete real time data management platform."
+        "icon": "public",
+        "title": "Green",
+        "text": "Bring your old phones back to life!"
       },
       {
-        "icon": "assignment",
-        "title": "Scientists and Researchers",
-        "text": "You have some lab project that require data acquisition from sensors? SensorFocus helps you get results faster at rate of up to 100Hz."
-      },
-      {
-        "icon": "school",
-        "title": "Sciences Teachers",
-        "text": "SensorFocus helps illustrate physics at its best with real time demonstration and ubiquitous sensors available on any android phones. Contact us to hear about our educational discounts."
-      },
-      {
-        "icon": "brush",
-        "title": "Artists",
-        "text": "looking to easily create amazing arts without having to bother with complex technology? SensorFocus might offer exactly what you are looking for."
-      }
-    ]
-  },
-  "app": {
-    "id": "app",
-    "bg-img": "img/global/device-android.jpg",
-    "title": "App Section",
-    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
-    "items": [
-      {
-        "id": "app-1",
-        "bg-img": "img/playroom-monitoring/screen-1.jpg",
-        "cta": "Live image from the room."
-      },
-      {
-        "id": "app-2",
-        "bg-img": "img/playroom-monitoring/screen-2.jpg",
-        "cta": "TV real time status so you know they agree to your house rules."
-      },
-      {
-        "id": "app-3",
-        "bg-img": "img/playroom-monitoring/screen-1.jpg",
-        "cta": "How many hours was watched today, this week, this month."
-      },
-      {
-        "id": "app-4",
-        "bg-img": "img/playroom-monitoring/screen-2.jpg",
-        "cta": "Hourly summary of the last 7 days and last month."
-      },
-      {
-        "id": "app-5",
-        "bg-img": "img/playroom-monitoring/screen-1.jpg",
-        "cta": "Daily pattern of TV consumption so you can change the routin."
-      }
-    ]
-  },
-  "companies": {
-    "id": "companies",
-    "caption": "Users from these world class organizations are using our solutions.",
-    "cta": {
-      "name": "Try it Now",
-      "url": "/#prices"
-    },
-    "items": [
-      {
-        "img": "img/companies/logo-chevron.svg",
-        "alt": "Chevron"
-      },
-      {
-        "img": "img/companies/logo-columbia-university.svg",
-        "alt": "Columbia University"
-      },
-      {
-        "img": "img/companies/logo-deutsche-bank.svg",
-        "alt": "Deutsche Bank"
-      },
-      {
-        "img": "img/companies/logo-gdf-suez.svg",
-        "alt": "GDF SUEZ"
-      },
-      {
-        "img": "img/companies/logo-university-of-toronto.svg",
-        "alt": "University of Toronto"
-      },
-      {
-        "img": "img/companies/logo-shell.svg",
-        "alt": "Shell"
-      },
-      {
-        "img": "img/companies/logo-yale-university.svg",
-        "alt": "Yale University"
+        "icon": "star",
+        "title": "Fun",
+        "text": "Get notifications and pictures of the most important events."
       }
     ]
   },
   "join": {
     "id": "join",
-    "bg-img": "img/developers/join.jpg",
+    "bg-img": "img/developers/join-2.jpg",
     "subtitle": "join the team of",
     "title": "Amazing<br>Developers",
     "text": "If you create something amazing with SensorFocus let us know.<br><br>We want to hear success stories from our users. We might buy your solution or hire you ",

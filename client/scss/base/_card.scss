@@ -61,6 +61,9 @@
   display: flex;
   flex-direction: column; }
 
+.card__item--target {
+  cursor: pointer; }
+
 /* ----- Card Item Elements ----- */
 
 /* Card Item Wrapper */
@@ -134,7 +137,8 @@
 
 /* Card Item CTA */
 .card__item-cta {
-  margin-top: 40px; }
+  margin-top: 16px;
+}
 
 /* Card Item Images */
 .card__item-img {
@@ -176,3 +180,23 @@
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.5px; }
+
+/* Card Tag Elements */
+.card__tags {
+  display: block;
+  margin-top: 16px;
+  color: $main;
+
+  font-family: $main-font;
+  font-weight: bold;
+  font-size: 0;
+  line-height: 24px;
+  letter-spacing: 0.5px; }
+
+  .card__tags-item {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 12px;
+
+    &:before {
+      content: '#'; } }
