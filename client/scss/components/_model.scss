@@ -2,10 +2,10 @@
   padding: 64px 0; }
 
 .model__container {
-  padding: 0; }
+  padding: 0;
 
   @include breakpoint($bp-laptop) {
-    justify-content: center; }
+    justify-content: center; } }
 
   .model__item {
     box-sizing: border-box;

@@ -57,9 +57,13 @@
   @include breakpoint($bp-laptop-xl) {
     min-width: 384px; } }
 
-.card__item--flex {
+.card__item--flex-column {
   display: flex;
   flex-direction: column; }
+
+.card__item--flex-row {
+  display: flex;
+  flex-direction: row; }
 
 .card__item--target {
   cursor: pointer; }

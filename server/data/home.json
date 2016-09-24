@@ -275,6 +275,7 @@
   },
   "team": {
     "id": "team",
+    "bg-img": "img/home/team.jpg",
     "title": "Our Team",
     "cta": {
       "name": "Join the Team",

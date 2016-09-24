@@ -67,25 +67,6 @@
       }
     ]
   },
-  "devices": {
-    "id": "devices",
-    "items": [
-      {
-        "bg-img": "img/home/device-sensor.jpg",
-        "caption-type": "white",
-        "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
-        "title": "Sensor Device",
-        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
-      },
-      {
-        "bg-img": "img/home/device-client.jpg",
-        "caption-type": "",
-        "caption": "",
-        "title": "Client Device",
-        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
-      }
-    ]
-  },
   "testimonials": {
     "id": "testimonials",
     "items": [
@@ -170,6 +151,10 @@
   "summary": {
     "id": "summary",
     "title": "What You Get",
+    "cta": {
+      "name": "Learn More",
+      "url": "#"
+    },
     "items": [
       {
         "icon": "speaker_phone",
@@ -185,6 +170,47 @@
         "icon": "security",
         "title": "No Earthquake: Just Get a Great Security Camera",
         "text": "SensorFocus is a great security camera. You will see a ton a benefits even if there is no earthquake."
+      }
+    ]
+  },
+  "devices": {
+    "id": "devices",
+    "items": [
+      {
+        "bg-img": "img/home/device-sensor.jpg",
+        "caption-type": "white",
+        "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
+        "title": "Sensor Device",
+        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
+      },
+      {
+        "bg-img": "img/home/device-client.jpg",
+        "caption-type": "",
+        "caption": "",
+        "title": "Client Device",
+        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
+      }
+    ]
+  },
+  "steps": {
+    "id": "steps",
+    "title": "How it Works",
+    "cta": {
+      "name": "Try it Now",
+      "url": "/#featured"
+    },
+    "items": [
+      {
+        "title": "Create Your Account",
+        "text": "Create your account on the SensorFocus platform. It’s free and secure."
+      },
+      {
+        "title": "Install the App",
+        "text": "Download and install the <a href='\/'>SensorFocus app<\/a> on your retired smart phone. "
+      },
+      {
+        "title": "Pick Your Solution",
+        "text": "Your first steps into the digital enterprise. Develop reliable and low cost solutions tailored to your needs."
       }
     ]
   },
@@ -223,10 +249,6 @@
     "id": "features",
     "title": "",
     "caption": "Ready to get started?",
-    "cta": {
-      "name": "Try it Now",
-      "url": "#prices"
-    },
     "items": [
       {
         "icon": "security",

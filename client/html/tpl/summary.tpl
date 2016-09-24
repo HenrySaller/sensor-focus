@@ -12,6 +12,10 @@
       </div>
       {{/items}}
 
+      <div class="card__cta">
+        <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
+      </div>
+
     </div>
   </div>
 </div>

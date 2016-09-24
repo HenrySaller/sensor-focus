@@ -1,4 +1,4 @@
-Handlebars.registerHelper("inc", function(value, options) {
+Handlebars.registerHelper('inc', function(value, options) {
   return parseInt(value) + 1;
 });
 
@@ -19,6 +19,9 @@ Handlebars.getTemplate = function(name) {
 
 Handlebars.render = function(currentPage, templates, target) {
   $.holdReady( true );
+  $('#maincss').on('load', function () {
+    alert('Stylesheet loaded');
+  });
   $.get( '/data', { page: currentPage } ).done(function( data ) {
     $.each(templates, function( index, item ) {
       var compiledTemplate = Handlebars.getTemplate(item.template);
