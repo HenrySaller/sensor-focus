@@ -28,6 +28,7 @@ module.exports = function(grunt) {
           sassDir: 'client/scss',
           cssDir: 'public',
           noLineComments: true,
+          // outputStyle: 'expanded'
           outputStyle: 'compressed'
         }
       }

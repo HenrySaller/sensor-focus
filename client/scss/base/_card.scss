@@ -54,7 +54,7 @@
   @include breakpoint($bp-laptop) {
     min-width: 50%; }
 
-  @include breakpoint($bp-laptop-xl) {
+  @include breakpoint($bp-max) {
     min-width: 384px; } }
 
 .card__item--flex-column {

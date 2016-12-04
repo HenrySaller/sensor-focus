@@ -122,17 +122,17 @@
       },
       {
         "id": "app-3",
-        "bg-img": "img/earthquake-cam/screen-1.jpg",
+        "bg-img": "img/earthquake-cam/screen-3.jpg",
         "cta": "How many hours was watched today, this week, this month."
       },
       {
         "id": "app-4",
-        "bg-img": "img/earthquake-cam/screen-2.jpg",
+        "bg-img": "img/earthquake-cam/screen-4.jpg",
         "cta": "Hourly summary of the last 7 days and last month."
       },
       {
         "id": "app-5",
-        "bg-img": "img/earthquake-cam/screen-1.jpg",
+        "bg-img": "img/earthquake-cam/screen-5.jpg",
         "cta": "Daily pattern of TV consumption so you can change the routin."
       }
     ]
@@ -177,14 +177,14 @@
     "id": "devices",
     "items": [
       {
-        "bg-img": "img/home/device-sensor.jpg",
+        "bg-img": "img/global/device-sensor.jpg",
         "caption-type": "white",
         "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
         "title": "Sensor Device",
         "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
       },
       {
-        "bg-img": "img/home/device-client.jpg",
+        "bg-img": "img/global/device-client.jpg",
         "caption-type": "",
         "caption": "",
         "title": "Client Device",

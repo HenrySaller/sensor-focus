@@ -43,9 +43,10 @@
       @include breakpoint($bp-laptop) {
         flex-basis: auto;
         display: block;
-        padding: 0;
+        padding: 0 16px;
         margin: 0;
-        border: 0; } }
+        border: 0;
+        text-align: right; } }
 
       .header__nav--active {
         display: block; }

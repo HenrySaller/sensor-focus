@@ -95,14 +95,14 @@
     "id": "devices",
     "items": [
       {
-        "bg-img": "img/home/device-sensor.jpg",
+        "bg-img": "img/global/device-sensor.jpg",
         "caption-type": "white",
         "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
         "title": "Sensor Device",
         "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
       },
       {
-        "bg-img": "img/home/device-client.jpg",
+        "bg-img": "img/global/device-client.jpg",
         "caption-type": "",
         "caption": "",
         "title": "Client Device",
@@ -152,19 +152,19 @@
       },
       {
         "id": "loc-3",
-        "bg-img": "img/home/screen-1.jpg",
+        "bg-img": "img/home/screen-3.jpg",
         "cta": "Loved One's Place",
         "text": "How many hours was watched today, this week, this month."
       },
       {
         "id": "loc-4",
-        "bg-img": "img/home/screen-2.jpg",
+        "bg-img": "img/home/screen-4.jpg",
         "cta": "Country House",
         "text": "Hourly summary of the last 7 days and last month."
       },
       {
         "id": "loc-5",
-        "bg-img": "img/home/screen-1.jpg",
+        "bg-img": "img/home/screen-5.jpg",
         "cta": "And Many More",
         "text": "Daily pattern of TV consumption so you can change the routin."
       }

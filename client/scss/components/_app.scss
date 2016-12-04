@@ -35,10 +35,11 @@
     .app__image-screen {
       box-sizing: border-box;
       z-index: 2;
+      transform: scale(0.5);
 
       & img {
-        border: 1px solid $black-disabled;
-        border-radius: 4px; } }
+        border: 2px solid $black-disabled;
+        border-radius: 8px; } }
 
   .app__steps {
     @include translateX(-50%);

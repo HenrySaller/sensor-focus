@@ -32,10 +32,17 @@
 
   .solutions__card-title {
     margin: 0 16px;
-    padding: 64px 0 32px 0; }
+    padding: 64px 0 32px 0;
+    text-align: center;
+
+    &:after { margin: 0 auto; }
+
+    @include breakpoint($bp-max) {
+      text-align: left;
+      &:after { margin: 0; } } }
 
   .solutions__card-container {
-    justify-content: flex-start;
+    justify-content: center;
     padding: 0; }
 
 .solutions__footer {
