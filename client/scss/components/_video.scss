@@ -1,0 +1,61 @@
+.video__container {
+  position: relative;
+  outline: 1px solid $grey-200; }
+
+  .video__image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    @include breakpoint($bp-laptop-l) {
+      position: absolute;
+      height: auto;
+
+      top: 0;
+      bottom: 0;
+      left: 65%;
+      right: 0;
+
+      padding-right: 80px;
+      padding-top: 144px; }
+
+    @include breakpoint($bp-laptop-xl) {
+      left: 50%;
+      padding-right: 160px;
+      padding-top: 80px; } }
+
+    .video__wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0; }
+
+      .video__player {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+
+  .video__content {
+    box-sizing: border-box;
+    padding: 80px 40px;
+
+    @include breakpoint($bp-laptop) {
+      padding: 80px; }
+
+    @include breakpoint($bp-laptop-l) {
+      width: 65%;
+      padding: 80px 80px 80px 160px; }
+
+    @include breakpoint($bp-laptop-xl) {
+      width: 50%; } }
+
+    .video__text {
+      color: $black;
+      margin: 56px 0;
+
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px; }
