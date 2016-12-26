@@ -1,25 +1,28 @@
-.devices__container {
-  font-size: 0;
-  outline: 1px solid $grey-200; }
+.download-switch__container {
+  font-size: 0; }
 
-  .devices__section {
+  .download-switch__section {
     box-sizing: border-box;
     display: inline-block;
     position: relative;
     width: 100%;
 
     @include breakpoint($bp-laptop-l) {
-      width: 50%; }}
+      margin: 10% 0 15% 0;
+      width: 50%; } }
 
-    .devices__wrap {
+    .download-switch__wrap {
       position: relative;
       text-align: center;
       padding: 64px 40px 80px 40px;
 
+      @include breakpoint($bp-laptop) {
+        padding: 64px 80px 80px 80px; }
+
       @include breakpoint($bp-laptop-xl) {
         padding: 64px 120px 80px 120px; } }
 
-    .devices__wrap--separator {
+    .download-switch__wrap--separator {
 
       &:before, &:after {
         content: '';
@@ -47,20 +50,5 @@
         &:before, &:after {
           display: block; } } }
 
-      .devices__icon {
-        display: inline-block;
-
-        margin: 32px 16px 0 16px;
-        padding: 8px;
-
-        border: 1px solid $main;
-        border-radius: 50%; }
-
-    .devices__image {
-      position: relative;
-      overflow: hidden;
-
-      width: 100%;
-
-      @include breakpoint($bp-laptop-l) {
-        height: 480px; } }
+      .download-switch__cta {
+        margin-top: 32px; }

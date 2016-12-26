@@ -25,24 +25,31 @@
       }
     ]
   },
-  "download-switch": {
-    "id": "download-switch",
+  "download": {
+    "id": "download",
+    "bg-img": "img/global/device-android.jpg",
+    "screen-img": "img/playroom-monitoring/screen-2.jpg",
+    "title": "Sensor App",
+    "text": "Sensor Focus is an application that makes your retired phone smart and useful again.</br></br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.</br></br>This is a dashboard application. Click <a href='\/'>here<\/a> if you are looking for a sensor application instead.",
+    "caption": "Wide range of solutions that help you at home and at work.",
+    "cta": {
+      "name": "Browse All Solutions",
+      "url": "/solutions"
+    },
     "items": [
       {
-        "title": "Sensor App",
-        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely.",
-        "cta": {
-          "title": "Sensor App",
-          "url": "/download-sensor"
-        }
+        "id": "download-android",
+        "icon": "img/icon/device-android.svg",
+        "cta": "Click here to download Sensor App (5Mb)",
+        "url": "/",
+        "disabled": false
       },
       {
-        "title": "Dashboard App",
-        "text": "Application always looks for activity and sends an alert to your phone if it sees something.",
-        "cta": {
-          "title": "Dashboard App",
-          "url": "/download-sensor"
-        }
+        "id": "download-apple",
+        "icon": "img/icon/device-apple.svg",
+        "cta": "iOS version coming soon. <a href='#'>Learn More<\/a>",
+        "url": "/",
+        "disabled": true
       }
     ]
   },

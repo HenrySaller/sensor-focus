@@ -52,7 +52,8 @@
 
 <script>
   $(function() {
-    var activeItemId;
+    var activeItemId,
+        timer;
 
     /* Select next item */
     function nextItem(itemId) {
@@ -89,6 +90,8 @@
 
     /* Event handler */
     $('.screens__cta-button, .screens__steps .steps__item').click(function() {
+      clearInterval(timer);
+
       var itemId = $(this).attr('data-target');
 
       /* Toggle previous and current item. Update current active item */
@@ -124,8 +127,8 @@
       toggle(activeItemId);
 
       /* Switch to next item */
-      window.setInterval(function(){
-        
+      timer = window.setInterval(function(){
+
         /* Toggle previous and current item. Update current active item */
         var nextId = nextItem(activeItemId);
         toggle(activeItemId);

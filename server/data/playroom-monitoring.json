@@ -158,7 +158,7 @@
     "title": "What You Get",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#overlay-playroom-monitoring"
     },
     "items": [
       {
@@ -202,7 +202,7 @@
     "title": "How it Works",
     "cta": {
       "name": "Try it Now",
-      "url": "/#featured"
+      "url": "#prices"
     },
     "items": [
       {
@@ -335,6 +335,43 @@
       }
     ]
   },
+  "device": {
+    "id": "device",
+    "title": "Device",
+    "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
+    "cta": {
+      "name": "Order Now",
+      "url": "#"
+    },
+    "features": [
+      {
+        "text": "Devices are easy to install and they look great in your home or business."
+      },
+      {
+        "text": "Connects to your home WiFi, no SIM card required."
+      },
+      {
+        "text": "Look great in your home or business."
+      }
+    ],
+    "items": [
+      {
+        "id": "device-img-1",
+        "bg-img": "img/global/install-tripod.jpg",
+        "thumbnail": "img/global/install-tripod.jpg"
+      },
+      {
+        "id": "device-img-2",
+        "bg-img": "img/global/install-mount.jpg",
+        "thumbnail": "img/global/install-mount.jpg"
+      },
+      {
+        "id": "device-img-3",
+        "bg-img": "img/global/install-holder.jpg",
+        "thumbnail": "img/global/install-holder.jpg"
+      }
+    ]
+  },
   "footer": {
     "id": "footer",
     "logo": "img/logo.svg",
@@ -396,6 +433,89 @@
           {
             "name": "Getting Started",
             "url": "/"
+          }
+        ]
+      }
+    ]
+  },
+  "info-overlay": {
+    "id": "overlay-playroom-monitoring",
+    "title": "TV Monitoring - Solution Description",
+    "icon": "info_outline",
+    "items": [
+      {
+        "title": "News Feed Elements",
+        "text": "News feed elements are built from the data gathered by your TV Monitoring solution. They will appear in your News Feed and are update on regular basis by our intelligent system.",
+        "images": [
+          {
+            "title": "Real time live picture",
+            "text": "Real time live picture from your device updated every 5 seconds.",
+            "url": "img/global/install-tripod.jpg"
+          },
+          {
+            "title": "Real time sound level",
+            "text": "Real time sound level from your device. Updated every second. Unit in pseudo-decibel.",
+            "url": "img/global/install-holder.jpg"
+          },
+          {
+            "title": "TV watched over last 24h",
+            "text": "Real time vibration level. Updated every 1 second.",
+            "url": "img/global/install-tripod.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Alerts and Notifications",
+        "text": "Alerts occur when signals capture by your solution reach pre-defined threshold. Each Alert triggered actions that can be individually managed. Certain alert thresholds can be adjusted under your solution settings.",
+        "lists": [
+          {
+            "title": "TV ON for more 1h",
+            "text": "Triggered after the TV has been ON for 1h on the calendar same day.",
+            "icon": "tv",
+            "list-title": "Actions:",
+            "items": [
+              {
+                "text": "SMS notification (US and Canada, email otherwise)"
+              },
+              {
+                "text": "GIF event created to Gallery"
+              }
+            ]
+          },
+          {
+            "title": "High sound level",
+            "text": "Triggered when high sound level is detected by your TV Monitoring solution.",
+            "icon": "hearing",
+            "list-title": "Actions:",
+            "items": [
+              {
+                "text": "Email notification"
+              },
+              {
+                "text": "Alert posted in News Feed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Live Actions",
+        "text": "Actions can be triggered from your live panel to communicate with people watching TV.",
+        "features": [
+          {
+            "title": "Dinner is ready!",
+            "text": "Plays out an audio snippet",
+            "icon": "notifications_none"
+          },
+          {
+            "title": "Turn on flashlight",
+            "text": "Turn on the device flashlight for 5 seconds. Can be used as visual queue.",
+            "icon": "lightbulb_outline"
+          },
+          {
+            "title": "Enough TV for today!",
+            "text": "Plays out an audio snippet",
+            "icon": "tv"
           }
         ]
       }

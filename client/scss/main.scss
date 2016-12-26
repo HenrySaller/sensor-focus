@@ -1,6 +1,6 @@
 /* Vendor Components */
-@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
-@import "../../bower_components/normalize-scss/sass/normalize";
+@import '../../bower_components/breakpoint-sass/stylesheets/breakpoint';
+@import '../../bower_components/normalize-scss/sass/normalize';
 
 /* Compass Helpers */
 @import 'compass/css3/transition';
@@ -35,7 +35,9 @@
 @import 'components/concept';
 @import 'components/companies';
 @import 'components/devices';
+@import 'components/device';
 @import 'components/download';
+@import 'components/download-switch';
 @import 'components/illustration';
 @import 'components/featured';
 @import 'components/features';
@@ -43,6 +45,7 @@
 @import 'components/header';
 @import 'components/hero';
 @import 'components/idea';
+@import 'components/info-overlay';
 @import 'components/install';
 @import 'components/locations';
 @import 'components/model';

@@ -1,0 +1,107 @@
+.device__container {
+  position: relative;
+  outline: 1px solid $grey-200; }
+
+  .device__image {
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    @include breakpoint($bp-laptop-l) {
+      position: absolute;
+      height: auto;
+
+      top: 0;
+      bottom: 0;
+      left: 65%;
+      right: 0; }
+
+    @include breakpoint($bp-laptop-xl) {
+      left: 50%; } }
+
+  .device__content {
+    box-sizing: border-box;
+    padding: 80px 40px;
+
+    @include breakpoint($bp-laptop) {
+      padding: 80px; }
+
+    @include breakpoint($bp-laptop-l) {
+      width: 65%;
+      padding: 80px 80px 80px 160px; }
+
+    @include breakpoint($bp-laptop-xl) {
+      width: 50%; } }
+
+    .device__text {
+      color: $black;
+      margin: 56px 0 24px 0;
+
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px; }
+
+    .device__features {
+      margin: 32px 0;
+      padding: 0 0 0 24px;
+      list-style-type: none;
+
+      font-family: $text-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.5px; }
+
+      .device__feature {
+        position: relative;
+        margin: 8px 0;
+
+        &:before {
+          @include icon-font;
+
+          position: absolute;
+          display: block;
+          content: "check";
+
+          left: -24px;
+
+          font-size: 16px;
+          line-height: 24px;
+          color: $main; } }
+
+    .device__button {
+      margin-bottom: 56px; }
+
+    .device__cta-button {
+      @include transition(background-color 0.3s ease);
+
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+
+      padding: 8px;
+      margin-right: 8px;
+      border-radius: 4px;
+
+      &:hover {
+        background: $grey-200; } }
+
+    .device__cta-button--active {
+      background: $grey-100; }
+
+      .device__cta-icon {
+        @include transition(border-color 0.3s ease);
+
+        display: inline-block;
+        overflow: hidden;
+        width: 62px;
+        height: 62px;
+
+        border: 2px solid $grey-300;
+        border-radius: 2px; }
+
+        .device__cta-image {
+          width: auto;
+          height: 100%; }

@@ -8,7 +8,7 @@
         <div class="download__cta">
 
           {{#items}}
-          <div class="download__cta-button{{#if disabled}} download__cta-button--disabled{{/if}}" data-target="{{id}}" id="cta-{{id}}">
+          <div class="download__cta-button{{#if disabled}} download__cta-button--disabled{{/if}}" data-target="{{url}}">
             <div class="download__cta-icon">
               <img src="{{icon}}">
             </div>

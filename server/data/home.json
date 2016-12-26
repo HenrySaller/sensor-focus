@@ -99,14 +99,30 @@
         "caption-type": "white",
         "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
         "title": "Sensor Device",
-        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
+        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely.",
+        "icons": [
+          {
+            "url": "img/icon/device-android.svg",
+            "alt": ""
+          }
+        ]
       },
       {
         "bg-img": "img/global/device-client.jpg",
         "caption-type": "",
         "caption": "",
         "title": "Client Device",
-        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
+        "text": "Application always looks for activity and sends an alert to your phone if it sees something.",
+        "icons": [
+          {
+            "url": "img/icon/device-android.svg",
+            "alt": ""
+          },
+          {
+            "url": "img/icon/device-apple.svg",
+            "alt": ""
+          }
+        ]
       }
     ]
   },

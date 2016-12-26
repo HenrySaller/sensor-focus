@@ -1,0 +1,148 @@
+.overlay__container {
+  @include transition(opacity 0.3s ease);
+
+  position: fixed;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 200;
+  opacity: 0;
+  padding: 72px 16px 16px 16px;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: $black-disabled;
+
+  @include breakpoint($bp-laptop) {
+    padding: 72px 40px 40px 40px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 72px; } }
+
+.overlay__container--active {
+  pointer-events: auto;
+  opacity: 1; }
+
+  .overlay__wrap {
+    background: $white;
+    margin: 0 auto;
+
+    max-width: 1440px;
+    max-height: 100%;
+
+    overflow-y: scroll; }
+
+    .overlay__header {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid $black-separator; }
+
+      .overlay__header-icon {
+        @include icon-font;
+
+        width: 16px;
+        height: 16px;
+        padding: 8px;
+        margin: 16px;
+        border-radius: 50%;
+
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+
+        background-color: $main-secondary;
+        color: $main; }
+
+      .overlay__header-title {
+        flex-grow: 1;
+        margin: 16px 0;
+        color: $black;
+
+        font-family: $main-font;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 0.5px; }
+
+      .overlay__header-close {
+        @include icon-font;
+
+        width: 32px;
+        height: 32px;
+        margin: 16px;
+
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+
+        color: $black-secondary; }
+
+    .overlay__content {
+      padding: 0 24px;
+
+      @include breakpoint($bp-laptop) {
+        padding: 0 32px; } }
+
+      .overlay__item {
+        margin: 32px 0;
+        padding-bottom: 32px;
+        border-bottom: 1px solid $black-separator;
+
+        &:last-child {
+          border: none; } }
+
+        .overlay__item-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          margin-top: 32px; }
+
+          .overlay__item-wrap {
+            box-sizing: border-box;
+            padding: 0 0 32px 0;
+            width: 100%;
+
+            @include breakpoint($bp-laptop) {
+              padding: 0 32px 32px 0;
+              width: 50%; }
+
+            @include breakpoint($bp-max) {
+              width: 410px; } }
+
+            .overlay__item-grow {
+              flex-grow: 1; }
+
+            .overlay__image {
+              width: 100%;
+              height: auto;
+              margin-top: 24px; }
+
+            .overlay__list {
+              margin-top: 8px;
+              padding-left: 24px;
+              list-style-type: none;
+
+              font-family: $text-font;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 20px;
+              letter-spacing: 0.5px; }
+
+              .overlay__list-item {
+                position: relative;
+                margin: 8px 0;
+
+                &:before {
+                  @include icon-font;
+
+                  position: absolute;
+                  display: block;
+                  content: "check";
+
+                  left: -24px;
+
+                  font-size: 16px;
+                  line-height: 24px;
+                  color: $main; } }
