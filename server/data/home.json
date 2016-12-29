@@ -156,31 +156,31 @@
     "items": [
       {
         "id": "loc-1",
-        "bg-img": "img/home/screen-1.jpg",
+        "bg-img": "img/home/screen-1.gif",
         "cta": "Home",
         "text": "Live image from the room."
       },
       {
         "id": "loc-2",
-        "bg-img": "img/home/screen-2.jpg",
+        "bg-img": "img/home/screen-2.gif",
         "cta": "Office",
         "text": "TV real time status so you know they agree to your house rules."
       },
       {
         "id": "loc-3",
-        "bg-img": "img/home/screen-3.jpg",
+        "bg-img": "img/home/screen-3.gif",
         "cta": "Loved One's Place",
         "text": "How many hours was watched today, this week, this month."
       },
       {
         "id": "loc-4",
-        "bg-img": "img/home/screen-4.jpg",
+        "bg-img": "img/home/screen-4.gif",
         "cta": "Country House",
         "text": "Hourly summary of the last 7 days and last month."
       },
       {
         "id": "loc-5",
-        "bg-img": "img/home/screen-5.jpg",
+        "bg-img": "img/home/screen-5.gif",
         "cta": "And Many More",
         "text": "Daily pattern of TV consumption so you can change the routin."
       }
