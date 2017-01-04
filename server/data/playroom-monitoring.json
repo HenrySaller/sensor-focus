@@ -38,6 +38,7 @@
   },
   "elements": {
     "id": "elements",
+    "bg": "grey-100",
     "title": "",
     "caption": "Ready to get started?",
     "cta": {
@@ -74,6 +75,7 @@
   },
   "testimonials": {
     "id": "testimonials",
+    "bg": "white",
     "items": [
       {
         "id": "tes-1",
@@ -111,6 +113,7 @@
   },
   "app": {
     "id": "app",
+    "bg": "white",
     "bg-img": "img/global/device-ios.jpg",
     "title": "Your News Feed",
     "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
@@ -155,6 +158,7 @@
   },
   "summary": {
     "id": "summary",
+    "bg": "grey-100",
     "title": "What You Get",
     "cta": {
       "name": "Learn More",
@@ -180,6 +184,7 @@
   },
   "devices": {
     "id": "devices",
+    "bg": "white",
     "items": [
       {
         "bg-img": "img/global/device-sensor.jpg",
@@ -199,6 +204,7 @@
   },
   "steps": {
     "id": "steps",
+    "bg": "grey-100",
     "title": "How it Works",
     "cta": {
       "name": "Try it Now",
@@ -221,6 +227,7 @@
   },
   "install": {
     "id": "install",
+    "bg": "white",
     "title": "Easy to Install",
     "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
     "items": [
@@ -252,6 +259,7 @@
   },
   "features": {
     "id": "features",
+    "bg": "grey-100",
     "title": "Features",
     "caption": "Ready to get started?",
     "items": [
@@ -337,6 +345,7 @@
   },
   "device": {
     "id": "device",
+    "bg": "white",
     "title": "Device",
     "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
     "cta": {
@@ -374,6 +383,7 @@
   },
   "footer": {
     "id": "footer",
+    "bg": "white",
     "logo": "img/logo.svg",
     "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
     "groups": [

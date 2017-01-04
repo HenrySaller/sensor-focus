@@ -38,6 +38,7 @@
   },
   "idea": {
     "id": "idea",
+    "bg": "grey-100",
     "items": [
       {
         "icon": "autorenew",
@@ -59,6 +60,7 @@
   },
   "concept": {
     "id": "concept",
+    "bg": "white",
     "bg-img": "img/home/concept.jpg",
     "title": "Our Concept",
     "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.<br><br>With Sensor Focus you can make your phone aware of its environment and control all its cameras and sensors remotely.<br><br>You have access to a wide range of solutions that help you at home and at work.",
@@ -69,6 +71,7 @@
   },
   "areas": {
     "id": "areas",
+    "bg": "grey-100",
     "title": "Solutions for Everyone",
     "items": [
       {
@@ -93,6 +96,7 @@
   },
   "devices": {
     "id": "devices",
+    "bg": "white",
     "items": [
       {
         "bg-img": "img/global/device-sensor.jpg",
@@ -128,6 +132,7 @@
   },
   "steps": {
     "id": "steps",
+    "bg": "grey-100",
     "title": "How it Works",
     "cta": {
       "name": "Try it Now",
@@ -150,6 +155,7 @@
   },
   "locations": {
     "id": "locations",
+    "bg": "white",
     "bg-img": "img/home/device-ios-landscape.jpg",
     "title": "Monitor Your Life",
     "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
@@ -199,6 +205,7 @@
   },
   "video": {
     "id": "video",
+    "bg": "white",
     "video-url": "https://www.youtube.com/embed/1qkSkOn4h-A",
     "title": "Video Section",
     "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.",
@@ -209,6 +216,7 @@
   },
   "companies": {
     "id": "companies",
+    "bg": "grey-100",
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
@@ -324,6 +332,7 @@
   },
   "footer": {
     "id": "footer",
+    "bg": "white",
     "logo": "img/logo.svg",
     "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
     "groups": [

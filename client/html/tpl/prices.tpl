@@ -13,7 +13,7 @@
 </div>
 {{/if}}
 
-<div class="section" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
 
   <div class="full-width-img--bg">
     <img src="{{bg-img}}">

@@ -1,4 +1,4 @@
-<footer class="section--grey-200" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
   <div class="wrap">
     <div class="breadcrumbs__container">
 
@@ -8,4 +8,4 @@
 
     </div>
   </div>
-</footer>
+</div>

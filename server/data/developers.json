@@ -27,6 +27,7 @@
   },
   "breadcrumbs": {
     "id": "breadcrumbs",
+    "bg": "grey-200",
     "links": [
       {
         "name": "Home",
@@ -40,6 +41,7 @@
   },
   "concept": {
     "id": "concept",
+    "bg": "white",
     "bg-img": "img/developers/concept-2.jpg",
     "title": "What is SensorFocus",
     "text": "SensorFocus is a complete IoT and advanced analytics platform offered as a service in the cloud.<br><br>SensorFocus gives access to the power of some of the most powerful machine learning (e.g. Scikit-learn), computer vision (e.g. OpenCV 3.0) and data analytics (e.g. Pandas) in one single integrated environment.<br><br>We offers real time data streaming and management capabilities based on MQTT and Celery.",
@@ -50,6 +52,7 @@
   },
   "companies": {
     "id": "companies",
+    "bg": "grey-100",
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
@@ -88,6 +91,7 @@
   },
   "app": {
     "id": "app",
+    "bg": "white",
     "bg-img": "img/global/device-android.jpg",
     "title": "App Section",
     "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
@@ -121,6 +125,7 @@
   },
   "groups": {
     "id": "groups",
+    "bg": "grey-100",
     "title": "Who is it For?",
     "caption": "Ready to get started?",
     "cta": {
@@ -156,6 +161,7 @@
     ]
   },
   "illustration": {
+    "id": "illustration",
     "items": [
       {
         "id": "",
@@ -165,6 +171,7 @@
   },
   "model": {
     "id": "model",
+    "bg": "grey-100",
     "groups": [
       {
         "title": "Get Data",
@@ -255,6 +262,7 @@
   },
   "screens": {
     "id": "screens",
+    "bg": "white",
     "title": "Screenshot Section",
     "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
     "items": [
@@ -303,6 +311,7 @@
   },
   "features": {
     "id": "features",
+    "bg": "grey-100",
     "title": "",
     "caption": "Ready to get started?",
     "cta": {
@@ -355,6 +364,7 @@
   },
   "team": {
     "id": "team",
+    "bg": "grey-100",
     "title": "Our Team",
     "cta": {
       "name": "Join the Team",
@@ -420,6 +430,7 @@
   },
   "footer": {
     "id": "footer",
+    "bg": "white",
     "logo": "img/logo.svg",
     "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
     "groups": [

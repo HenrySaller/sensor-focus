@@ -27,6 +27,7 @@
   },
   "download-switch": {
     "id": "download-switch",
+    "bg": "white",
     "items": [
       {
         "title": "Sensor App",
@@ -48,6 +49,7 @@
   },
   "footer": {
     "id": "footer",
+    "bg": "white",
     "logo": "img/logo.svg",
     "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
     "groups": [

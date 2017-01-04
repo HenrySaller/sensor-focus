@@ -1,4 +1,4 @@
-<footer class="section--white" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
   <div class="wrap">
     <div class="footer__container">
 

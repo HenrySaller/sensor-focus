@@ -1,4 +1,4 @@
-<div class="section--grey-100" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
   <div class="wrap model__wrap">
 
     {{#groups}}

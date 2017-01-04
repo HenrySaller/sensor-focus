@@ -27,6 +27,7 @@
   },
   "breadcrumbs": {
     "id": "breadcrumbs",
+    "bg": "grey-200",
     "links": [
       {
         "name": "Home",
@@ -40,6 +41,7 @@
   },
   "solutions": {
     "id": "solutions",
+    "bg": "grey-100",
     "caption": "Looking for something more specific?",
     "cta": {
       "name": "Contact Us",
@@ -204,6 +206,7 @@
   },
   "companies": {
     "id": "companies",
+    "bg": "grey-100",
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
@@ -242,6 +245,7 @@
   },
   "footer": {
     "id": "footer",
+    "bg": "white",
     "logo": "img/logo.svg",
     "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
     "groups": [
