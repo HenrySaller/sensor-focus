@@ -295,15 +295,20 @@
       }
     ]
   },
-  "prices": {
-    "id": "prices",
-    "bg-img": "img/global/prices.jpg",
-    "title": "Pricing Plans",
+  "features-cta": {
+    "id": "features-cta",
+    "bg": "white",
+    "hr": false,
     "caption": "If you decide SensorFocus isn't for you - no problem. Cancel online anytime.",
     "cta": {
       "name": "Try Free for 2 Weeks",
       "url": "#prices"
-    },
+    }
+  },
+  "prices": {
+    "id": "prices",
+    "bg-img": "img/global/prices.jpg",
+    "title": "Pricing Plans",
     "items": [
       {
         "before": "",

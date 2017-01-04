@@ -257,11 +257,6 @@
     "id": "featured",
     "bg-img": "img/home/featured.jpg",
     "title": "Featured Solutions",
-    "caption": "Wide range of solutions that help you at home and at work.",
-    "cta": {
-      "name": "Browse All Solutions",
-      "url": "/solutions"
-    },
     "items": [
       {
         "img": "img/thumbnails/playroom-monitoring.jpg",
@@ -306,6 +301,16 @@
         ]
       }
     ]
+  },
+  "featured-cta": {
+    "id": "featured-cta",
+    "bg": "white",
+    "hr": false,
+    "caption": "Wide range of solutions that help you at home and at work.",
+    "cta": {
+      "name": "Browse All Solutions",
+      "url": "/solutions"
+    }
   },
   "team": {
     "id": "team",

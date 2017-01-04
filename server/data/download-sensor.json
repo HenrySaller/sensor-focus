@@ -32,11 +32,6 @@
     "screen-img": "img/playroom-monitoring/screen-2.jpg",
     "title": "Sensor App",
     "text": "Sensor Focus is an application that makes your retired phone smart and useful again.</br></br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.</br></br>This is a dashboard application. Click <a href='\/'>here<\/a> if you are looking for a sensor application instead.",
-    "caption": "Wide range of solutions that help you at home and at work.",
-    "cta": {
-      "name": "Browse All Solutions",
-      "url": "/solutions"
-    },
     "items": [
       {
         "id": "download-android",
@@ -53,6 +48,16 @@
         "disabled": true
       }
     ]
+  },
+  "download-cta": {
+    "id": "download-cta",
+    "bg": "grey-100",
+    "hr": false,
+    "caption": "Wide range of solutions that help you at home and at work.",
+    "cta": {
+      "name": "Browse All Solutions",
+      "url": "/solutions"
+    }
   },
   "footer": {
     "id": "footer",

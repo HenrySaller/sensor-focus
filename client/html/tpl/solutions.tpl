@@ -55,19 +55,6 @@
     </div>
   </div>
 
-  <div class="section--white">
-    <div class="wrap">
-
-      <div class="solutions__footer section__footer">
-        <div class="section__footer-cta">
-          <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
-        </div>
-        <div class="section__footer-caption">{{caption}}</div>
-      </div>
-
-    </div>
-  </div>
-
 </div>
 
 <script>

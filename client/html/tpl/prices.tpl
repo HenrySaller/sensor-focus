@@ -1,18 +1,3 @@
-{{#if cta}}
-<div class="section--white">
-  <div class="wrap">
-
-    <div class="prices__header section__footer">
-      <div class="section__footer-cta">
-        <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
-      </div>
-      <div class="section__footer-caption">{{caption}}</div>
-    </div>
-
-  </div>
-</div>
-{{/if}}
-
 <div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
 
   <div class="full-width-img--bg">

@@ -42,11 +42,6 @@
   "solutions": {
     "id": "solutions",
     "bg": "grey-100",
-    "caption": "Looking for something more specific?",
-    "cta": {
-      "name": "Contact Us",
-      "url": "/"
-    },
     "filters": [
       {
         "title": "Home",
@@ -203,6 +198,16 @@
         ]
       }
     ]
+  },
+  "solutions-cta": {
+    "id": "solutions-cta",
+    "bg": "white",
+    "hr": false,
+    "caption": "Looking for something more specific?",
+    "cta": {
+      "name": "Contact Us",
+      "url": "/"
+    }
   },
   "companies": {
     "id": "companies",

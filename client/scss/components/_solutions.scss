@@ -44,15 +44,3 @@
   .solutions__card-container {
     justify-content: center;
     padding: 0; }
-
-.solutions__footer {
-  padding: 40px;
-
-  @include breakpoint($bp-laptop) {
-    padding: 40px 80px; }
-
-  @include breakpoint($bp-laptop-l) {
-    padding: 40px 120px; }
-
-  @include breakpoint($bp-laptop-xl) {
-    padding: 40px 160px; } }

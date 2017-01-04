@@ -127,12 +127,3 @@
 
         @include breakpoint($bp-laptop) {
           display: inline-block; } }
-
-  .download__footer {
-    padding: 40px;
-
-    @include breakpoint($bp-laptop) {
-      padding: 40px 80px; }
-
-    @include breakpoint($bp-laptop-l) {
-      padding: 40px 160px; } }

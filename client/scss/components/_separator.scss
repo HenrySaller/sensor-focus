@@ -1,0 +1,12 @@
+.separator__content {
+  padding: 40px;
+
+  @include breakpoint($bp-laptop) {
+    padding: 40px 80px; }
+
+  @include breakpoint($bp-laptop-l) {
+    padding: 40px 160px; } }
+
+  .separator__hr {
+    width: 100%;
+    border-bottom: 2px solid $black-separator; }
