@@ -23,7 +23,7 @@
     <div class="solutions__card-container card__container">
 
       {{#items}}
-      <div class="card__item--light card__item--flex card__item--target" data-target="{{cta.url}}">
+      <div class="card__item--light card__item--flex-column card__item--target" data-target="{{cta.url}}">
 
         <div class="card__item-img">
           <div class="full-width-img">

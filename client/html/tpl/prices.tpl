@@ -25,7 +25,7 @@
       <div class="card__title block-title--white block-title--center">{{title}}</div>
 
       {{#items}}
-      <div class="card__item--light card__item--flex">
+      <div class="card__item--light card__item--flex-column">
 
         <div class="card__price">
           <div class="card__price-title">

@@ -7,7 +7,7 @@
     <div class="model__container card__container--left-align">
 
       {{#items}}
-      <div class="model__item card__item--light card__item--flex">
+      <div class="model__item card__item--light">
         <div class="model__item-inner-wrap">
           <div class="icon-fill--small">{{icon}}</div>
           <div class="model__item-title">{{{title}}}</div>
