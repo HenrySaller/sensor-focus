@@ -9,11 +9,13 @@
           <div class="card__title block-title--black block-title--center">{{title}}</div>
           <div class="card__item-text">{{text}}</div>
 
+          {{#if icons}}
           {{#icons}}
           <div class="devices__icon">
             <img src="{{url}}" alt="{{alt}}">
           </div>
           {{/icons}}
+          {{/if}}
 
         </div>
 

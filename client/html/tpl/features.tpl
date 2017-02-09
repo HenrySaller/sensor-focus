@@ -3,7 +3,7 @@
 
     <div class="features__title">
       {{#if title}}
-        <div class="card__title block-title--black">{{title}}</div>
+      <div class="card__title block-title--black">{{title}}</div>
       {{/if}}
     </div>
 

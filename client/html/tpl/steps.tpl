@@ -2,7 +2,9 @@
   <div class="wrap">
     <div class="card__container">
 
+      {{#if title}}
       <div class="card__title block-title--black block-title--center">{{title}}</div>
+      {{/if}}
 
       {{#items}}
       <div class="card__item--dark">
@@ -12,9 +14,11 @@
       </div>
       {{/items}}
 
+      {{#if cta.name}}
       <div class="card__cta">
         <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
       </div>
+      {{/if}}
 
     </div>
   </div>

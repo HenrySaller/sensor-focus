@@ -16,9 +16,11 @@
       </div>
       {{/items}}
 
+      {{#if cta.name}}
       <div class="card__cta">
         <a class="button__white" href="{{cta.url}}">{{cta.name}}</a>
       </div>
+      {{/if}}
 
     </div>
   </div>

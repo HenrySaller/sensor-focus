@@ -2,14 +2,19 @@
   <div class="wrap">
     <div class="separator__content">
 
-      {{#if cta}}
       <div class="section__footer">
+        {{#if cta.name}}
         <div class="section__footer-cta">
           <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
         </div>
+        {{/if}}
+
+        {{#if caption}}
         <div class="section__footer-caption">{{caption}}</div>
+        {{/if}}
       </div>
-      {{else if hr}}
+
+      {{#if hr}}
       <div class="separator__hr"></div>
       {{/if}}
 

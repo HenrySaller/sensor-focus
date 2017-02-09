@@ -36,7 +36,7 @@
 
   .hero__text {
     color: $white;
-    margin: 40px 0;
+    margin-top: 40px;
 
     font-family: $text-font;
     font-weight: normal;
@@ -46,3 +46,6 @@
 
     @include breakpoint($bp-laptop-l) {
       margin-right: 30%; } }
+
+  .hero__cta {
+    margin-top: 40px; }

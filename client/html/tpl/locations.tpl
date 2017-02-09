@@ -2,10 +2,12 @@
   <div class="wrap">
     <div class="locations__container">
 
+      {{#if title}}
       <div class="locations__content">
         <div class="card__title block-title--black block-title--center">{{title}}</div>
         <div class="card__item-text">{{{text}}}</div>
       </div>
+      {{/if}}
 
 
       <div class="locations__image">

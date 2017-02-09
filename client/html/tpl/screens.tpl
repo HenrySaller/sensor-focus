@@ -2,11 +2,12 @@
   <div class="wrap">
     <div class="screens__container">
 
+      {{#if title}}
       <div class="screens__content">
         <div class="card__title block-title--black block-title--center">{{title}}</div>
         <div class="card__item-text">{{{text}}}</div>
       </div>
-
+      {{/if}}
 
       <div class="screens__image">
 

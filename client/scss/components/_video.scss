@@ -52,10 +52,13 @@
 
     .video__text {
       color: $black;
-      margin: 56px 0;
+      margin-top: 56px;
 
       font-family: $text-font;
       font-weight: normal;
       font-size: 14px;
       line-height: 24px;
       letter-spacing: 0.5px; }
+
+    .video__cta {
+      margin-top: 56px; }

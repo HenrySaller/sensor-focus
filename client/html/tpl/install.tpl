@@ -38,15 +38,18 @@
     var activeItemId,
         timer;
 
+    /* Get wrapper ID */
+    var wrapper = '#{{id}}';
+
     /* Select next item */
     function nextItem(itemId) {
-      var cta = $('.install__cta #cta-' + itemId);
+      var cta = $(wrapper + ' .install__cta #cta-' + itemId);
       var nextItem = cta.next();
 
       /* Check if item is not last */
       if( nextItem.length == 0 ) {
         /* Set first item as next */
-        nextItem = $('.install__cta-button').first();
+        nextItem = $(wrapper + ' .install__cta-button').first();
       }
 
       return nextItem.attr('data-target');
@@ -54,10 +57,10 @@
 
     /* Toggle active item */
     function toggle(itemId) {
-      var cta = $('.install__cta #cta-' + itemId);
+      var cta = $(wrapper + ' .install__cta #cta-' + itemId);
 
       /* Toggle image */
-      $('#' + itemId).toggle();
+      $(wrapper + ' #' + itemId).toggle();
 
       /* Toggle button style */
       cta.toggleClass('install__cta-button--active');
@@ -66,7 +69,7 @@
     }
 
     /* Event handler */
-    $('.install__cta-button').click(function() {
+    $(wrapper + ' .install__cta-button').click(function() {
       clearInterval(timer);
 
       var itemId = $(this).attr('data-target');
@@ -79,7 +82,7 @@
       }
 
       /* Scroll to item position */
-      var el = $('#' + activeItemId);
+      var el = $(wrapper + ' #' + activeItemId);
       var elOffset = el.offset().top;
       var elHeight = el.height();
       var windowHeight = window.innerHeight;
@@ -93,10 +96,10 @@
     ;(function init() {
 
       /* Set first item as active */
-      activeItemId = $('.install__cta-button').first().attr('data-target');
+      activeItemId = $(wrapper + ' .install__cta-button').first().attr('data-target');
 
       /* Hide all images */
-      $.each( $('.install__image'), function(key, value) {
+      $.each( $(wrapper + ' .install__image'), function(key, value) {
         $(value).toggle();
       });
 

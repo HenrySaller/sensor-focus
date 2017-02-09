@@ -2,7 +2,9 @@
   <div class="wrap">
     <div class="card__container">
 
+      {{#if title}}
       <div class="card__title block-title--black block-title--center">{{title}}</div>
+      {{/if}}
 
       {{#items}}
       <div class="card__item--dark">

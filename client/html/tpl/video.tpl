@@ -5,9 +5,12 @@
       <div class="video__content">
         <div class="video__title block-title--black">{{title}}</div>
         <div class="video__text">{{{text}}}</div>
+
+        {{#if cta.name}}
         <div class="video__cta">
           <a class="button__standard" target="_blank" href="{{cta.url}}">{{cta.name}}</a>
         </div>
+        {{/if}}
       </div>
 
       <div class="video__image">
