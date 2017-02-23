@@ -1,5 +1,5 @@
 .overlay__container {
-  @include transition(opacity 0.3s ease);
+  transition: opacity 0.3s ease;
 
   position: fixed;
   pointer-events: none;

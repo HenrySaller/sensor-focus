@@ -48,7 +48,7 @@
           background: $black-separator; }
 
     .screens__steps {
-      @include translateX(-50%);
+      transform: translateX(-50%);
 
       z-index: 2;
       position: absolute;
@@ -62,7 +62,7 @@
       margin: 0 40px; }
 
     .screens__cta-button {
-      @include transition(all 0.15s ease);
+      transition: all 0.15s ease;
 
       cursor: pointer;
       white-space: nowrap;

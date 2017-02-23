@@ -26,8 +26,7 @@
       left: 50%; } }
 
     .download__image-device {
-      @include translate(-50%, -50%);
-      // @include translateY(-50%);
+      transform: translate(-50%, -50%);
       position: absolute;
       z-index: 1;
       top: 50%;
@@ -69,7 +68,7 @@
       letter-spacing: 0.5px; }
 
     .download__cta-button {
-      @include transition(background-color 0.3s ease);
+      transition: background-color 0.3s ease;
 
       cursor: pointer;
       display: flex;
@@ -111,9 +110,9 @@
         letter-spacing: 0.5px; }
 
       .download__cta-chevron {
-        @include transition(opacity 0.3s ease);
         @include icon-font;
 
+        transition: opacity 0.3s ease;
         cursor: pointer;
         display: none;
         text-align: center;

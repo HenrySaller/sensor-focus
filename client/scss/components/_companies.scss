@@ -24,4 +24,4 @@
     .companies__logo-item {
       display: inline-block;
       margin: 16px;
-      @include user-select(none); }
+      user-select: none; }

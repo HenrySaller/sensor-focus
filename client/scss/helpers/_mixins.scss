@@ -1,3 +1,11 @@
+/* Unstyled Link */
+@mixin unstyled-link {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  &:active, &:focus {
+    outline: none; } }
+
 /* Section */
 @mixin section($color) {
   position: relative;
@@ -17,7 +25,7 @@
 
 /* Icon Font */
 @mixin icon-font() {
-  @include user-select(none);
+  user-select: none;
 
   cursor: default;
   font-family: 'Material Icons';
@@ -34,7 +42,7 @@
 
 /* Cover Images */
 @mixin full-width-img() {
-  @include user-select(none);
+  user-select: none;
 
   position: absolute;
   overflow: hidden;
@@ -87,7 +95,8 @@
 /* Buttons */
 @mixin button($color) {
   @include unstyled-link;
-  @include transition(color 0.3s ease);
+
+  transition: color 0.3s ease;
 
   display: inline-block;
   position: relative;
@@ -106,7 +115,7 @@
   z-index: 1;
 
   &:after {
-    @include transition(all 0.15s ease);
+    transition: all 0.15s ease;
 
     content: '';
     display: block;
@@ -142,7 +151,7 @@
   cursor: pointer;
 
   &:before, &:after {
-    @include transition(all 0.2s ease);
+    transition: all 0.2s ease;
 
     content: '';
     display: block;
@@ -155,22 +164,21 @@
     background: $grey-50; }
 
   &:before {
-    @include rotate(90deg);
-    @include transform-origin(0, 0);
+    transform: rotate(90deg);
+    transform-origin: 0 0;
 
     top: 8px;
     left: 0; }
 
   &:after {
-    @include rotate(90deg);
-    @include transform-origin(100%, 0);
+    transform: rotate(90deg);
+    transform-origin: 100% 0;
 
     bottom: 6px;
     right: 0; }
 
   &:hover:before, &:focus:before {
-    @include rotate(0);
-    @include translateX(-50%);
+    transform: rotate(0) translateX(-50%);
 
     top: 0;
     left: 50%;
@@ -178,8 +186,7 @@
     background: $main-accent; }
 
   &:hover:after, &:focus:after {
-    @include rotate(0);
-    @include translateX(50%);
+    transform: rotate(0) translateX(50%);
 
     bottom: 0;
     right: 50%;

@@ -8,7 +8,6 @@ app.set('port', (process.env.PORT || 5000))
 
 app.use(compression())
 
-app.use(express.static(path.resolve(__dirname, '..', 'node_modules')))
 app.use(express.static(path.resolve(__dirname, '..', 'bower_components')))
 app.use(express.static(path.resolve(__dirname, '..', 'public')))
 

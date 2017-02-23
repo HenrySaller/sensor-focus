@@ -34,7 +34,7 @@
         width: 4px; }
 
       &:after {
-        @include rotate(45deg);
+        transform: rotate(45deg);
 
         width: 16px;
         height: 16px;

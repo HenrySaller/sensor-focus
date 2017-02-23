@@ -44,7 +44,7 @@
       letter-spacing: 0.5px; }
 
     .install__cta-button {
-      @include transition(background-color 0.3s ease);
+      transition: background-color 0.3s ease;
 
       cursor: pointer;
       display: flex;
@@ -90,9 +90,9 @@
         letter-spacing: 0.5px; }
 
       .install__cta-chevron {
-        @include transition(opacity 0.3s ease);
         @include icon-font;
 
+        transition: opacity 0.3s ease;
         cursor: pointer;
         display: none;
         text-align: center;

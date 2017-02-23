@@ -75,8 +75,8 @@
       margin-bottom: 56px; }
 
     .device__cta-button {
-      @include transition(background-color 0.3s ease);
-
+      transition: background-color 0.3s ease;
+      
       cursor: pointer;
       display: inline-block;
       position: relative;
@@ -92,7 +92,7 @@
       background: $grey-100; }
 
       .device__cta-icon {
-        @include transition(border-color 0.3s ease);
+        transition: border-color 0.3s ease;
 
         display: inline-block;
         overflow: hidden;

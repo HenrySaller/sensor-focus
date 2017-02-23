@@ -22,21 +22,31 @@ module.exports = function(grunt) {
         }
       }
     },
-   	compass: {
-      base: {
-        options: {
-          sassDir: 'client/scss',
-          cssDir: 'public',
-          noLineComments: true,
-          // outputStyle: 'expanded'
-          outputStyle: 'compressed'
+    sass: {
+      options: {
+        outputStyle: 'compressed'
+      },
+      dist: {
+        files: {
+          'public/main.css': 'client/scss/main.scss'
         }
+      }
+    },
+    postcss: {
+      options: {
+        map: true,
+        processors: [
+          require('autoprefixer')
+        ]
+      },
+      dist: {
+        src: 'public/main.css'
       }
     },
     watch: {
       compass: {
         files: '**/*.scss',
-        tasks: ['compass']
+        tasks: ['sass']
       },
       js: {
         files: 'client/js/**/*.js',
@@ -46,12 +56,13 @@ module.exports = function(grunt) {
   });
 
   // Load the plugin
+  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
-  grunt.registerTask('default', ['compass:base', 'watch', 'concat', 'uglify']);
+  grunt.registerTask('default', ['sass', 'postcss', 'watch', 'concat', 'uglify']);
 
 }

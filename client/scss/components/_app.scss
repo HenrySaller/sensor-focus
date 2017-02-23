@@ -25,8 +25,7 @@
       left: 50%; } }
 
     .app__image-device {
-      @include translate(-50%, -50%);
-      // @include translateY(-50%);
+      transform: translate(-50%, -50%);
       position: absolute;
       z-index: 1;
       top: 50%;
@@ -42,7 +41,7 @@
         border-radius: 8px; } }
 
   .app__steps {
-    @include translateX(-50%);
+    transform: translateX(-50%);
 
     position: absolute;
     z-index: 3;
@@ -74,7 +73,7 @@
       letter-spacing: 0.5px; }
 
     .app__cta-button {
-      @include transition(background-color 0.3s ease);
+      transition: background-color 0.3s ease;
 
       cursor: pointer;
       display: flex;
@@ -128,8 +127,9 @@
         letter-spacing: 0.5px; }
 
       .app__cta-chevron {
-        @include transition(opacity 0.3s ease);
         @include icon-font;
+
+        transition: opacity 0.3s ease;
 
         cursor: pointer;
         display: none;
