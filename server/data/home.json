@@ -314,7 +314,7 @@
   },
   "team": {
     "id": "team",
-    "bg-img": "img/home/team.jpg",
+    "bg": "grey-100",
     "title": "Our Team",
     "cta": {
       "name": "Join the Team",

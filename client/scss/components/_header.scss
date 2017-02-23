@@ -45,7 +45,9 @@
         display: block;
         padding: 0 16px;
         margin: 0;
-        border: 0;
+        border: 0; }
+
+      @include breakpoint($bp-laptop-l) {
         text-align: right; } }
 
       .header__nav--active {
