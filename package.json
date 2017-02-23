@@ -1,15 +1,17 @@
 {
   "engines": {
-    "node": "5.9.1"
+    "node": "^7.6.0"
   },
   "dependencies": {
     "bower": "^1.7.9",
     "compression": "^1.6.2",
-    "express": "4.13.3"
+    "express": "^4.14.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.5",
-    "concurrently": "^2.0.0",
+    "concurrently": "^3.3.0",
+    "eslint": "^3.16.1",
+    "eslint-config-google": "^0.7.1",
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-uglify": "^2.0.0",
@@ -23,6 +25,14 @@
     "sass": "grunt sass && grunt postcss",
     "js": "grunt concat && grunt uglify",
     "watch": "grunt watch"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "extends": "google"
   },
   "private": true
 }

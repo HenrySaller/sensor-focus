@@ -1,58 +1,58 @@
 module.exports = function(grunt) {
-
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     concat: {
       options: {
-        separator: ';'
+        separator: ';',
       },
       dist: {
         src: ['client/js/template-engine.js', 'client/js/**/*.js'],
-        dest: 'public/main.js'
-      }
+        dest: 'public/main.js',
+      },
     },
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+        banner: '/*! <%= pkg.name %> ' +
+                '<%= grunt.template.today("dd-mm-yyyy") %> */\n',
       },
       dist: {
         files: {
-          'public/main.min.js': ['<%= concat.dist.dest %>']
-        }
-      }
+          'public/main.min.js': ['<%= concat.dist.dest %>'],
+        },
+      },
     },
     sass: {
       options: {
-        outputStyle: 'compressed'
+        outputStyle: 'compressed',
       },
       dist: {
         files: {
-          'public/main.css': 'client/scss/main.scss'
-        }
-      }
+          'public/main.css': 'client/scss/main.scss',
+        },
+      },
     },
     postcss: {
       options: {
         map: true,
         processors: [
-          require('autoprefixer')
-        ]
+          require('autoprefixer'),
+        ],
       },
       dist: {
-        src: 'public/main.css'
-      }
+        src: 'public/main.css',
+      },
     },
     watch: {
       compass: {
         files: '**/*.scss',
-        tasks: ['sass']
+        tasks: ['sass'],
       },
       js: {
         files: 'client/js/**/*.js',
-        tasks: ['concat', 'uglify']
-      }
-    }
+        tasks: ['concat', 'uglify'],
+      },
+    },
   });
 
   // Load the plugin
@@ -63,6 +63,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Default task(s).
-  grunt.registerTask('default', ['sass', 'postcss', 'watch', 'concat', 'uglify']);
-
-}
+  grunt.registerTask(
+    'default',
+    ['sass', 'postcss', 'watch', 'concat', 'uglify']
+  );
+};
