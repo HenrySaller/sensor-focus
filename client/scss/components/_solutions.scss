@@ -43,4 +43,7 @@
 
   .solutions__card-container {
     justify-content: center;
-    padding: 0; }
+    padding: 0;
+
+    @include breakpoint($bp-max) {
+      justify-content: flex-start; } }

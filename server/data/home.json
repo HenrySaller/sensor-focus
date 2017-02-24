@@ -4,7 +4,7 @@
     "logo": "img/logo.svg",
     "cta": {
       "name": "Try it Now",
-      "url": "/#featured"
+      "url": "#featured"
     },
     "nav": [
       {
@@ -33,7 +33,7 @@
     "text": "Make your retired phone smart again with the latest Artificial Intelligence technologies.<br><br>Select from our list of innovative solutions for home and businesses.",
     "cta": {
       "name": "Learn More",
-      "url": "/#idea"
+      "url": "#idea"
     }
   },
   "idea": {
@@ -54,7 +54,7 @@
       },
       {
         "icon": "attach_money",
-        "text": "No device? No problem. Buy one from <a href='/'>Ebay</a> for less than 50$."
+        "text": "No device? No problem. Buy one from <a href='#'>Ebay</a> for less than 50$."
       }
     ]
   },
@@ -66,7 +66,7 @@
     "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.<br><br>With Sensor Focus you can make your phone aware of its environment and control all its cameras and sensors remotely.<br><br>You have access to a wide range of solutions that help you at home and at work.",
     "cta": {
       "name": "Learn More",
-      "url": "/#steps"
+      "url": "#steps"
     }
   },
   "areas": {
@@ -103,30 +103,14 @@
         "caption-type": "white",
         "caption": "Just Mobile AluPocket. Digital image. Web. 1 Sep 2016. <a target='blank' href='http:\/\/www.just-mobile.eu/'>just-mobile.eu<\/a>",
         "title": "Sensor Device",
-        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely.",
-        "icons": [
-          {
-            "url": "img/icon/device-android.svg",
-            "alt": ""
-          }
-        ]
+        "text": "Make your phone aware of its environment and control all its cameras and sensors remotely."
       },
       {
         "bg-img": "img/global/device-client.jpg",
         "caption-type": "",
         "caption": "",
         "title": "Client Device",
-        "text": "Application always looks for activity and sends an alert to your phone if it sees something.",
-        "icons": [
-          {
-            "url": "img/icon/device-android.svg",
-            "alt": ""
-          },
-          {
-            "url": "img/icon/device-apple.svg",
-            "alt": ""
-          }
-        ]
+        "text": "Application always looks for activity and sends an alert to your phone if it sees something."
       }
     ]
   },
@@ -136,7 +120,7 @@
     "title": "How it Works",
     "cta": {
       "name": "Try it Now",
-      "url": "/#featured"
+      "url": "#featured"
     },
     "items": [
       {
@@ -145,7 +129,7 @@
       },
       {
         "title": "Install the App",
-        "text": "Download and install the <a href='\/'>SensorFocus app<\/a> on your retired smart phone. "
+        "text": "Download and install the <a href='#'>SensorFocus app<\/a> on your retired smart phone. "
       },
       {
         "title": "Pick Your Solution",
@@ -200,18 +184,7 @@
     "text": "You can’t always be watching your news feed.<br><br>So SensorFocus App looks for activity and sends an alert to your phone if it sees something.",
     "cta": {
       "name": "Learn More",
-      "url": "/#featured"
-    }
-  },
-  "video": {
-    "id": "video",
-    "bg": "white",
-    "video-url": "https://www.youtube.com/embed/1qkSkOn4h-A",
-    "title": "Video Section",
-    "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.",
-    "cta": {
-      "name": "Learn More",
-      "url": "https://www.youtube.com/watch?v=1qkSkOn4h-A"
+      "url": "#featured"
     }
   },
   "companies": {
@@ -220,7 +193,7 @@
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
-      "url": "/#featured"
+      "url": "#featured"
     },
     "items": [
       {
@@ -283,21 +256,22 @@
         },
         "tags": [
           "home",
-          "safety",
-          "security"
+          "safety"
         ]
       },
       {
         "img": "",
         "alt": "",
-        "title": "Door Bell for Deaf People",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+        "title": "Street Noise Monitor",
+        "text": "Monitor Noise from the street. Identify key nuisances. Document claims. Improve your home and business comfort.",
         "cta": {
           "name": "Learn More",
-          "url": "/"
+          "url": "#"
         },
         "tags": [
-          "home"
+          "home",
+          "comfort",
+          "well-being"
         ]
       }
     ]
@@ -318,7 +292,7 @@
     "title": "Our Team",
     "cta": {
       "name": "Join the Team",
-      "url": "/"
+      "url": "#"
     },
     "items": [
       {
@@ -346,7 +320,7 @@
         "links": [
           {
             "name": "Features",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Catalog",
@@ -354,11 +328,11 @@
           },
           {
             "name": "Popular",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Trending",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -367,15 +341,15 @@
         "links": [
           {
             "name": "About",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Strategy",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Team",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -384,19 +358,19 @@
         "links": [
           {
             "name": "Support",
-            "url": "support"
+            "url": "#"
           },
           {
             "name": "Developers",
-            "url": "developers"
+            "url": "/developers"
           },
           {
             "name": "Customer Service",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Getting Started",
-            "url": "/"
+            "url": "#"
           }
         ]
       }

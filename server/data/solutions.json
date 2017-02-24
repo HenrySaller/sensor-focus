@@ -4,7 +4,7 @@
     "logo": "img/logo.svg",
     "cta": {
       "name": "Try it Now",
-      "url": "/#solutions"
+      "url": "#solutions-home"
     },
     "nav": [
       {
@@ -45,15 +45,15 @@
     "filters": [
       {
         "title": "Home",
-        "target": "/#solutions-home"
+        "target": "#solutions-home"
       },
       {
         "title": "Office",
-        "target": "/#solutions-office"
+        "target": "#solutions-business"
       },
       {
         "title": "Enterprise",
-        "target": "/#solutions-enterprise"
+        "target": "#solutions-enterprise"
       }
     ],
     "groups": [
@@ -86,80 +86,89 @@
             },
             "tags": [
               "home",
-              "health"
+              "safety"
             ]
           },
           {
             "img": "",
             "alt": "",
-            "title": "Door Bell for Deaf People",
-            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "title": "Street Noise Monitor",
+            "text": "Monitor Noise from the street. Identify key nuisances. Document claims. Improve your home and business comfort.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "#"
             },
             "tags": [
               "home",
-              "health"
+              "comfort",
+              "well-being"
             ]
           }
         ]
       },
       {
-        "id": "solutions-office",
-        "title": "Office Solutions",
+        "id": "solutions-business",
+        "title": "Business Solutions",
         "items": [
           {
             "img": "",
             "alt": "",
-            "title": "Kids Playroom Monitoring",
-            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "title": "Restaurant Smart Cam",
+            "text": "Smart Camera application for restaurant owner and managers.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "#"
             },
             "tags": [
-              "home",
-              "health"
+              "business",
+              "productivity",
+              "safety"
             ]
           },
           {
             "img": "",
             "alt": "",
-            "title": "Earthquake Detector",
-            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "title": "Window Display Performance Monitor",
+            "text": "Count people looking at your window display. Identify traffic patterns. Conduct A/B tests. Improve display effectiveness.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "#"
             },
             "tags": [
-              "home",
-              "health"
+              "business",
+              "retail",
+              "productivity"
             ]
           },
           {
             "img": "",
             "alt": "",
-            "title": "Door Bell for Deaf People",
-            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "title": "Fire Alarm Notifier",
+            "text": "Be alerted when the fire alarm rings at home, loved one place or business. See if it's real. Take action.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "#"
             },
             "tags": [
               "home",
-              "health"
+              "business",
+              "safety"
             ]
           },
           {
             "img": "",
             "alt": "",
-            "title": "Kids Playroom Monitoring",
-            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "title": "Street Noise Monitor",
+            "text": "Monitor Noise from the street. Identify key nuisances. Document claims. Improve your home and business comfort.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
-            }
+              "url": "#"
+            },
+            "tags": [
+              "home",
+              "comfort",
+              "well-being"
+            ]
           }
         ]
       },
@@ -170,29 +179,31 @@
           {
             "img": "",
             "alt": "",
-            "title": "Kids Playroom Monitoring",
-            "text": "Monitor your kids TV and video game consumption to prevent abuse.",
+            "title": "Hospital Noise Monitoring",
+            "text": "Monitors noise in hospital and medical environment. Allows for automatic notification. Provides noise level history and patterns.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "#"
             },
             "tags": [
-              "home",
-              "health"
+              "hospital",
+              "well-being",
+              "noise"
             ]
           },
           {
             "img": "",
             "alt": "",
-            "title": "Earthquake Detector",
-            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+            "title": "Fire Alarm Notifier",
+            "text": "Be alerted when the fire alarm rings at home, loved one place or business. See if it's real. Take action.",
             "cta": {
               "name": "Learn More",
-              "url": "/"
+              "url": "#"
             },
             "tags": [
               "home",
-              "health"
+              "business",
+              "safety"
             ]
           }
         ]
@@ -206,7 +217,7 @@
     "caption": "Looking for something more specific?",
     "cta": {
       "name": "Contact Us",
-      "url": "/"
+      "url": "#"
     }
   },
   "companies": {
@@ -215,7 +226,7 @@
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
-      "url": "/#solutions"
+      "url": "#solutions"
     },
     "items": [
       {
@@ -259,19 +270,19 @@
         "links": [
           {
             "name": "Features",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Catalog",
-            "url": "solutions"
+            "url": "/solutions"
           },
           {
             "name": "Popular",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Trending",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -280,15 +291,15 @@
         "links": [
           {
             "name": "About",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Strategy",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Team",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -297,19 +308,19 @@
         "links": [
           {
             "name": "Support",
-            "url": "support"
+            "url": "#"
           },
           {
             "name": "Developers",
-            "url": "developers"
+            "url": "/developers"
           },
           {
             "name": "Customer Service",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Getting Started",
-            "url": "/"
+            "url": "#"
           }
         ]
       }

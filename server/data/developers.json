@@ -4,7 +4,7 @@
     "logo": "img/logo.svg",
     "cta": {
       "name": "Subscribe",
-      "url": "/#prices"
+      "url": "#prices"
     },
     "nav": [
       {
@@ -42,12 +42,12 @@
   "concept": {
     "id": "concept",
     "bg": "white",
-    "bg-img": "img/developers/concept-2.jpg",
+    "bg-img": "img/developers/concept.jpg",
     "title": "What is SensorFocus",
     "text": "SensorFocus is a complete IoT and advanced analytics platform offered as a service in the cloud.<br><br>SensorFocus gives access to the power of some of the most powerful machine learning (e.g. Scikit-learn), computer vision (e.g. OpenCV 3.0) and data analytics (e.g. Pandas) in one single integrated environment.<br><br>We offers real time data streaming and management capabilities based on MQTT and Celery.",
     "cta": {
       "name": "Learn More",
-      "url": "#features"
+      "url": "#groups"
     }
   },
   "companies": {
@@ -56,7 +56,7 @@
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
-      "url": "/#prices"
+      "url": "#prices"
     },
     "items": [
       {
@@ -98,27 +98,27 @@
     "items": [
       {
         "id": "app-1",
-        "bg-img": "img/playroom-monitoring/screen-1.jpg",
+        "bg-img": "img/developers/app-1.jpg",
         "cta": "Live image from the room."
       },
       {
         "id": "app-2",
-        "bg-img": "img/playroom-monitoring/screen-2.jpg",
+        "bg-img": "img/developers/app-2.jpg",
         "cta": "TV real time status so you know they agree to your house rules."
       },
       {
         "id": "app-3",
-        "bg-img": "img/playroom-monitoring/screen-3.jpg",
+        "bg-img": "img/developers/app-3.jpg",
         "cta": "How many hours was watched today, this week, this month."
       },
       {
         "id": "app-4",
-        "bg-img": "img/playroom-monitoring/screen-4.jpg",
+        "bg-img": "img/developers/app-4.jpg",
         "cta": "Hourly summary of the last 7 days and last month."
       },
       {
         "id": "app-5",
-        "bg-img": "img/playroom-monitoring/screen-5.jpg",
+        "bg-img": "img/developers/app-5.jpg",
         "cta": "Daily pattern of TV consumption so you can change the routin."
       }
     ]
@@ -268,39 +268,33 @@
     "items": [
       {
         "id": "scr-1",
-        "bg-img": "img/developers/screen-1.jpg",
-        "cta": "Home",
+        "bg-img": "img/developers/desktop-1.jpg",
+        "cta": "Devices",
         "text": "Live image from the room."
       },
       {
         "id": "scr-2",
-        "bg-img": "img/developers/screen-2.jpg",
-        "cta": "Office",
+        "bg-img": "img/developers/desktop-2.jpg",
+        "cta": "Gallery",
         "text": "TV real time status so you know they agree to your house rules."
       },
       {
         "id": "scr-3",
-        "bg-img": "img/developers/screen-3.jpg",
-        "cta": "Loved One's Place",
+        "bg-img": "img/developers/desktop-3.jpg",
+        "cta": "Sign In",
         "text": "How many hours was watched today, this week, this month."
       },
       {
         "id": "scr-4",
-        "bg-img": "img/developers/screen-4.jpg",
-        "cta": "Country House",
-        "text": "Hourly summary of the last 7 days and last month."
-      },
-      {
-        "id": "scr-5",
-        "bg-img": "img/developers/screen-5.jpg",
-        "cta": "Other",
+        "bg-img": "img/developers/desktop-4.jpg",
+        "cta": "Contacts",
         "text": "Hourly summary of the last 7 days and last month."
       }
     ]
   },
   "support": {
     "id": "support",
-    "bg-img": "img/developers/support-2.jpg",
+    "bg-img": "img/developers/support.jpg",
     "subtitle": "Enjoy extensive",
     "title": "Documenta&shy;tion & Support",
     "text": "We are continually working on documentation and adding to it every week.<br><br>If you have any questions our friendly developers will be happy to help.",
@@ -353,7 +347,7 @@
   },
   "join": {
     "id": "join",
-    "bg-img": "img/developers/join-2.jpg",
+    "bg-img": "img/developers/join.jpg",
     "subtitle": "join the team of",
     "title": "Amazing<br>Developers",
     "text": "If you create something amazing with SensorFocus let us know.<br><br>We want to hear success stories from our users. We might buy your solution or hire you ",
@@ -364,11 +358,11 @@
   },
   "team": {
     "id": "team",
-    "bg": "grey-100",
+    "bg": "white",
     "title": "Our Team",
     "cta": {
       "name": "Join the Team",
-      "url": "/"
+      "url": "#"
     },
     "items": [
       {
@@ -439,19 +433,19 @@
         "links": [
           {
             "name": "Features",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Catalog",
-            "url": "solutions"
+            "url": "/solutions"
           },
           {
             "name": "Popular",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Trending",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -460,15 +454,15 @@
         "links": [
           {
             "name": "About",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Strategy",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Team",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -477,19 +471,19 @@
         "links": [
           {
             "name": "Support",
-            "url": "support"
+            "url": "#"
           },
           {
             "name": "Developers",
-            "url": "developers"
+            "url": "/developers"
           },
           {
             "name": "Customer Service",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Getting Started",
-            "url": "/"
+            "url": "#"
           }
         ]
       }

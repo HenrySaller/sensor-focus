@@ -109,33 +109,33 @@
   "app": {
     "id": "app",
     "bg": "white",
-    "bg-img": "img/global/device-ios.jpg",
+    "bg-img": "img/global/device-android.jpg",
     "title": "Your News Feed",
     "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
     "items": [
       {
         "id": "app-1",
-        "bg-img": "img/earthquake-cam/screen-1.jpg",
+        "bg-img": "img/earthquake-cam/app-1.jpg",
         "cta": "Live image from the room."
       },
       {
         "id": "app-2",
-        "bg-img": "img/earthquake-cam/screen-2.jpg",
+        "bg-img": "img/earthquake-cam/app-2.jpg",
         "cta": "TV real time status so you know they agree to your house rules."
       },
       {
         "id": "app-3",
-        "bg-img": "img/earthquake-cam/screen-3.jpg",
+        "bg-img": "img/earthquake-cam/app-3.jpg",
         "cta": "How many hours was watched today, this week, this month."
       },
       {
         "id": "app-4",
-        "bg-img": "img/earthquake-cam/screen-4.jpg",
+        "bg-img": "img/earthquake-cam/app-4.jpg",
         "cta": "Hourly summary of the last 7 days and last month."
       },
       {
         "id": "app-5",
-        "bg-img": "img/earthquake-cam/screen-5.jpg",
+        "bg-img": "img/earthquake-cam/app-5.jpg",
         "cta": "Daily pattern of TV consumption so you can change the routin."
       }
     ]
@@ -157,7 +157,7 @@
     "title": "What You Get",
     "cta": {
       "name": "Learn More",
-      "url": "#"
+      "url": "#steps"
     },
     "items": [
       {
@@ -203,7 +203,7 @@
     "title": "How it Works",
     "cta": {
       "name": "Try it Now",
-      "url": "/#featured"
+      "url": "#featured"
     },
     "items": [
       {
@@ -212,7 +212,7 @@
       },
       {
         "title": "Install the App",
-        "text": "Download and install the <a href='\/'>SensorFocus app<\/a> on your retired smart phone. "
+        "text": "Download and install the <a href='#'>SensorFocus app<\/a> on your retired smart phone. "
       },
       {
         "title": "Pick Your Solution",
@@ -231,7 +231,7 @@
         "bg-img": "img/global/install-tripod.jpg",
         "caption-type": "white",
         "caption": "Joby GripTight Gorillapod Pro. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/joby.com'>joby.com<\/a>",
-        "cta": "Use a car holder, tripod, selfie stick that you already own. <a href=''>Learn more.<\/a>",
+        "cta": "Use a car holder, tripod, selfie stick that you already own. <a href='#'>Learn more.<\/a>",
         "icon": "img/icon/phone-tripod.svg"
       },
       {
@@ -239,7 +239,7 @@
         "bg-img": "img/global/install-mount.jpg",
         "caption-type": "black",
         "caption": "Dockem Koala Wall Mount. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/dockem.com'>dockem.com<\/a>",
-        "cta": "Purchase a wall mount from <a href=''>Amazon<\/a> or <a href=''>Ebay<\/a>. There are dozen available at low cost.",
+        "cta": "Purchase a wall mount from <a href='#'>Amazon<\/a> or <a href='#'>Ebay<\/a>. There are dozen available at low cost.",
         "icon": "img/icon/phone-mount.svg"
       },
       {
@@ -256,7 +256,6 @@
     "id": "features",
     "bg": "grey-100",
     "title": "",
-    "caption": "Ready to get started?",
     "items": [
       {
         "icon": "security",
@@ -304,11 +303,6 @@
     "id": "prices",
     "bg-img": "img/global/prices.jpg",
     "title": "Pricing Plans",
-    "caption": "If you decide SensorFocus isn't for you - no problem. Cancel online anytime.",
-    "cta": {
-      "name": "Try Free for 2 Weeks",
-      "url": "#prices"
-    },
     "items": [
       {
         "before": "",
@@ -359,19 +353,19 @@
         "links": [
           {
             "name": "Features",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Catalog",
-            "url": "solutions"
+            "url": "/solutions"
           },
           {
             "name": "Popular",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Trending",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -380,15 +374,15 @@
         "links": [
           {
             "name": "About",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Strategy",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Team",
-            "url": "/"
+            "url": "#"
           }
         ]
       },
@@ -397,19 +391,19 @@
         "links": [
           {
             "name": "Support",
-            "url": "support"
+            "url": "#"
           },
           {
             "name": "Developers",
-            "url": "developers"
+            "url": "/developers"
           },
           {
             "name": "Customer Service",
-            "url": "/"
+            "url": "#"
           },
           {
             "name": "Getting Started",
-            "url": "/"
+            "url": "#"
           }
         ]
       }

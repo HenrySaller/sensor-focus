@@ -47,15 +47,6 @@
         &:before, &:after {
           display: block; } } }
 
-      .devices__icon {
-        display: inline-block;
-
-        margin: 32px 16px 0 16px;
-        padding: 8px;
-
-        border: 1px solid $main;
-        border-radius: 50%; }
-
     .devices__image {
       position: relative;
       overflow: hidden;

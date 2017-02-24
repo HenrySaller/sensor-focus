@@ -27,8 +27,12 @@
         width: auto; }
 
       & img {
+        box-sizing: border-box;
         width: 100%;
-        height: auto; } }
+        height: auto;
+        border: 1px solid $black-separator;
+        border-top: 0;
+        background: $grey-200; } }
 
       .screens__image-device {
         text-align: left;
