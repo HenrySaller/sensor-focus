@@ -264,6 +264,6 @@
   &:after { right: -17px; }
 
   @include breakpoint($bp-laptop) {
-    max-width: 320px;
+    max-width: 315px;
     &:before, &:after {
       display: inline-block; } } }

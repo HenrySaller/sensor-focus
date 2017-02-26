@@ -1,3 +1,8 @@
+/**
+ * Template Engine
+ * Generates content based on template configuration.
+ */
+
 Handlebars.registerHelper('inc', function(value, options) {
   return parseInt(value) + 1;
 });
@@ -37,7 +42,13 @@ Handlebars.render = function(currentPage, templates, target) {
     $.holdReady( false );
   });
 };
-;$(function() {
+
+/**
+ * Link Event Listener
+ * Creates link event listeners. Handles overlays and smooth scroll.
+ */
+
+$(function() {
   // Add smooth scrolling to all links and toggle overlays
   $('a').on('click', function(event) {
     // Store hash

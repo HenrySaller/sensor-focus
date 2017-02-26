@@ -1,3 +1,8 @@
+/**
+ * Link Event Listener
+ * Creates link event listeners. Handles overlays and smooth scroll.
+ */
+
 $(function() {
   // Add smooth scrolling to all links and toggle overlays
   $('a').on('click', function(event) {

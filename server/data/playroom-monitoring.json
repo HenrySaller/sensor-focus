@@ -250,8 +250,8 @@
       {
         "id": "install-holder",
         "bg-img": "img/global/install-holder.jpg",
-        "caption-type": "",
-        "caption": "",
+        "caption-type": "white",
+        "caption": "Unic Phone Holder. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/pinkoi.com/store/unic'>pinkoi.com<\/a>",
         "cta": "Do your own solutions with hundreds of ideas available. <a href='#'>Learn more.<\/a>",
         "icon": "img/icon/phone-dock.svg"
       }
@@ -306,8 +306,7 @@
   },
   "prices": {
     "id": "prices",
-    "bg-img": "img/global/prices.jpg",
-    "title": "Pricing Plans",
+    "bg": "grey-200",
     "items": [
       {
         "before": "",

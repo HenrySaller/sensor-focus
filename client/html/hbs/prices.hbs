@@ -1,13 +1,11 @@
 <div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
 
-  <div class="full-width-img--bg">
-    <img src="{{bg-img}}">
-  </div>
-
   <div class="wrap">
     <div class="card__container">
 
-      <div class="card__title block-title--white block-title--center">{{title}}</div>
+      {{#if title}}
+      <div class="card__title block-title--black block-title--center">{{title}}</div>
+      {{/if}}
 
       {{#items}}
       <div class="card__item--light card__item--flex-column">

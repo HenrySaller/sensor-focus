@@ -1,32 +1,60 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <base href="/developers">
+    <!-- Main Page Title -->
     <title>Sensor Focus / Developers</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sensor Focus is an application that makes your retired phone smart and useful again.">
+    <!-- Content Information -->
+    <meta name="author" content="Henry Saller / @henrysaller">
     <meta name="keywords" content="">
-    <meta name="theme-color" content="#2196F3">
+    <meta name="description" content="Sensor Focus makes your life better by bringing the latest technology to your home and business.">
+    <meta name="theme-color" content="#2196f3">
 
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f44336">
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
 
+    <!-- Make a DNS handshake with a foreign domain -->
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="application-name" content="Sensor Focus">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-title" content="Sensor Focus">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win (144x144 + tile color) -->
+    <meta name="msapplication-TileColor" content="#2196f3">
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+
+    <!-- 1. Load CSS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="main.css">
 
-    <!-- 1. Load libraries -->
+  </head>
+
+  <body>
+    <!-- App Container -->
+    <div id="app"></div>
+
+    <!-- 2. Load JS -->
     <script src="jquery/dist/jquery.min.js"></script>
     <script src="handlebars/handlebars.min.js"></script>
     <script src="main.min.js"></script>
 
-    <!-- 2. Configure template -->
+    <!-- 3. Configure template -->
     <script>
       const PAGE = "developers";
       const TEMPLATES = [
@@ -93,12 +121,7 @@
       ]
     </script>
 
-  </head>
-
-  <body>
-    <div id="app"></div>
-
-    <!-- 3. Render template -->
+    <!-- 4. Render template -->
     <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
 
   </body>

@@ -29,7 +29,7 @@ app.get('/tpl', function(req, res) {
   const filePath = path.resolve(
     __dirname,
     '..',
-    'client/html/tpl/' + path.basename(req.query.tpl) + '.html'
+    'client/html/hbs/' + path.basename(req.query.tpl) + '.hbs'
   );
 
   res.sendFile(filePath, function(err) {

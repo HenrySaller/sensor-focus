@@ -189,7 +189,7 @@
   },
   "companies": {
     "id": "companies",
-    "bg": "grey-100",
+    "bg": "white",
     "caption": "Users from these world class organizations are using our solutions.",
     "cta": {
       "name": "Try it Now",
@@ -228,7 +228,7 @@
   },
   "featured": {
     "id": "featured",
-    "bg-img": "img/home/featured.jpg",
+    "bg": "grey-200",
     "title": "Featured Solutions",
     "items": [
       {

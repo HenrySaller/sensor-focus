@@ -381,8 +381,7 @@
   },
   "prices": {
     "id": "prices",
-    "bg-img": "img/global/prices.jpg",
-    "title": "Pricing Plans",
+    "bg": "grey-200",
     "items": [
       {
         "before": "$",
