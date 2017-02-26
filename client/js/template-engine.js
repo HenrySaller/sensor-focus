@@ -3,9 +3,7 @@
  * Generates content based on template configuration.
  */
 
-Handlebars.registerHelper('inc', function(value, options) {
-  return parseInt(value) + 1;
-});
+Handlebars.registerHelper('inc', (value) => parseInt(value) + 1);
 
 Handlebars.getTemplate = function(name) {
 	if (

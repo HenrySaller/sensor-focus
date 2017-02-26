@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-  // Project configuration.
+  // Project configuration
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     concat: {
@@ -8,10 +8,21 @@ module.exports = function(grunt) {
         dest: 'public/main.js',
       },
     },
+    babel: {
+      options: {
+        sourceMap: false,
+        presets: ['es2015'],
+      },
+      dist: {
+        files: {
+          'public/main.cmp.js': ['<%= concat.dist.dest %>'],
+        },
+      },
+    },
     uglify: {
       dist: {
         files: {
-          'public/main.min.js': ['<%= concat.dist.dest %>'],
+          'public/main.min.js': 'public/main.cmp.js',
         },
       },
     },
@@ -43,21 +54,22 @@ module.exports = function(grunt) {
       },
       js: {
         files: 'client/js/**/*.js',
-        tasks: ['concat', 'uglify'],
+        tasks: ['concat', 'babel', 'uglify'],
       },
     },
   });
 
-  // Load the plugin
+  // Load plugins
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-babel');
   grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  // Default task(s).
+  // Default tasks
   grunt.registerTask(
     'default',
-    ['sass', 'postcss', 'watch', 'concat', 'uglify']
+    ['sass', 'postcss', 'watch', 'concat', 'babel', 'uglify']
   );
 };

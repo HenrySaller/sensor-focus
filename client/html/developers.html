@@ -18,7 +18,8 @@
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- Make a DNS handshake with a foreign domain -->
-    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//cdn.polyfill.io">
 
     <!-- Web Application Manifest -->
     <link rel="manifest" href="manifest.json">
@@ -50,6 +51,7 @@
     <div id="app"></div>
 
     <!-- 2. Load JS -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="jquery/dist/jquery.min.js"></script>
     <script src="handlebars/handlebars.min.js"></script>
     <script src="main.min.js"></script>

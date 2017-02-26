@@ -1,43 +1,44 @@
+'use strict';
+
 /**
  * Template Engine
  * Generates content based on template configuration.
  */
 
-Handlebars.registerHelper('inc', (value) => parseInt(value) + 1);
+Handlebars.registerHelper('inc', function (value) {
+  return parseInt(value) + 1;
+});
 
-Handlebars.getTemplate = function(name) {
-	if (
-    Handlebars.templates === undefined ||
-    Handlebars.templates[name] === undefined
-  ) {
-		$.ajax({
-			url: '/tpl',
-      data: {'tpl': name},
+Handlebars.getTemplate = function (name) {
+  if (Handlebars.templates === undefined || Handlebars.templates[name] === undefined) {
+    $.ajax({
+      url: '/tpl',
+      data: { 'tpl': name },
       async: false,
-			success: function(data) {
-				if (Handlebars.templates === undefined) {
+      success: function success(data) {
+        if (Handlebars.templates === undefined) {
           Handlebars.templates = {};
         };
-				Handlebars.templates[name] = Handlebars.compile(data);
-			},
-		});
-	}
-	return Handlebars.templates[name];
+        Handlebars.templates[name] = Handlebars.compile(data);
+      }
+    });
+  }
+  return Handlebars.templates[name];
 };
 
-Handlebars.render = function(currentPage, templates, target) {
-  $.holdReady( true );
+Handlebars.render = function (currentPage, templates, target) {
+  $.holdReady(true);
 
-  $('#maincss').on('load', function() {
+  $('#maincss').on('load', function () {
     alert('Stylesheet loaded');
   });
 
-  $.get( '/data', {page: currentPage} ).done(function( data ) {
-    $.each(templates, function( index, item ) {
-      const compiledTemplate = Handlebars.getTemplate(item.template);
+  $.get('/data', { page: currentPage }).done(function (data) {
+    $.each(templates, function (index, item) {
+      var compiledTemplate = Handlebars.getTemplate(item.template);
       target.append(compiledTemplate(data[item.data]));
     });
-    $.holdReady( false );
+    $.holdReady(false);
   });
 };
 
@@ -46,11 +47,11 @@ Handlebars.render = function(currentPage, templates, target) {
  * Creates link event listeners. Handles overlays and smooth scroll.
  */
 
-$(function() {
+$(function () {
   // Add smooth scrolling to all links and toggle overlays
-  $('a').on('click', function(event) {
+  $('a').on('click', function (event) {
     // Store hash
-    const hash = this.hash;
+    var hash = this.hash;
 
     // Make sure hash has a value and element exists
     if (hash !== '' && $(hash).length) {
@@ -71,8 +72,8 @@ $(function() {
 
       // Add smooth page scroll
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - 72,
-      }, 300, function() {
+        scrollTop: $(hash).offset().top - 72
+      }, 300, function () {
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
