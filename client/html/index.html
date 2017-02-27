@@ -54,73 +54,35 @@
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <script src="jquery/dist/jquery.min.js"></script>
     <script src="handlebars/handlebars.min.js"></script>
-    <script src="main.min.js"></script>
+    <script src="main.js"></script>
 
-    <!-- 3. Configure template -->
     <script>
-      const PAGE = "home";
-      const TEMPLATES = [
-        {
-          "template": "header",
-          "data": "header"
-        },
-        {
-          "template": "hero",
-          "data": "hero"
-        },
-        {
-          "template": "idea",
-          "data": "idea"
-        },
-        {
-          "template": "concept",
-          "data": "concept"
-        },
-        {
-          "template": "areas",
-          "data": "areas"
-        },
-        {
-          "template": "devices",
-          "data": "devices"
-        },
-        {
-          "template": "steps",
-          "data": "steps"
-        },
-        {
-          "template": "locations",
-          "data": "locations"
-        },
-        {
-          "template": "hero",
-          "data": "notifications"
-        },
-        {
-          "template": "companies",
-          "data": "companies"
-        },
-        {
-          "template": "featured",
-          "data": "featured"
-        },
-        {
-          "template": "separator",
-          "data": "featured-cta"
-        },
-        {
-          "template": "team",
-          "data": "team"
-        },
-        {
-          "template": "footer",
-          "data": "footer"
-        }
-      ]
-    </script>
+      {
+        // 3. Configure template
+        const template = {
+          page: 'home',
+          data: [
+            { tpl: 'header',    content: 'header' },
+            { tpl: 'hero',      content: 'hero' },
+            { tpl: 'idea',      content: 'idea' },
+            { tpl: 'concept',   content: 'concept' },
+            { tpl: 'areas',     content: 'areas' },
+            { tpl: 'devices',   content: 'devices' },
+            { tpl: 'steps',     content: 'steps' },
+            { tpl: 'locations', content: 'locations' },
+            { tpl: 'hero',      content: 'notifications' },
+            { tpl: 'companies', content: 'companies' },
+            { tpl: 'featured',  content: 'featured' },
+            { tpl: 'separator', content: 'featured-cta' },
+            { tpl: 'team',      content: 'team' },
+            { tpl: 'footer',    content: 'footer' },
+          ],
+        };
 
-    <!-- 4. Render template -->
-    <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
+        // 4. Render template
+        Handlebars.render(template, document.getElementById('app'));
+      };
+    </script>
 
   </body>
 </html>

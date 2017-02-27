@@ -3,6 +3,7 @@
  * Creates link event listeners. Handles overlays and smooth scroll.
  */
 
+// document.ready.then(() => {
 $(function() {
   // Add smooth scrolling to all links and toggle overlays
   $('a').on('click', function(event) {
