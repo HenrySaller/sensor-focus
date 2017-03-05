@@ -4,7 +4,13 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     concat: {
       dist: {
-        src: ['client/js/template-engine.js', 'client/js/**/*.js'],
+        src: [
+          'client/js/template-engine.js',
+          'client/js/smooth-scroll.js',
+          'client/js/carousel.js',
+          'client/js/overlay.js',
+          'client/js/**/*.js',
+        ],
         dest: 'public/main.js',
       },
     },

@@ -1,6 +1,6 @@
 <div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
   <div class="wrap">
-    <div class="locations__container">
+    <div class="locations__container" data-carousel="container">
 
       {{#if title}}
       <div class="locations__content">
@@ -16,14 +16,14 @@
         </div>
 
         {{#items}}
-        <div class="locations__image-screen" id="{{id}}">
+        <div class="locations__image-screen" data-carousel="slide" data-slide="{{inc @index}}">
           <img src="{{bg-img}}">
         </div>
         {{/items}}
 
         <div class="locations__steps steps__container">
           {{#items}}
-          <div class="steps__item" data-target="{{id}}" id="step-{{id}}"></div>
+          <div class="steps__item" data-carousel="trigger" data-slide="{{inc @index}}"></div>
           {{/items}}
         </div>
 
@@ -32,7 +32,7 @@
       <div class="locations__cta">
 
         {{#items}}
-        <div class="locations__cta-button" data-target="{{id}}" id="cta-{{id}}">
+        <div class="locations__cta-button" data-carousel="trigger" data-slide="{{inc @index}}">
           <div class="locations__cta-text">{{cta}}</div>
         </div>
         {{/items}}
@@ -42,100 +42,10 @@
       <div class="locations__description">
 
         {{#items}}
-        <div class="locations__description-item card__item-text" id="desc-{{id}}">{{{text}}}</div>
+        <div class="locations__description-item card__item-text" data-carousel="text" data-slide="{{inc @index}}">{{{text}}}</div>
         {{/items}}
 
       </div>
     </div>
   </div>
 </div>
-
-<script>
-  $(function() {
-    var activeItemId,
-        timer;
-
-    /* Select next item */
-    function nextItem(itemId) {
-      var cta = $('.locations__cta #cta-' + itemId);
-      var nextItem = cta.next();
-
-      /* Check if item is not last */
-      if( nextItem.length == 0 ) {
-        /* Set first item as next */
-        nextItem = $('.locations__cta-button').first();
-      }
-
-      return nextItem.attr('data-target');
-    }
-
-    /* Toggle active item */
-    function toggle(itemId) {
-      var cta = $('.locations__cta #cta-' + itemId);
-
-      /* Toggle image */
-      $('#' + itemId).toggle();
-
-      /* Toggle button style */
-      cta.toggleClass('locations__cta-button--active');
-      cta.find('.locations__cta-icon').toggleClass('locations__cta-icon--active');
-      cta.find('.locations__cta-chevron').toggleClass('locations__cta-chevron--active');
-
-      /* Toggle active step */
-      $('.locations__steps #step-' + itemId).toggleClass('steps__item--active');
-
-      /* Toggle active description */
-      $('.locations__description #desc-' + itemId).toggle();
-    }
-
-    /* Event handler */
-    $('.locations__cta-button, .locations__steps .steps__item').click(function() {
-      clearInterval(timer);
-
-      var itemId = $(this).attr('data-target');
-
-      /* Toggle previous and current item. Update current active item */
-      if (itemId !== activeItemId) {
-        toggle(activeItemId);
-        toggle(itemId);
-        activeItemId = itemId;
-      }
-
-      /* Scroll to item position */
-      var el = $('.locations__image');
-      var elOffset = el.offset().top;
-      var elHeight = el.height();
-      var windowHeight = window.innerHeight;
-      var offset = elOffset - (windowHeight - elHeight)/2;
-
-      $('html, body').animate({
-        scrollTop: offset
-      }, 300);
-    });
-
-    ;(function init() {
-
-      /* Set first item as active */
-      activeItemId = $('.locations__cta-button').first().attr('data-target');
-
-      /* Hide all images and descriptions */
-      $.each( $('.locations__image-screen, .locations__description-item'), function(key, value) {
-        $(value).toggle();
-      });
-
-      /* Triger active item */
-      toggle(activeItemId);
-
-      /* Switch to next item */
-      timer = window.setInterval(function(){
-
-        /* Toggle previous and current item. Update current active item */
-        var nextId = nextItem(activeItemId);
-        toggle(activeItemId);
-        toggle(nextId);
-        activeItemId = nextId;
-      }, 7000);
-    })();
-
-  });
-</script>

@@ -20,6 +20,7 @@
     .screens__image-screen {
       box-sizing: border-box;
       z-index: 1;
+      display: none;
       max-width: 800px;
 
       @include breakpoint($bp-laptop) {
@@ -32,7 +33,10 @@
         height: auto;
         border: 1px solid $black-separator;
         border-top: 0;
-        background: $grey-200; } }
+        background: $grey-200; }
+
+      &.active {
+        display: block; } }
 
       .screens__image-device {
         text-align: left;
@@ -84,13 +88,13 @@
       border-radius: 24px;
 
       &:hover {
-        background: $grey-50; } }
+        background: $grey-50; }
 
-    .screens__cta-button--active {
-      color: $white;
-      background: $main;
+      &.active {
+        color: $white;
+        background: $main; }
 
-      &:hover {
+      &.active:hover {
         background: $main; } }
 
     .screens__description {
@@ -99,3 +103,9 @@
       text-align: center;
       padding-top: 40px;
       margin: 0 40px; }
+
+    .screens__description-item {
+      display: none;
+
+      &.active {
+        display: block; } }

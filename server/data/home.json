@@ -137,42 +137,32 @@
       }
     ]
   },
-  "locations": {
-    "id": "locations",
+  "app": {
+    "id": "app",
     "bg": "white",
-    "bg-img": "img/home/device-ios-landscape.jpg",
-    "title": "Monitor Your Life",
-    "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
+    "bg-img": "img/global/device-android.jpg",
+    "title": "App Section",
+    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
     "items": [
       {
-        "id": "loc-1",
-        "bg-img": "img/home/screen-1.gif",
-        "cta": "Home",
-        "text": "Live image from the room."
+        "bg-img": "img/home/app-1.jpg",
+        "cta": "Live image from the room."
       },
       {
-        "id": "loc-2",
-        "bg-img": "img/home/screen-2.gif",
-        "cta": "Office",
-        "text": "TV real time status so you know they agree to your house rules."
+        "bg-img": "img/home/app-2.jpg",
+        "cta": "TV real time status so you know they agree to your house rules."
       },
       {
-        "id": "loc-3",
-        "bg-img": "img/home/screen-3.gif",
-        "cta": "Loved One's Place",
-        "text": "How many hours was watched today, this week, this month."
+        "bg-img": "img/home/app-3.jpg",
+        "cta": "How many hours was watched today, this week, this month."
       },
       {
-        "id": "loc-4",
-        "bg-img": "img/home/screen-4.gif",
-        "cta": "Country House",
-        "text": "Hourly summary of the last 7 days and last month."
+        "bg-img": "img/home/app-4.jpg",
+        "cta": "Hourly summary of the last 7 days and last month."
       },
       {
-        "id": "loc-5",
-        "bg-img": "img/home/screen-5.gif",
-        "cta": "And Many More",
-        "text": "Daily pattern of TV consumption so you can change the routin."
+        "bg-img": "img/home/app-5.jpg",
+        "cta": "Daily pattern of TV consumption so you can change the routin."
       }
     ]
   },

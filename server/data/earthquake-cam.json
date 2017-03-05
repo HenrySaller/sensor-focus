@@ -73,23 +73,20 @@
     "bg": "white",
     "items": [
       {
-        "id": "tes-1",
         "img": "img/earthquake-cam/avatar-1.jpg",
-        "text": "Earthquake are getting more frequent and I'm worried about my familly. SensorFocus gives me peace of mind.",
+        "text": "Sensor Focus was the best investment I ever made. I love your system. If you aren't sure, always go for Sensor Focus.",
         "name": "Nellie Graham",
         "position": "Designer"
       },
       {
-        "id": "tes-2",
         "img": "img/earthquake-cam/avatar-2.jpg",
-        "text": "Earthquake are getting more frequent and I'm worried about my familly.",
+        "text": "The very best. Sensor Focus should be nominated for service of the year. I could probably go into sales for you.",
         "name": "Jack Scott",
         "position": "Developer"
       },
       {
-        "id": "tes-3",
         "img": "img/earthquake-cam/avatar-3.jpg",
-        "text": "Earthquake are getting more frequent and I'm worried about my familly. SensorFocus gives me peace of mind. SensorFocus gives me peace of mind.",
+        "text": "Definitely worth the investment. If you want real marketing that works and effective implementation - Sensor Focus got you covered. I have gotten at least 50 times the value from Sensor Focus.",
         "name": "Sherri Meyer",
         "position": "CEO"
       }
@@ -114,27 +111,22 @@
     "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
     "items": [
       {
-        "id": "app-1",
         "bg-img": "img/earthquake-cam/app-1.jpg",
         "cta": "Live image from the room."
       },
       {
-        "id": "app-2",
         "bg-img": "img/earthquake-cam/app-2.jpg",
         "cta": "TV real time status so you know they agree to your house rules."
       },
       {
-        "id": "app-3",
         "bg-img": "img/earthquake-cam/app-3.jpg",
         "cta": "How many hours was watched today, this week, this month."
       },
       {
-        "id": "app-4",
         "bg-img": "img/earthquake-cam/app-4.jpg",
         "cta": "Hourly summary of the last 7 days and last month."
       },
       {
-        "id": "app-5",
         "bg-img": "img/earthquake-cam/app-5.jpg",
         "cta": "Daily pattern of TV consumption so you can change the routin."
       }
@@ -203,7 +195,7 @@
     "title": "How it Works",
     "cta": {
       "name": "Try it Now",
-      "url": "#featured"
+      "url": "#prices"
     },
     "items": [
       {
@@ -227,7 +219,6 @@
     "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
     "items": [
       {
-        "id": "install-tripod",
         "bg-img": "img/global/install-tripod.jpg",
         "caption-type": "white",
         "caption": "Joby GripTight Gorillapod Pro. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/joby.com'>joby.com<\/a>",
@@ -235,7 +226,6 @@
         "icon": "img/icon/phone-tripod.svg"
       },
       {
-        "id": "install-mount",
         "bg-img": "img/global/install-mount.jpg",
         "caption-type": "black",
         "caption": "Dockem Koala Wall Mount. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/dockem.com'>dockem.com<\/a>",
@@ -243,7 +233,6 @@
         "icon": "img/icon/phone-mount.svg"
       },
       {
-        "id": "install-holder",
         "bg-img": "img/global/install-holder.jpg",
         "caption-type": "white",
         "caption": "Unic Phone Holder. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/pinkoi.com/store/unic'>pinkoi.com<\/a>",

@@ -34,11 +34,16 @@
     .app__image-screen {
       box-sizing: border-box;
       z-index: 2;
-      transform: scale(0.5);
+      display: none;
+      width: 260px;
 
       & img {
         border: 2px solid $black-disabled;
-        border-radius: 8px; } }
+        border-radius: 8px;
+        width: 100%; }
+
+      &.active {
+        display: block; } }
 
   .app__steps {
     transform: translateX(-50%);
@@ -86,10 +91,19 @@
       border-radius: 32px;
 
       &:hover {
-        background: $grey-100; } }
+        background: $grey-100; }
 
-    .app__cta-button--active {
-      background: $grey-50; }
+      &.active {
+        background: $grey-50; }
+
+      &.active .app__cta-icon {
+        padding: 8px;
+        border-radius: 50%;
+        border: 0;
+        background: $main-secondary; }
+
+      &.active .app__cta-chevron {
+        opacity: 1; } }
 
       .app__cta-icon {
         flex-shrink: 0;
@@ -106,12 +120,6 @@
         font-weight: bold;
         font-size: 24px;
         line-height: 32px; }
-
-      .app__cta-icon--active {
-        padding: 8px;
-        border-radius: 50%;
-        border: 0;
-        background: $main-secondary; }
 
       .app__cta-text {
         @include inner-link;
@@ -145,6 +153,3 @@
 
         @include breakpoint($bp-laptop-l) {
           display: inline-block; } }
-
-      .app__cta-chevron--active {
-        opacity: 1; }

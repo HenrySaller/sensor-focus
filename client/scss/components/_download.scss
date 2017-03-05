@@ -1,16 +1,21 @@
-.install__container {
+.download__container {
   position: relative;
-  outline: 1px solid $grey-200; }
+  min-height: 744px; }
 
-  .install__image {
-    display: block;
+  .download__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     overflow: hidden;
-    display: none;
+
+    min-height: 744px;
+    margin-top: -80px;
 
     @include breakpoint($bp-laptop-l) {
       position: absolute;
       height: auto;
+      margin-top: 0;
 
       top: 0;
       bottom: 0;
@@ -18,12 +23,25 @@
       right: 0; }
 
     @include breakpoint($bp-laptop-xl) {
+      left: 50%; } }
+
+    .download__image-device {
+      transform: translate(-50%, -50%);
+      position: absolute;
+      z-index: 1;
+      top: 50%;
       left: 50%; }
 
-    &.active {
-      display: block; } }
+    .download__image-screen {
+      box-sizing: border-box;
+      z-index: 2;
+      transform: scale(0.5);
 
-  .install__content {
+      & img {
+        border: 2px solid $black-disabled;
+        border-radius: 8px; } }
+
+  .download__content {
     box-sizing: border-box;
     padding: 80px 40px;
 
@@ -37,9 +55,11 @@
     @include breakpoint($bp-laptop-xl) {
       width: 50%; } }
 
-    .install__text {
+    .download__text {
+      @include inner-link;
+
       color: $black;
-      margin: 56px 0 32px 0;
+      margin: 56px 0;
 
       font-family: $text-font;
       font-weight: normal;
@@ -47,44 +67,36 @@
       line-height: 24px;
       letter-spacing: 0.5px; }
 
-    .install__cta-button {
+    .download__cta-button {
       transition: background-color 0.3s ease;
-      font-size: 0;
 
       cursor: pointer;
       display: flex;
       position: relative;
-      align-items: flex-start;
+      align-items: center;
 
       min-height: 48px;
       padding: 8px;
       margin-top: 16px;
       border-radius: 32px;
 
+      background: $grey-50;
+
       &:hover {
-        background: $grey-100; }
+        background: $grey-100; } }
 
-      @include breakpoint($bp-tablet) {
-        align-items: center; }
+    .download__cta-button--disabled {
+      background: $white;
 
-      &.active {
-        background: $grey-50; }
+      &:hover {
+        background: $white; } }
 
-      &.active .install__cta-chevron {
-        opacity: 1; }
-
-      &.active .install__cta-icon {
+      .download__cta-icon {
         padding: 8px;
         border-radius: 50%;
-        border: 0;
-        background: $main-secondary; } }
+        background: $main-secondary; }
 
-      .install__cta-icon {
-        padding: 6px;
-        border-radius: 50%;
-        border: 2px solid $main; }
-
-      .install__cta-text {
+      .download__cta-text {
         @include inner-link;
 
         flex-grow: 1;
@@ -97,14 +109,13 @@
         line-height: 24px;
         letter-spacing: 0.5px; }
 
-      .install__cta-chevron {
+      .download__cta-chevron {
         @include icon-font;
 
         transition: opacity 0.3s ease;
         cursor: pointer;
         display: none;
         text-align: center;
-        opacity: 0;
 
         margin-left: 16px;
         width: 48px;
@@ -113,5 +124,5 @@
 
         color: $black-disabled;
 
-        @include breakpoint($bp-laptop-l) {
+        @include breakpoint($bp-laptop) {
           display: inline-block; } }

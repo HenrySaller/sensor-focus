@@ -19,11 +19,11 @@
     padding: 72px 40px 40px 40px; }
 
   @include breakpoint($bp-laptop-l) {
-    padding: 72px; } }
+    padding: 72px; }
 
-.overlay__container--active {
-  pointer-events: auto;
-  opacity: 1; }
+  &.active {
+    pointer-events: auto;
+    opacity: 1; } }
 
   .overlay__wrap {
     background: $white;

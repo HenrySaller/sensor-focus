@@ -6,62 +6,6 @@
     padding: 0 40px;
     text-align: center; }
 
-  // .locations__image {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  //   position: relative;
-  //   overflow: hidden;
-  //
-  //   width: 100%;
-  //   height: auto;
-  //
-  //   @include breakpoint($bp-laptop) {
-  //     min-height: 400px;
-  //   } }
-  //
-  //   .locations__image-device {
-  //     transform: translateX(-50%);
-  //
-  //     position: absolute;
-  //     z-index: 1;
-  //     width: 100%;
-  //     left: 50%;
-  //     top: 0;
-  //
-  //     & img {
-  //       width: 100%;
-  //       height: auto; }
-  //
-  //     @include breakpoint($bp-laptop) {
-  //       width: auto;
-  //     } }
-  //
-  //   .locations__image-screen {
-  //     box-sizing: border-box;
-  //     z-index: 2;
-  //     width: 100%;
-  //     padding: 14%;
-  //
-  //     @include breakpoint($bp-laptop) {
-  //       padding: 0;
-  //       width: auto; }
-  //
-  //     & img {
-  //       border: 1px solid $black-disabled;
-  //       border-radius: 4px;
-  //       width: 100%;
-  //       height: auto; } }
-  //
-  //   .locations__steps {
-  //     transform: translateX(-50%);
-  //
-  //     position: absolute;
-  //     z-index: 3;
-  //     left: 50%;
-  //
-  //     bottom: 16px; }
-
   .locations__image {
     position: relative;
     overflow: hidden;
@@ -97,6 +41,7 @@
 
       position: absolute;
       box-sizing: border-box;
+      display: none;
 
       top: 0;
       left: 50%;
@@ -114,7 +59,10 @@
         border: 1px solid $black-disabled;
         border-radius: 4px;
         width: 100%;
-        height: auto; } }
+        height: auto; }
+
+      &.active {
+        display: block; } }
 
     .locations__steps {
       transform: translateX(-50%);
@@ -153,13 +101,13 @@
       border-radius: 24px;
 
       &:hover {
-        background: $grey-50; } }
+        background: $grey-50; }
 
-    .locations__cta-button--active {
-      color: $white;
-      background: $main;
+      &.active {
+        color: $white;
+        background: $main; }
 
-      &:hover {
+      &.active:hover {
         background: $main; } }
 
     .locations__description {
@@ -168,3 +116,9 @@
       text-align: center;
       padding-top: 40px;
       margin: 0 40px; }
+
+    .locations__description-item {
+      display: none;
+      
+      &.active {
+        display: block; } }

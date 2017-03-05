@@ -7,3 +7,7 @@ body {
 .wrap {
   max-width: $bp-max;
   margin: 0 auto; }
+
+/* Scroll Hijack */
+.no-scroll {
+  overflow: hidden; }

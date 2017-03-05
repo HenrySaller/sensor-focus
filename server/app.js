@@ -21,7 +21,7 @@ app.get('/data', function(req, res) {
   );
 
   res.sendFile(filePath, function(err) {
-    if (err) throw err;
+    if (err) res.status(404).send();
   });
 });
 
@@ -33,7 +33,7 @@ app.get('/tpl', function(req, res) {
   );
 
   res.sendFile(filePath, function(err) {
-    if (err) throw err;
+    if (err) res.status(404).send();
   });
 });
 

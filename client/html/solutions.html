@@ -52,43 +52,28 @@
 
     <!-- 2. Load JS -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-    <script src="jquery/dist/jquery.min.js"></script>
     <script src="handlebars/handlebars.min.js"></script>
     <script src="main.min.js"></script>
 
-    <!-- 3. Configure template -->
     <script>
-      const PAGE = "solutions";
-      const TEMPLATES = [
-        {
-          "template": "header",
-          "data": "header"
-        },
-        {
-          "template": "breadcrumbs",
-          "data": "breadcrumbs"
-        },
-        {
-          "template": "solutions",
-          "data": "solutions"
-        },
-        {
-          "template": "separator",
-          "data": "solutions-cta"
-        },
-        {
-          "template": "companies",
-          "data": "companies"
-        },
-        {
-          "template": "footer",
-          "data": "footer"
-        }
-      ]
-    </script>
+      {
+        // 3. Configure template
+        const template = {
+          page: 'solutions',
+          data: [
+            { tpl: 'header',      content: 'header' },
+            { tpl: 'breadcrumbs', content: 'breadcrumbs' },
+            { tpl: 'solutions',   content: 'solutions' },
+            { tpl: 'separator',   content: 'solutions-cta' },
+            { tpl: 'companies',   content: 'companies' },
+            { tpl: 'footer',      content: 'footer' },
+          ],
+        };
 
-    <!-- 4. Render template -->
-    <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
+        // 4. Render template
+        Handlebars.render(template, document.getElementById('app'));
+      };
+    </script>
 
   </body>
 </html>

@@ -22,8 +22,7 @@
 /* Nav Buttons */
 .nav-button {
   @include nav-button;
-  color: $black-secondary; }
+  color: $black-secondary;
 
-.nav-button--active {
-  @include nav-button;
-  color: $main-accent; }
+  &.active {
+    color: $main-accent; } }

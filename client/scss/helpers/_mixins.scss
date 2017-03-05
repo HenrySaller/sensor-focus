@@ -43,6 +43,7 @@
 /* Cover Images */
 @mixin full-width-img() {
   user-select: none;
+  font-size: 0;
 
   position: absolute;
   overflow: hidden;

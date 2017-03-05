@@ -5,7 +5,7 @@
 
 .steps__item {
   transition: border-width 0.3s ease;
-  
+
   box-sizing: border-box;
   cursor: pointer;
 
@@ -14,7 +14,7 @@
   margin: 8px;
 
   border-radius: 50%;
-  border: 2px solid $black-disabled; }
+  border: 2px solid $black-disabled;
 
-.steps__item--active {
-  border-width: 6px; }
+  &.active {
+    border-width: 6px; } }

@@ -7,6 +7,8 @@
   z-index: -1; }
 
 .full-width-img--optimized {
+  font-size: 0;
+  
   & img { width: 100%; }
 
   @include breakpoint($bp-laptop-l) {

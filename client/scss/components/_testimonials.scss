@@ -26,10 +26,10 @@
       flex-basis: 75%; }
 
     @include breakpoint($bp-laptop-xl) {
-      flex-basis: 60%; } }
+      flex-basis: 60%; }
 
-  .testimonials__wrap--active {
-    display: block; }
+    &.active {
+      display: block; } }
 
   .testimonials__item {
     display: flex; }
@@ -41,7 +41,11 @@
       width: 56px;
       height: 56px;
       margin-right: 24px;
-      margin-top: 6px; }
+      margin-top: 6px;
+
+      @include breakpoint($bp-tablet) {
+        width: 84px;
+        height: 84px; } }
 
     .testimonials__inner-wrap {
       flex-grow: 1; }

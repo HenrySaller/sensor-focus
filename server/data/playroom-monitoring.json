@@ -78,23 +78,20 @@
     "bg": "white",
     "items": [
       {
-        "id": "tes-1",
-        "img": "img/playroom-monitoring/avatar-1.jpg",
-        "text": "Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids, making sure they respect the limits we agreed.",
+        "img": "img/earthquake-cam/avatar-1.jpg",
+        "text": "Sensor Focus was the best investment I ever made. I love your system. If you aren't sure, always go for Sensor Focus.",
         "name": "Nellie Graham",
         "position": "Designer"
       },
       {
-        "id": "tes-2",
-        "img": "img/playroom-monitoring/avatar-2.jpg",
-        "text": "Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids.",
+        "img": "img/earthquake-cam/avatar-2.jpg",
+        "text": "The very best. Sensor Focus should be nominated for service of the year. I could probably go into sales for you.",
         "name": "Jack Scott",
         "position": "Developer"
       },
       {
-        "id": "tes-3",
-        "img": "img/playroom-monitoring/avatar-3.jpg",
-        "text": "Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids, making sure they respect the limits we agreed. Sensor Focus helps me stay in control of the TV and video game consumption habits of my kids.",
+        "img": "img/earthquake-cam/avatar-3.jpg",
+        "text": "Definitely worth the investment. If you want real marketing that works and effective implementation - Sensor Focus got you covered. I have gotten at least 50 times the value from Sensor Focus.",
         "name": "Sherri Meyer",
         "position": "CEO"
       }
@@ -119,27 +116,22 @@
     "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
     "items": [
       {
-        "id": "app-1",
         "bg-img": "img/playroom-monitoring/app-1.jpg",
         "cta": "Live image from the room."
       },
       {
-        "id": "app-2",
         "bg-img": "img/playroom-monitoring/app-2.jpg",
         "cta": "TV real time status so you know they agree to your house rules."
       },
       {
-        "id": "app-3",
         "bg-img": "img/playroom-monitoring/app-3.jpg",
         "cta": "How many hours was watched today, this week, this month."
       },
       {
-        "id": "app-4",
         "bg-img": "img/playroom-monitoring/app-4.jpg",
         "cta": "Hourly summary of the last 7 days and last month."
       },
       {
-        "id": "app-5",
         "bg-img": "img/playroom-monitoring/app-5.jpg",
         "cta": "Daily pattern of TV consumption so you can change the routin."
       }
@@ -232,7 +224,6 @@
     "text": "Devices are easy to install and they look great in your home or business. Connects to your home WiFi, no SIM card required.",
     "items": [
       {
-        "id": "install-tripod",
         "bg-img": "img/global/install-tripod.jpg",
         "caption-type": "white",
         "caption": "Joby GripTight Gorillapod Pro. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/joby.com'>joby.com<\/a>",
@@ -240,7 +231,6 @@
         "icon": "img/icon/phone-tripod.svg"
       },
       {
-        "id": "install-mount",
         "bg-img": "img/global/install-mount.jpg",
         "caption-type": "black",
         "caption": "Dockem Koala Wall Mount. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/dockem.com'>dockem.com<\/a>",
@@ -248,7 +238,6 @@
         "icon": "img/icon/phone-mount.svg"
       },
       {
-        "id": "install-holder",
         "bg-img": "img/global/install-holder.jpg",
         "caption-type": "white",
         "caption": "Unic Phone Holder. Digital image. Web. 1 Aug 2016. <a target='blank' href='http:\/\/pinkoi.com/store/unic'>pinkoi.com<\/a>",
@@ -413,7 +402,7 @@
       }
     ]
   },
-  "info-overlay": {
+  "overlay": {
     "id": "overlay-playroom-monitoring",
     "title": "TV Monitoring - Solution Description",
     "icon": "info_outline",
@@ -430,12 +419,12 @@
           {
             "title": "Real time sound level",
             "text": "Real time sound level from your device. Updated every second. Unit in pseudo-decibel.",
-            "url": "img/global/install-holder.jpg"
+            "url": "img/global/install-mount.jpg"
           },
           {
             "title": "TV watched over last 24h",
             "text": "Real time vibration level. Updated every 1 second.",
-            "url": "img/global/install-tripod.jpg"
+            "url": "img/global/install-holder.jpg"
           }
         ]
       },

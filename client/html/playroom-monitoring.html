@@ -52,83 +52,38 @@
 
     <!-- 2. Load JS -->
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-    <script src="jquery/dist/jquery.min.js"></script>
     <script src="handlebars/handlebars.min.js"></script>
     <script src="main.min.js"></script>
 
-    <!-- 3. Configure template -->
     <script>
-      const PAGE = "playroom-monitoring";
-      const TEMPLATES = [
-        {
-          "template": "header",
-          "data": "header"
-        },
-        {
-          "template": "hero",
-          "data": "hero"
-        },
-        {
-          "template": "features",
-          "data": "elements"
-        },
-        {
-          "template": "testimonials",
-          "data": "testimonials"
-        },
-        {
-          "template": "hero",
-          "data": "subhero"
-        },
-        {
-          "template": "app",
-          "data": "app"
-        },
-        {
-          "template": "hero",
-          "data": "notifications"
-        },
-        {
-          "template": "summary",
-          "data": "summary"
-        },
-        {
-          "template": "devices",
-          "data": "devices"
-        },
-        {
-          "template": "steps",
-          "data": "steps"
-        },
-        {
-          "template": "install",
-          "data": "install"
-        },
-        {
-          "template": "features",
-          "data": "features"
-        },
-        {
-          "template": "separator",
-          "data": "features-cta"
-        },
-        {
-          "template": "prices",
-          "data": "prices"
-        },
-        {
-          "template": "footer",
-          "data": "footer"
-        },
-        {
-          "template": "info-overlay",
-          "data": "info-overlay"
-        }
-      ]
-    </script>
+      {
+        // 3. Configure template
+        const template = {
+          page: 'playroom-monitoring',
+          data: [
+            { tpl: 'header',       content: 'header' },
+            { tpl: 'hero',         content: 'hero' },
+            { tpl: 'features',     content: 'elements' },
+            { tpl: 'testimonials', content: 'testimonials' },
+            { tpl: 'hero',         content: 'subhero' },
+            { tpl: 'app',          content: 'app' },
+            { tpl: 'hero',         content: 'notifications' },
+            { tpl: 'summary',      content: 'summary' },
+            { tpl: 'devices',      content: 'devices' },
+            { tpl: 'steps',        content: 'steps' },
+            { tpl: 'install',      content: 'install' },
+            { tpl: 'features',     content: 'features' },
+            { tpl: 'separator',    content: 'features-cta' },
+            { tpl: 'prices',       content: 'prices' },
+            { tpl: 'footer',       content: 'footer' },
+            { tpl: 'overlay',      content: 'overlay' },
+          ],
+        };
 
-    <!-- 4. Render template -->
-    <script>Handlebars.render(PAGE, TEMPLATES, $("#app"));</script>
+        // 4. Render template
+        Handlebars.render(template, document.getElementById('app'));
+      };
+    </script>
 
   </body>
 </html>

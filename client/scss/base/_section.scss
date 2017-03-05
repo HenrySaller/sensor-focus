@@ -42,3 +42,12 @@
     margin: 8px 24px;
     text-align: left;
     flex-basis: auto; } }
+
+/* Section Error */
+.section-error {
+  @include section($main-error);
+  @include block-title;
+
+  box-sizing: border-box;
+  padding: 24px;
+  color: $main-accent; }

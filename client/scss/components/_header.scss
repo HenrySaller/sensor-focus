@@ -12,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
+    font-size: 0;
 
     @include breakpoint($bp-laptop) {
       flex-wrap: nowrap; } }
@@ -48,10 +49,10 @@
         border: 0; }
 
       @include breakpoint($bp-laptop-l) {
-        text-align: right; } }
+        text-align: right; }
 
-      .header__nav--active {
-        display: block; }
+      &.active {
+        display: block; } }
 
     .header__cta {
       display: none;

@@ -6,11 +6,11 @@
         <a href="/"><img alt="Sensor Focus Logo" src="{{logo}}"></a>
       </div>
 
-      <div class="header__toggle">
+      <div class="header__toggle" data-header="toggle">
         <a class="button__grey button__icon">menu</a>
       </div>
 
-      <nav class="header__nav">
+      <nav class="header__nav" data-header="nav">
         {{#nav}}
         <a class="nav-button" href="{{url}}">{{name}}</a>
         {{/nav}}
@@ -27,19 +27,3 @@
 </header>
 
 <div class="header__static"></div>
-
-<script>
-  $(function() {
-
-    // Set active nav item
-    $('nav a[href="/' + location.pathname.split("/")[1] + '"]')
-      .addClass('nav-button--active');
-
-    // Mobile nav toggle
-    $('.header__toggle').click(function(e) {
-      $('.header__nav').toggleClass('header__nav--active');
-      $(e.target).html($(e.target).text() == 'menu' ? 'close' : 'menu');
-    });
-
-  });
-</script>

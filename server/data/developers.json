@@ -97,27 +97,22 @@
     "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
     "items": [
       {
-        "id": "app-1",
         "bg-img": "img/developers/app-1.jpg",
         "cta": "Live image from the room."
       },
       {
-        "id": "app-2",
         "bg-img": "img/developers/app-2.jpg",
         "cta": "TV real time status so you know they agree to your house rules."
       },
       {
-        "id": "app-3",
         "bg-img": "img/developers/app-3.jpg",
         "cta": "How many hours was watched today, this week, this month."
       },
       {
-        "id": "app-4",
         "bg-img": "img/developers/app-4.jpg",
         "cta": "Hourly summary of the last 7 days and last month."
       },
       {
-        "id": "app-5",
         "bg-img": "img/developers/app-5.jpg",
         "cta": "Daily pattern of TV consumption so you can change the routin."
       }
@@ -267,25 +262,21 @@
     "text": "Get all your info that matters in one place in a simple and intuitive “Facebook” like news feed.",
     "items": [
       {
-        "id": "scr-1",
         "bg-img": "img/developers/desktop-1.jpg",
         "cta": "Devices",
         "text": "Live image from the room."
       },
       {
-        "id": "scr-2",
         "bg-img": "img/developers/desktop-2.jpg",
         "cta": "Gallery",
         "text": "TV real time status so you know they agree to your house rules."
       },
       {
-        "id": "scr-3",
         "bg-img": "img/developers/desktop-3.jpg",
         "cta": "Sign In",
         "text": "How many hours was watched today, this week, this month."
       },
       {
-        "id": "scr-4",
         "bg-img": "img/developers/desktop-4.jpg",
         "cta": "Contacts",
         "text": "Hourly summary of the last 7 days and last month."
