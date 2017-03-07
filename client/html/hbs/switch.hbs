@@ -1,0 +1,19 @@
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
+  <div class="wrap">
+    <div class="switch__container">
+
+      {{#items}}
+      <div class="switch__section">
+
+        <div class="switch__wrap {{#if @first}}switch__wrap--separator{{/if}}">
+          <div class="card__title block-title--black block-title--center">{{title}}</div>
+          <div class="card__item-text">{{text}}</div>
+          <a class="switch__cta button__standard" href="{{cta.url}}">{{cta.title}}</a>
+        </div>
+
+      </div>
+      {{/items}}
+
+    </div>
+  </div>
+</div>

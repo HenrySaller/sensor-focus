@@ -1,0 +1,54 @@
+.switch__container {
+  font-size: 0; }
+
+  .switch__section {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+
+    @include breakpoint($bp-laptop-l) {
+      margin: 10% 0 15% 0;
+      width: 50%; } }
+
+    .switch__wrap {
+      position: relative;
+      text-align: center;
+      padding: 64px 40px 80px 40px;
+
+      @include breakpoint($bp-laptop) {
+        padding: 64px 80px 80px 80px; }
+
+      @include breakpoint($bp-laptop-xl) {
+        padding: 64px 120px 80px 120px; } }
+
+    .switch__wrap--separator {
+
+      &:before, &:after {
+        content: '';
+        display: none;
+        position: absolute;
+        background: $grey-300; }
+
+      &:before {
+        top: 80px;
+        bottom: 80px;
+        right: -2px;
+        width: 4px; }
+
+      &:after {
+        transition: rotate(45deg);
+
+        width: 16px;
+        height: 16px;
+
+        bottom: 50%;
+        right: -8px;
+        margin-bottom: -8px; }
+
+      @include breakpoint($bp-laptop-l) {
+        &:before, &:after {
+          display: block; } } }
+
+      .switch__cta {
+        margin-top: 32px; }
