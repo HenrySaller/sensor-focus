@@ -66,7 +66,12 @@
   flex-direction: row; }
 
 .card__item--target {
-  cursor: pointer; }
+  transition: box-shadow .3s ease, transform .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 16px 24px $black-separator;
+    transform: translateY(-8px); } }
 
 /* ----- Card Item Elements ----- */
 
@@ -147,8 +152,13 @@
 /* Card Item Images */
 .card__item-img {
   overflow: hidden;
-  position: relative;
-  height: 160px; }
+
+  & img {
+    width: 100%; }
+
+  @include breakpoint($bp-laptop) {
+    height: 160px;
+    background: $main; } }
 
 /* Card Price Elements */
 .card__price-title {

@@ -2,15 +2,37 @@
   display: flex;
   flex-wrap: wrap;
   padding: 40px;
+  text-align: center;
+
+  @include breakpoint($bp-laptop) {
+    text-align: left; }
 
   @include breakpoint($bp-laptop-l) {
     flex-wrap: nowrap;
     padding: 40px 80px; } }
 
-  .footer__logo {
+  .footer__info {
     user-select: none;
-
+    font-size: 0;
     flex-grow: 1; }
+
+    .footer__social {
+      cursor: pointer;
+      transition: filter .3s ease;
+      filter: grayscale(1) opacity(.54);
+
+      &:hover {
+        filter: none; } }
+
+    .footer__address {
+      margin: 16px 8px;
+      color: $black-secondary;
+
+      font-family: $main-font;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px; }
 
   .footer__group {
     flex-basis: 100%;

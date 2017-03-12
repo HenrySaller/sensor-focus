@@ -62,7 +62,7 @@
         "title": "Home Solutions",
         "items": [
           {
-            "img": "img/thumbnails/playroom-monitoring.jpg",
+            "img": "img/thumbnails/tv-monitoring-thumb.jpg",
             "alt": "",
             "title": "Kids Playroom Monitoring",
             "text": "Monitor your kids TV and video game consumption to prevent abuse.",
@@ -76,7 +76,7 @@
             ]
           },
           {
-            "img": "img/thumbnails/earthquake-cam.jpg",
+            "img": "img/thumbnails/earthquake-thumb.jpg",
             "alt": "",
             "title": "Earthquake Detector",
             "text": "Get alerted when an earthquake hits your home. Immediately look for any damages with real times images from your home.",
@@ -264,6 +264,14 @@
     "bg": "white",
     "logo": "img/logo.svg",
     "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
+    "address": "4430 Saint-Ambroise, Suite 154<br>Montreal, Canada<br>H4C 2C7",
+    "socials": [
+      {
+        "alt": "Facebook",
+        "url": "/",
+        "icon": "img/icon/social-facebook.svg"
+      }
+    ],
     "groups": [
       {
         "name": "Product",

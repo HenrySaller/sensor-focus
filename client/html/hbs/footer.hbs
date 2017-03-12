@@ -2,8 +2,15 @@
   <div class="wrap">
     <div class="footer__container">
 
-      <div class="footer__logo">
-        <a href="/"><img alt="Sensor Focus Logo" src="{{logo}}"></a>
+      <div class="footer__info">
+        <a href="/" class="footer__logo"><img alt="Sensor Focus Logo" src="{{logo}}"></a>
+
+        {{#socials}}
+        <a href="{{url}}" class="footer__social"><img alt="{{alt}}" src="{{icon}}"></a>
+        {{/socials}}
+
+        <div class="footer__address">{{{address}}}</div>
+        </aside>
       </div>
 
       {{#groups}}

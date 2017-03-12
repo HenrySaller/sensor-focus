@@ -11,9 +11,9 @@
       <div class="card__item--light card__item--flex-column card__item--target" data-link="{{cta.url}}">
 
         <div class="card__item-img">
-          <div class="full-width-img">
-            <img alt="{{alt}}" src="{{img}}">
-          </div>
+          {{#if img}}
+          <img alt="{{alt}}" src="{{img}}">
+          {{/if}}
         </div>
 
         <div class="card__item-wrap">
