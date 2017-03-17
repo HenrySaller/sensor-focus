@@ -8,12 +8,17 @@
 
 .full-width-img--optimized {
   font-size: 0;
-  
+
   & img { width: 100%; }
 
   @include breakpoint($bp-laptop-l) {
     & img { width: auto; }
     @include full-width-img; } }
+
+.full-width-img--block {
+  & img {
+    width: 100%;
+    height: auto; } }
 
 .full-width-img__caption--white {
   @include full-width-img__caption;

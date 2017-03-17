@@ -1,4 +1,4 @@
-<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}} {{#if hidden}}section--hidden{{/if}}" id="{{id}}">
 
   <div class="wrap">
     <div class="card__container">
@@ -19,10 +19,13 @@
 
         <div class="card__item-wrap">
 
+          {{#if title}}
           <div class="card__item-title">{{title}}</div>
+          {{/if}}
+
           <div class="card__item-text">{{{text}}}</div>
           <div class="card__item-cta">
-            <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
+            <a class="{{#if cta.disabled}}button__disabled{{bg}}{{else}}button__standard{{/if}}" {{#if cta.url}}href="{{cta.url}}"{{/if}}>{{cta.name}}</a>
           </div>
 
         </div>

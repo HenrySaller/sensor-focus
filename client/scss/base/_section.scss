@@ -11,6 +11,12 @@
 .section--grey-200 {
   @include section($grey-200); }
 
+.section--hidden {
+  display: none;
+
+  @include breakpoint($bp-laptop-l) {
+    display: block; } }
+
 /* Section Footer */
 .section__footer {
   @include section-footer(none); }

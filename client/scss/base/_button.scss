@@ -14,6 +14,11 @@
   color: $black-disabled;
   &:hover, &:focus { color: $black-disabled; } }
 
+.button__disabled {
+  @include button($grey-200);
+  color: $black-disabled;
+  &:after { display: none; } }
+
 .button__icon {
   @include icon-font;
   cursor: pointer;

@@ -1,0 +1,214 @@
+{
+  "header": {
+    "id": "header",
+    "logo": "img/logo.svg",
+    "cta": {
+      "name": "Download",
+      "url": "#prices"
+    },
+    "nav": [
+      {
+        "name": "Solutions",
+        "url": "/solutions"
+      },
+      {
+        "name": "Developers",
+        "url": "/developers"
+      },
+      {
+        "name": "Support",
+        "url": "#"
+      },
+      {
+        "name": "Sign In",
+        "url": "#"
+      }
+    ]
+  },
+  "hero": {
+    "id": "hero",
+    "bg-img": "img/global/app-hero.jpg",
+    "subtitle": "Download your",
+    "title": "Sensor Focus App",
+    "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>It will turn your phone into an environment sensor device.",
+    "stores": [
+      {
+        "img": "img/global/google-play.png",
+        "alt": "Download app on Google Play",
+        "url": "#"
+      },
+      {
+        "img": "img/global/app-store.png",
+        "alt": "Download app on App Store",
+        "url": "#"
+      }
+    ],
+    "cta": {
+      "name": "All Options",
+      "url": "#prices"
+    }
+  },
+  "app": {
+    "id": "app",
+    "bg": "white",
+    "bg-img": "img/global/device-ios.jpg",
+    "title": "Features",
+    "text": "Simple and intuitive “Facebook” like news feed. You get a news feed that is tailored to your solution and personalized to your needs.",
+    "items": [
+      {
+        "bg-img": "img/playroom-monitoring/app-1.jpg",
+        "cta": "Live image from the room."
+      },
+      {
+        "bg-img": "img/playroom-monitoring/app-2.jpg",
+        "cta": "TV real time status so you know they agree to your house rules."
+      },
+      {
+        "bg-img": "img/playroom-monitoring/app-3.jpg",
+        "cta": "How many hours was watched today, this week, this month."
+      },
+      {
+        "bg-img": "img/playroom-monitoring/app-4.jpg",
+        "cta": "Hourly summary of the last 7 days and last month."
+      },
+      {
+        "bg-img": "img/playroom-monitoring/app-5.jpg",
+        "cta": "Daily pattern of TV consumption so you can change the routin."
+      }
+    ]
+  },
+  "steps": {
+    "id": "steps",
+    "bg": "grey-100",
+    "title": "",
+    "items": [
+      {
+        "title": "Create Your Account",
+        "text": "Create your account on the SensorFocus platform. It’s free and secure."
+      },
+      {
+        "title": "Install the App",
+        "text": "Download and install the <a href='#'>SensorFocus app<\/a> on your retired smart phone. "
+      },
+      {
+        "title": "Pick Your Solution",
+        "text": "Your first steps into the digital enterprise. Develop reliable and low cost solutions tailored to your needs."
+      }
+    ]
+  },
+  "featured-cta": {
+    "id": "featured-cta",
+    "bg": "white",
+    "hr": false,
+    "caption": "Wide range of solutions that help you at home and at work.",
+    "cta": {
+      "name": "Browse All Solutions",
+      "url": "/solutions"
+    }
+  },
+  "prices": {
+    "id": "prices",
+    "bg": "grey-200",
+    "items": [
+      {
+        "before": "",
+        "price": "Android",
+        "after": "",
+        "caption": "Google Play",
+        "title": "",
+        "text": "Download app from Google Play.",
+        "cta": {
+          "name": "Download",
+          "url": "#"
+        }
+      },
+      {
+        "before": "",
+        "price": "iOS",
+        "after": "",
+        "caption": "App Store",
+        "title": "",
+        "text": "Download app from App Store.",
+        "cta": {
+          "name": "Coming Soon",
+          "disabled": true
+        }
+      }
+    ]
+  },
+  "footer": {
+    "id": "footer",
+    "bg": "white",
+    "logo": "img/logo.svg",
+    "copyright": "© 2016 Gentoo Technologies Inc.  /  All rights reserved",
+    "address": "4430 Saint-Ambroise, Suite 154<br>Montreal, Canada<br>H4C 2C7",
+    "socials": [
+      {
+        "alt": "Facebook",
+        "url": "/",
+        "icon": "img/icon/social-facebook.svg"
+      }
+    ],
+    "groups": [
+      {
+        "name": "Product",
+        "links": [
+          {
+            "name": "Features",
+            "url": "#"
+          },
+          {
+            "name": "Catalog",
+            "url": "/solutions"
+          },
+          {
+            "name": "Popular",
+            "url": "#"
+          },
+          {
+            "name": "Trending",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "name": "Company",
+        "links": [
+          {
+            "name": "About",
+            "url": "#"
+          },
+          {
+            "name": "Strategy",
+            "url": "#"
+          },
+          {
+            "name": "Team",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "name": "Info",
+        "links": [
+          {
+            "name": "Support",
+            "url": "#"
+          },
+          {
+            "name": "Developers",
+            "url": "/developers"
+          },
+          {
+            "name": "Customer Service",
+            "url": "#"
+          },
+          {
+            "name": "Getting Started",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  }
+}

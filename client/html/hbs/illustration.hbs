@@ -1,7 +1,7 @@
-<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}} {{#if hidden}}section--hidden{{/if}}" id="{{id}}">
 
   {{#items}}
-  <div class="illustration__item">
+  <div class="full-width-img--block">
     <img src="{{bg-img}}">
   </div>
   {{/items}}

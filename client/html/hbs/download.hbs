@@ -1,35 +1,37 @@
-<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}}" id="{{id}}">
+<div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}} {{#if hidden}}section--hidden{{/if}}" id="{{id}}">
+
+  <div class="full-width-img--bg">
+    <img src="{{bg-img}}">
+  </div>
+
   <div class="wrap">
     <div class="download__container">
 
-      <div class="download__content">
-        <div class="download__title block-title--black">{{title}}</div>
-        <div class="download__text">{{{text}}}</div>
-        <div class="download__cta">
+      {{#if subtitle}}
+      <div class="download__subtitle">{{subtitle}}</div>
+      {{/if}}
 
-          {{#items}}
-          <div class="download__cta-button{{#if disabled}} download__cta-button--disabled{{/if}}" data-target="{{url}}">
-            <div class="download__cta-icon">
-              <img src="{{icon}}">
-            </div>
-            <div class="download__cta-text">{{{cta}}}</div>
-            <div class="download__cta-chevron">{{#unless disabled}}file_download{{/unless}}</div>
-          </div>
-          {{/items}}
+      <div class="download__title">{{{title}}}</div>
 
-        </div>
+      {{#if text}}
+      <div class="download__text">{{{text}}}</div>
+      {{/if}}
+
+      <div class="download__store-group">
+        {{#stores}}
+        <a class="download__store"  href="{{url}}">
+          <img src="{{img}}" alt="{{alt}}">
+        </a>
+        {{/stores}}
       </div>
 
-      <div class="download__image">
-
-        <div class="download__image-device">
-          <img src="{{bg-img}}">
-        </div>
-        <div class="download__image-screen" id="{{id}}">
-          <img src="{{screen-img}}">
-        </div>
-
+      {{#if cta.name}}
+      <div class="download__cta">
+        <a class="button__standard" href="{{cta.url}}">{{cta.name}}</a>
       </div>
+      {{/if}}
+
     </div>
   </div>
+
 </div>
