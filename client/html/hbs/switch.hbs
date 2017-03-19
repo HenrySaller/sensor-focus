@@ -1,5 +1,11 @@
 <div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}} {{#if hidden}}section--hidden{{/if}}" id="{{id}}">
 
+  {{#if bg-img}}
+  <div class="switch__bg full-width-img--bg">
+    <img src="{{bg-img}}">
+  </div>
+  {{/if}}
+
   <div class="wrap">
     <div class="switch__container">
 

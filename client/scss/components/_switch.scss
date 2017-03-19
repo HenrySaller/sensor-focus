@@ -1,3 +1,9 @@
+.switch__bg {
+  visibility: hidden;
+
+  @include breakpoint($bp-laptop-l) {
+    visibility: visible; } }
+
 .switch__container {
   font-size: 0;
   box-sizing: border-box;
