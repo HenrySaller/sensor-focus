@@ -66,12 +66,14 @@
   flex-direction: row; }
 
 .card__item--target {
-  transition: box-shadow .3s ease, transform .3s ease;
+  transition: box-shadow .3s ease, transform .3s ease, border-bottom-color .3s ease;
   cursor: pointer;
+  border-bottom: 8px solid $white;
 
   &:hover {
     box-shadow: 0 16px 24px $black-separator;
-    transform: translateY(-8px); } }
+    transform: translateY(-8px);
+    border-bottom-color: $main-accent; } }
 
 /* ----- Card Item Elements ----- */
 
