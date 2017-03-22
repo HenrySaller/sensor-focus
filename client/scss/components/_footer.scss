@@ -17,7 +17,12 @@
     flex-grow: 1; }
 
     .footer__social {
-      cursor: pointer; }
+      transition: filter .3s ease;
+      cursor: pointer;
+      filter: grayscale(1) opacity(54%);
+
+      &:hover {
+        filter: none; } }
 
     .footer__address {
       margin: 16px 8px;
