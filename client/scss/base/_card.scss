@@ -55,7 +55,7 @@
     min-width: 50%; }
 
   @include breakpoint($bp-max) {
-    min-width: 380px; } }
+    min-width: 33.333%; } }
 
 .card__item--flex-column {
   display: flex;

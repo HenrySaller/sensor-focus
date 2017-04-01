@@ -11,11 +11,15 @@
 
   .idea__item {
     display: flex;
+    box-sizing: border-box;
     flex-grow: 1;
-    margin: 16px;
+    padding: 16px;
 
     @include breakpoint($bp-laptop) {
-      max-width: 288px; } }
+      max-width: 50%; }
+
+    @include breakpoint($bp-max) {
+      max-width: 25%; } }
 
     .idea__item-text {
       @include inner-link;
