@@ -488,6 +488,9 @@ document.ready.then(() => {
     return link.href.includes('#') && !link.href.endsWith('#');
   });
 
+  // Create document overlay event
+  const overlayEvent = new Event('overlayOpen');
+
   // Iterate hash links
   for (const link of hashLinks) {
     // Get hash value
@@ -519,6 +522,9 @@ document.ready.then(() => {
 
         // Show overlay
         overlay.show();
+
+        // Dispatch event
+        document.dispatchEvent(overlayEvent);
       });
     } else {
       // Add click event listener
@@ -545,7 +551,7 @@ document.ready.then(() => {
 
 // Add event listeners based on link attribute
 // Reason:
-// Allows to use any element as a links while ignoring explicit child links.
+// Allows to use any element as a link while ignoring explicit child links.
 // e.g. Project contains card based elements that require to be clickable.
 document.ready.then(() => {
   // Gather all elements with link attribute
