@@ -47,7 +47,3 @@
 
     @include breakpoint($bp-max) {
       justify-content: flex-start; } }
-
-    .solutions__card-item {
-      @include breakpoint($bp-laptop) {
-        max-width: 292px; } }

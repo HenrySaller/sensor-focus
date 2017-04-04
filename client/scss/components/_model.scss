@@ -8,7 +8,6 @@
     justify-content: center; } }
 
   .model__item {
-    box-sizing: border-box;
     text-align: left;
     font-size: 0;
 
@@ -21,7 +20,7 @@
       min-width: 50%; }
 
     @include breakpoint($bp-laptop-xl) {
-      min-width: 352px; } }
+      min-width: calc(33.333% - 64px); } }
 
     .model__item-inner-wrap {
       display: flex; }

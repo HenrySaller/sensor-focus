@@ -39,4 +39,4 @@
     @include breakpoint($bp-tablet) {
       margin-bottom: 0;
       margin-right: 16px;
-      width: 240px; } }
+      min-width: 240px; } }

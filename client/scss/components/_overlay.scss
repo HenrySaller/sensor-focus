@@ -97,19 +97,20 @@
           display: flex;
           flex-wrap: wrap;
           justify-content: flex-start;
-          margin-top: 32px; }
+          margin: 0 -16px;
+          padding-top: 32px; }
 
           .overlay__item-wrap {
             box-sizing: border-box;
-            padding: 0 0 32px 0;
+            padding: 0 16px;
+            margin-bottom: 32px;
             width: 100%;
 
             @include breakpoint($bp-laptop) {
-              padding: 0 32px 32px 0;
               width: 50%; }
 
             @include breakpoint($bp-max) {
-              width: 410px; } }
+              width: 33.333% } }
 
             .overlay__item-grow {
               flex-grow: 1; }
