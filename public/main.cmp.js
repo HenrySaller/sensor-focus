@@ -27,7 +27,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   });
 
   // Check if page depends on Handlebars
-  if (Handlebars) {
+  if (window.Handlebars) {
     Handlebars.render = function (template, target) {
       // Gather all promises to check for completion
       var allPomises = [];
@@ -828,6 +828,9 @@ document.ready.then(function () {
 document.ready.then(function () {
   // Get header element
   var header = document.getElementById('header');
+
+  // Stop if there is no header on the page
+  if (!header) return;
 
   // Get header navigation and toggle
   var nav = header.querySelector('[data-header=nav]');

@@ -7,6 +7,9 @@ document.ready.then(() => {
   // Get header element
   const header = document.getElementById('header');
 
+  // Stop if there is no header on the page
+  if (!header) return;
+
   // Get header navigation and toggle
   const nav = header.querySelector('[data-header=nav]');
   const toggle = header.querySelector('[data-header=toggle]');

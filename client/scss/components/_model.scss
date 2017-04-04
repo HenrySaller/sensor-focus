@@ -17,7 +17,7 @@
     &:before, &:after { display: none; }
 
     @include breakpoint($bp-laptop) {
-      min-width: 50%; }
+      min-width: calc(50% - 64px); }
 
     @include breakpoint($bp-laptop-xl) {
       min-width: calc(33.333% - 64px); } }

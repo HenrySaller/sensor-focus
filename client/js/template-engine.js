@@ -13,7 +13,7 @@
 	});
 
 	// Check if page depends on Handlebars
-	if (Handlebars) {
+	if (window.Handlebars) {
 		Handlebars.render = ((template, target) => {
 			// Gather all promises to check for completion
 			const allPomises = [];

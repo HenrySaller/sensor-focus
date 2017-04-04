@@ -76,6 +76,6 @@ module.exports = function(grunt) {
   // Default tasks
   grunt.registerTask(
     'default',
-    ['sass', 'postcss', 'watch', 'concat', 'babel', 'uglify']
+    ['sass', 'postcss', 'concat', 'babel', 'uglify', 'watch']
   );
 };

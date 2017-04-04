@@ -154,12 +154,13 @@
 /* Card Item Images */
 .card__item-img {
   overflow: hidden;
+  font-size: 0;
 
   & img {
     width: 100%; }
 
-  @include breakpoint($bp-laptop) {
-    height: 160px;
+  @include breakpoint($bp-laptop-xl) {
+    min-height: 160px;
     background: $main; } }
 
 /* Card Price Elements */

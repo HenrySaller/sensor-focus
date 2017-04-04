@@ -269,7 +269,10 @@
   &:after { right: -17px; }
 
   @include breakpoint($bp-laptop) {
-    max-width: calc(33.333% - 64px);
+    max-width: calc(50% - 64px);
 
     &:before, &:after {
-      display: inline-block; } } }
+      display: inline-block; } }
+
+  @include breakpoint($bp-laptop-xl) {
+    max-width: calc(33.333% - 64px); } }

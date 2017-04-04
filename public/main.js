@@ -13,7 +13,7 @@
 	});
 
 	// Check if page depends on Handlebars
-	if (Handlebars) {
+	if (window.Handlebars) {
 		Handlebars.render = ((template, target) => {
 			// Gather all promises to check for completion
 			const allPomises = [];
@@ -580,6 +580,9 @@ document.ready.then(() => {
 document.ready.then(() => {
   // Get header element
   const header = document.getElementById('header');
+
+  // Stop if there is no header on the page
+  if (!header) return;
 
   // Get header navigation and toggle
   const nav = header.querySelector('[data-header=nav]');
