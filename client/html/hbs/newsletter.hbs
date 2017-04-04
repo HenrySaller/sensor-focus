@@ -12,7 +12,11 @@
 
       {{#if cta.name}}
       <form class="newsletter__form" action="{{cta.url}}">
-        <input class="newsletter__input" type="email" name="email" placeholder="{{cta.placeholder}}">
+        <div class="newsletter__input-wrap">
+          <input class="newsletter__input" type="email" name="email" placeholder="{{cta.placeholder}}" required>
+          <span class="newsletter__msg newsletter__msg-success">{{cta.success}}</span>
+          <span class="newsletter__msg newsletter__msg-error">{{cta.error}}</span>
+        </div>
         <button class="button__standard" type="submit">{{cta.name}}</button>
       </form>
       {{/if}}
