@@ -36,17 +36,6 @@
       "url": "#idea"
     }
   },
-  "video": {
-    "id": "video",
-    "bg": "white",
-    "video-url": "https://www.youtube.com/embed/1qkSkOn4h-A",
-    "title": "Video Section",
-    "text": "Sensor Focus is an application that makes your retired phone smart and useful again.<br><br>We use the latest Artificial Intelligence and Data Analytics Technology to bring you unique solutions that will improve your life.",
-    "cta": {
-      "name": "Learn More",
-      "url": "https://www.youtube.com/watch?v=1qkSkOn4h-A"
-    }
-  },
   "idea": {
     "id": "idea",
     "bg": "grey-100",
