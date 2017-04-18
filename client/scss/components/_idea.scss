@@ -16,10 +16,12 @@
     padding: 16px;
 
     @include breakpoint($bp-laptop) {
-      max-width: 50%; }
+      max-width: 50%;
+      flex-basis: 50%; }
 
     @include breakpoint($bp-max) {
-      max-width: 25%; } }
+      max-width: 25%;
+      flex-basis: 25%; } }
 
     .idea__item-text {
       @include inner-link;

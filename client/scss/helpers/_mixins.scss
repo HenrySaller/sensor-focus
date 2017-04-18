@@ -270,9 +270,11 @@
 
   @include breakpoint($bp-laptop) {
     max-width: calc(50% - 64px);
+    flex-basis: calc(50% - 64px);
 
     &:before, &:after {
       display: inline-block; } }
 
   @include breakpoint($bp-laptop-xl) {
-    max-width: calc(33.333% - 64px); } }
+    max-width: calc(33.333% - 64px);
+    flex-basis: calc(33.333% - 64px); } }

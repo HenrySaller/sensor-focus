@@ -52,10 +52,12 @@
   &:before, &:after { display: none; }
 
   @include breakpoint($bp-laptop) {
-    min-width: 50%; }
+    max-width: 50%;
+    flex-basis: 50%; }
 
   @include breakpoint($bp-max) {
-    min-width: 33.333%; } }
+    max-width: 33.333%;
+    flex-basis: 33.333%; } }
 
 .card__item--flex-column {
   display: flex;
