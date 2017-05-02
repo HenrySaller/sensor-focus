@@ -1,9 +1,15 @@
 <div class="{{#if bg}}section--{{bg}}{{else}}section{{/if}} {{#if hidden}}section--hidden{{/if}}" id="{{id}}">
+  <div class="wrap">
 
-  {{#items}}
-  <div class="full-width-img--block">
-    <img src="{{bg-img}}">
+    {{#if title}}
+    <div class="illustration__title block-title--black block-title--center">{{title}}</div>
+    {{/if}}
+
+    {{#items}}
+    <div class="full-width-img--block">
+      <img src="{{bg-img}}">
+    </div>
+    {{/items}}
+
   </div>
-  {{/items}}
-
 </div>

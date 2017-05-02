@@ -1,6 +1,5 @@
 .video__container {
   position: relative;
-  outline: 1px solid $grey-200;
 
   @include breakpoint($bp-laptop-l) {
     padding: 40px 0; } }

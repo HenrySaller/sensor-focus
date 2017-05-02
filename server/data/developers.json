@@ -157,6 +157,7 @@
   },
   "illustration": {
     "id": "illustration",
+    "bg": "white",
     "items": [
       {
         "id": "",
