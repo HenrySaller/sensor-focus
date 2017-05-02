@@ -569,6 +569,10 @@ var Overlay = function () {
         this.container.classList.add('active');
         this.parentScroll.stop();
         this.active = true;
+
+        // Change URL hash to overlay ID
+        // Note: Potentially harmful and unsafe method, needs to be reworked
+        window.location.hash = this.container.id;
       }
     }
     /**
@@ -582,6 +586,10 @@ var Overlay = function () {
         this.container.classList.remove('active');
         this.parentScroll.start();
         this.active = false;
+
+        // Remove URL hash
+        // Note: Leaves '#' sign in the URL
+        window.location.hash = '';
       }
     }
   }]);
@@ -619,6 +627,9 @@ document.ready.then(function () {
   // Gather all overlays
   var overlays = Array.from(document.querySelectorAll(query));
 
+  // Get URL hash value
+  var hash = window.location.hash.slice(1);
+
   // Iterate overlays
   var _iteratorNormalCompletion6 = true;
   var _didIteratorError6 = false;
@@ -651,6 +662,9 @@ document.ready.then(function () {
           overlay.hide();
         }
       });
+
+      // Show overlay if it's ID parameter matches URL hash value
+      if (hash == id) overlay.show();
     };
 
     for (var _iterator6 = overlays[Symbol.iterator](), _step6; !(_iteratorNormalCompletion6 = (_step6 = _iterator6.next()).done); _iteratorNormalCompletion6 = true) {

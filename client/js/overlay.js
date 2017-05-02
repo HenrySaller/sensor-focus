@@ -20,6 +20,10 @@ class Overlay {
       this.container.classList.add('active');
       this.parentScroll.stop();
       this.active = true;
+
+      // Change URL hash to overlay ID
+      // Note: Potentially harmful and unsafe method, needs to be reworked
+      window.location.hash = this.container.id;
     }
   }
   /**
@@ -30,6 +34,10 @@ class Overlay {
       this.container.classList.remove('active');
       this.parentScroll.start();
       this.active = false;
+
+      // Remove URL hash
+      // Note: Leaves '#' sign in the URL
+      window.location.hash = '';
     }
   }
 }
@@ -62,6 +70,9 @@ document.ready.then(() => {
   // Gather all overlays
   const overlays = Array.from(document.querySelectorAll(query));
 
+  // Get URL hash value
+  const hash = window.location.hash.slice(1);
+
   // Iterate overlays
   for (const item of overlays) {
     // Get overlay ID
@@ -87,5 +98,8 @@ document.ready.then(() => {
         overlay.hide();
       }
     });
+
+    // Show overlay if it's ID parameter matches URL hash value
+    if (hash == id) overlay.show();
   }
 });
