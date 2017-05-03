@@ -156,7 +156,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     });
   } else {
     // Triger document ready event
-    document.dispatchEvent(readyEvent);
+    document.addEventListener('DOMContentLoaded', function () {
+      document.dispatchEvent(readyEvent);
+    });
   }
 };
 

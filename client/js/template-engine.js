@@ -120,6 +120,8 @@
 		Handlebars.registerHelper('inc', (value) => parseInt(value) + 1);
 	} else {
 		// Triger document ready event
-		document.dispatchEvent(readyEvent);
+		document.addEventListener('DOMContentLoaded', () => {
+			document.dispatchEvent(readyEvent);
+		});
 	}
 };
