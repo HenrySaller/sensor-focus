@@ -1,10 +1,10 @@
  /**
   * Smooth Scroll
-  * Smoothly scroll element to the given target for the given duration.
+  * Smoothly scroll to the given target for the given duration.
   * Thanks to 'Hasen el Judy / @hasenj' for concept.
   */
 
-document.smoothScroll = ((element, target, duration) => {
+document.smoothScroll = ((target, duration) => {
   target = Math.round(target);
   duration = Math.round(duration);
 
@@ -15,7 +15,7 @@ document.smoothScroll = ((element, target, duration) => {
 
   // Immediately execute if duration is set to zero
   if (duration === 0) {
-    element.scrollTop = target;
+    window.scroll(0, target);
     return Promise.resolve();
   }
 
@@ -24,8 +24,9 @@ document.smoothScroll = ((element, target, duration) => {
   const endTime = startTime + duration;
 
   // Set distance
-  const startTop = element.scrollTop;
+  const startTop = window.scrollY;
   const distance = target - startTop;
+  console.log(target);
 
   // Based on //wikipedia.org/wiki/smoothstep
   const smoothStep = ((start, end, point) => {
@@ -40,13 +41,13 @@ document.smoothScroll = ((element, target, duration) => {
   });
 
   return new Promise((resolve, reject) => {
-    // Keep track of where the element's scrollTop should be.
-    let previousTop = element.scrollTop;
+    // Keep track of where the scroll should be.
+    let previousTop = window.scrollY;
 
     // This is like a think function from a game loop
     const scrollFrame = (() => {
       // Reject if scroll has been interrupted
-      if (element.scrollTop != previousTop) {
+      if (window.scrollY != previousTop) {
         reject('Scroll was interrupted');
         return;
       }
@@ -55,7 +56,7 @@ document.smoothScroll = ((element, target, duration) => {
       const now = Date.now();
       const point = smoothStep(startTime, endTime, now);
       const frameTop = Math.round(startTop + (distance * point));
-      element.scrollTop = frameTop;
+      window.scroll(0, frameTop);
 
       // Check if we are done
       if (now >= endTime) {
@@ -64,11 +65,11 @@ document.smoothScroll = ((element, target, duration) => {
       }
 
       // Resolve if we hit a limit
-      if (element.scrollTop === previousTop && element.scrollTop !== frameTop) {
+      if (window.scrollY === previousTop && window.scrollY !== frameTop) {
         resolve();
         return;
       }
-      previousTop = element.scrollTop;
+      previousTop = window.scrollY;
 
       // Schedule next frame execution
       setTimeout(scrollFrame, 0);

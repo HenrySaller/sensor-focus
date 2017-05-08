@@ -58,12 +58,12 @@ class Carousel {
           const winHeight = window.innerHeight;
           const offset = (
             slide.image.getBoundingClientRect().top
-            + document.body.scrollTop
+            + window.scrollY
             - (winHeight - elHeight) / 2
           );
 
           // Scroll to element location
-          document.smoothScroll(document.body, offset, 300)
+          document.smoothScroll(offset, 300)
             .catch((err) => {
               // console.error(err);
             });

@@ -60,12 +60,12 @@ document.ready.then(() => {
         // Set offset based on target and header height
         const offset = (
           target.getBoundingClientRect().top
-          + document.body.scrollTop
+          + window.scrollY
           - 72
         );
 
         // Scroll to hash location
-        document.smoothScroll(document.body, offset, 300)
+        document.smoothScroll(offset, 300)
           .catch((err) => {
             // console.error(err);
           });

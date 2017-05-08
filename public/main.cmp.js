@@ -164,11 +164,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 /**
  * Smooth Scroll
- * Smoothly scroll element to the given target for the given duration.
+ * Smoothly scroll to the given target for the given duration.
  * Thanks to 'Hasen el Judy / @hasenj' for concept.
  */
 
-document.smoothScroll = function (element, target, duration) {
+document.smoothScroll = function (target, duration) {
   target = Math.round(target);
   duration = Math.round(duration);
 
@@ -179,7 +179,7 @@ document.smoothScroll = function (element, target, duration) {
 
   // Immediately execute if duration is set to zero
   if (duration === 0) {
-    element.scrollTop = target;
+    window.scroll(0, target);
     return Promise.resolve();
   }
 
@@ -188,8 +188,9 @@ document.smoothScroll = function (element, target, duration) {
   var endTime = startTime + duration;
 
   // Set distance
-  var startTop = element.scrollTop;
+  var startTop = window.scrollY;
   var distance = target - startTop;
+  console.log(target);
 
   // Based on //wikipedia.org/wiki/smoothstep
   var smoothStep = function smoothStep(start, end, point) {
@@ -204,13 +205,13 @@ document.smoothScroll = function (element, target, duration) {
   };
 
   return new Promise(function (resolve, reject) {
-    // Keep track of where the element's scrollTop should be.
-    var previousTop = element.scrollTop;
+    // Keep track of where the scroll should be.
+    var previousTop = window.scrollY;
 
     // This is like a think function from a game loop
     var scrollFrame = function scrollFrame() {
       // Reject if scroll has been interrupted
-      if (element.scrollTop != previousTop) {
+      if (window.scrollY != previousTop) {
         reject('Scroll was interrupted');
         return;
       }
@@ -219,7 +220,7 @@ document.smoothScroll = function (element, target, duration) {
       var now = Date.now();
       var point = smoothStep(startTime, endTime, now);
       var frameTop = Math.round(startTop + distance * point);
-      element.scrollTop = frameTop;
+      window.scroll(0, frameTop);
 
       // Check if we are done
       if (now >= endTime) {
@@ -228,11 +229,11 @@ document.smoothScroll = function (element, target, duration) {
       }
 
       // Resolve if we hit a limit
-      if (element.scrollTop === previousTop && element.scrollTop !== frameTop) {
+      if (window.scrollY === previousTop && window.scrollY !== frameTop) {
         resolve();
         return;
       }
-      previousTop = element.scrollTop;
+      previousTop = window.scrollY;
 
       // Schedule next frame execution
       setTimeout(scrollFrame, 0);
@@ -324,10 +325,10 @@ var Carousel = function () {
               // Set offset based on target position
               var elHeight = slide.image.offsetHeight;
               var winHeight = window.innerHeight;
-              var offset = slide.image.getBoundingClientRect().top + document.body.scrollTop - (winHeight - elHeight) / 2;
+              var offset = slide.image.getBoundingClientRect().top + window.scrollY - (winHeight - elHeight) / 2;
 
               // Scroll to element location
-              document.smoothScroll(document.body, offset, 300).catch(function (err) {
+              document.smoothScroll(offset, 300).catch(function (err) {
                 // console.error(err);
               });
 
@@ -755,10 +756,10 @@ document.ready.then(function () {
           event.preventDefault();
 
           // Set offset based on target and header height
-          var offset = target.getBoundingClientRect().top + document.body.scrollTop - 72;
+          var offset = target.getBoundingClientRect().top + window.scrollY - 72;
 
           // Scroll to hash location
-          document.smoothScroll(document.body, offset, 300).catch(function (err) {
+          document.smoothScroll(offset, 300).catch(function (err) {
             // console.error(err);
           });
         });
