@@ -26,8 +26,8 @@ document.ready.then(() => {
 
     // Continue if target does not exist
     if (!target) {
-      console.error(`Could not find element with id '${hash}'`);
-      console.error(link);
+      // console.error(`Could not find element with id '${hash}'`);
+      // console.error(link);
       continue;
     }
 
