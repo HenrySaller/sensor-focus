@@ -159,11 +159,7 @@
   font-size: 0;
 
   & img {
-    width: 100%; }
-
-  @include breakpoint($bp-laptop-xl) {
-    min-height: 160px;
-    background: $main; } }
+    width: 100%; } }
 
 /* Card Price Elements */
 .card__price-title {
