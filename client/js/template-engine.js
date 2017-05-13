@@ -118,6 +118,9 @@
 
 		// Create incremental helper
 		Handlebars.registerHelper('inc', (value) => parseInt(value) + 1);
+
+		// Create helper to check objects with only one child
+		Handlebars.registerHelper('hasOneChild', (obj) => obj.length === 1);
 	} else {
 		// Triger document ready event
 		document.addEventListener('DOMContentLoaded', () => {

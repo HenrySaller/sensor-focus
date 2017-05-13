@@ -26,7 +26,6 @@ document.smoothScroll = ((target, duration) => {
   // Set distance
   const startTop = window.scrollY;
   const distance = target - startTop;
-  console.log(target);
 
   // Based on //wikipedia.org/wiki/smoothstep
   const smoothStep = ((start, end, point) => {

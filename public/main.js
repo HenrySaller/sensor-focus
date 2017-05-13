@@ -118,6 +118,9 @@
 
 		// Create incremental helper
 		Handlebars.registerHelper('inc', (value) => parseInt(value) + 1);
+
+		// Create helper to check objects with only one child
+		Handlebars.registerHelper('hasOneChild', (obj) => obj.length === 1);
 	} else {
 		// Triger document ready event
 		document.addEventListener('DOMContentLoaded', () => {
@@ -154,7 +157,6 @@ document.smoothScroll = ((target, duration) => {
   // Set distance
   const startTop = window.scrollY;
   const distance = target - startTop;
-  console.log(target);
 
   // Based on //wikipedia.org/wiki/smoothstep
   const smoothStep = ((start, end, point) => {

@@ -20,11 +20,13 @@
       </div>
       {{/items}}
 
+      {{#unless (hasOneChild items)}}
       <div class="testimonials__steps steps__container">
         {{#items}}
         <div class="steps__item" data-carousel="trigger" data-slide="{{inc @index}}"></div>
         {{/items}}
       </div>
+      {{/unless}}
 
     </div>
   </div>

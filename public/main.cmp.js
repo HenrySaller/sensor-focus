@@ -154,6 +154,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     Handlebars.registerHelper('inc', function (value) {
       return parseInt(value) + 1;
     });
+
+    // Create helper to check objects with only one child
+    Handlebars.registerHelper('hasOneChild', function (obj) {
+      return obj.length === 1;
+    });
   } else {
     // Triger document ready event
     document.addEventListener('DOMContentLoaded', function () {
@@ -190,7 +195,6 @@ document.smoothScroll = function (target, duration) {
   // Set distance
   var startTop = window.scrollY;
   var distance = target - startTop;
-  console.log(target);
 
   // Based on //wikipedia.org/wiki/smoothstep
   var smoothStep = function smoothStep(start, end, point) {
