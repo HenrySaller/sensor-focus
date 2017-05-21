@@ -11,3 +11,7 @@ body {
 /* Scroll Hijack */
 .no-scroll {
   overflow: hidden; }
+
+/* Link */
+a {
+  @include unstyled-link; }
