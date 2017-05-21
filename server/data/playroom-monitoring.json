@@ -296,6 +296,7 @@
   "prices": {
     "id": "prices",
     "bg": "grey-200",
+    "footnote": "* Your package will ship within 48h of completing your order. You should count 3 to 5 business days for delivery after it has shipped. For returns, ship us back the device within 30 days to get a full refund.",
     "items": [
       {
         "before": "",

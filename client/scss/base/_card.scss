@@ -28,6 +28,26 @@
   flex-basis: 100%;
   margin: 16px 0 32px 0; }
 
+/* Card Title */
+.card__footnote {
+  flex-basis: 100%;
+  margin-top: 32px;
+  padding: 0 16px;
+  text-align: center;
+  color: $black-disabled;
+
+  text-align: center;
+  font-family: $main-font;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  @include breakpoint($bp-laptop-xl) {
+    padding: 0;
+    max-width: calc(66.666% - 32px);
+    flex-basis: calc(66.666% - 32px); } }
+
 /* Card CTA */
 .card__cta {
   flex-basis: 100%;
