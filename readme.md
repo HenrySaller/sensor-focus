@@ -37,11 +37,11 @@ Code follows [BEM](https://en.bem.info/methodology/css/) methodology.
 
 ## Installation
 
-The only external requirement is an up to date [Node.js](https://nodejs.org/) installation. Please follow the official guidelines to install or update it on your system. 
+The only external requirement is an up to date [Node.js](https://nodejs.org/) installation. Please follow the official guidelines to install or update it on your system.
 
 Use the following commands to launch the project:
 
-* `$ npm install` - Installs all project dependancies. `bower install` is launched automatically using npm *postinstall* method.
+* `$ npm install` - Installs all project dependencies. `bower install` is launched automatically using npm *postinstall* method.
 * `$ npm start` - Launches JS and CSS automations. Starts the project on default port - `localhost:5000`.
 
 Additional scripts:
@@ -63,7 +63,7 @@ The last two versions of the following browsers are officially supported:
 * Firefox
 * Safari
 * Opera
-* Internet Explorer 9+
+* Internet Explorer 10+
 
 Project can still be used in older browser versions, but comprehensive testing will be performed only in versions mentioned above.
 

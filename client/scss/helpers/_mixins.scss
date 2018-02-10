@@ -29,7 +29,7 @@
 
   cursor: default;
   font-family: 'Material Icons';
-  font-weight: normal;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: normal;
   text-transform: none;
@@ -79,7 +79,7 @@
   right: 24px;
 
   font-family: $text-font;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 10px;
   line-height: 16px;
   letter-spacing: 0.2px;
@@ -108,7 +108,7 @@
   border: 2px solid;
 
   font-family: $main-font;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 36px;
   letter-spacing: 0.2px;
@@ -148,7 +148,7 @@
   padding: 0 16px;
 
   font-family: $main-font;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 40px;
   letter-spacing: 0.2px;
@@ -236,7 +236,7 @@
 /* Block Title */
 @mixin block-title {
   font-family: $main-font;
-  font-weight: normal;
+  font-weight: 600;
   font-size: 36px;
   line-height: 60px;
   letter-spacing: 3px;
