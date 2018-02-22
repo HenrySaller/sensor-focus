@@ -1,6 +1,6 @@
 ## Overview
 
-Commercial project with purely modular approach and CMS like editing capabilities. A conceptual selling point of a project is a solution. Project owner should be able to frictionlessly create landing pages based on shared modules and at the same time deeply customize them if needed.
+Commercial project with purely modular approach and CMS like editing capabilities. A conceptual selling point of a project is a solution. Project owner should be able to create landing pages based on shared modules and at the same time deeply customize them in case of need.
 
 ## Components
 
@@ -12,7 +12,7 @@ Commercial project with purely modular approach and CMS like editing capabilitie
 #### Package Managers
 
 * [npm](https://www.npmjs.com/)
-* [Bower](https://bower.io/) - Separates front-end dependancies.
+* [Bower](https://bower.io/) - Separates front-end dependencies.
 
 #### Automation Tools
 
@@ -31,7 +31,7 @@ Commercial project with purely modular approach and CMS like editing capabilitie
 
 Code follows [BEM](https://en.bem.info/methodology/css/) methodology.
 
-* ~~Compass~~ - Dependency removed. *Reason:* Compass is a Ruby based CSS compiler with a bunch on predefined mixins. During project development it became clear that most of the utilized Compass functionality are simply autoprefixers. CSS compiler was replaced with C++ alternative [LibSass](http://sass-lang.com/libsass/) (what eventually sped up compilation and removed Ruby dependency). Browser compatibility is being ensured using [Autoprefixer](https://github.com/postcss/autoprefixer/) from the [PostCSS](http://postcss.org/) bundle.
+* ~~Compass~~ - Dependency removed. *Reason:* Compass is a Ruby based CSS compiler with a bunch on predefined mixins. During project development it became clear, that Compass was only used for it's autoprefixers. So Compass was replaced with C++ alternative [LibSass](http://sass-lang.com/libsass/). This decreased compilation time and removed Ruby dependency. Browser compatibility is being ensured using [Autoprefixer](https://github.com/postcss/autoprefixer/) from the [PostCSS](http://postcss.org/) bundle.
 * [LibSass](http://sass-lang.com/libsass/) - C++ port of Sass engine.
 * [Autoprefixer](https://github.com/postcss/autoprefixer/) - Adds vendor prefixes to CSS rules.
 
@@ -69,4 +69,4 @@ Project can still be used in older browser versions, but comprehensive testing w
 
 ## License
 
-Copyright 2016 Gentoo Technologies Inc
+Copyright 2016 Sensor Focus Inc
