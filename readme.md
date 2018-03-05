@@ -1,6 +1,6 @@
 ## Overview
 
-Commercial project with purely modular approach and CMS like editing capabilities. A conceptual selling point of a project is a solution. Project owner should be able to create landing pages based on shared modules and at the same time deeply customize them in case of need.
+Commercial project with a purely modular approach and CMS like editing capabilities. A conceptual selling point of a project is a solution. Project owner should be able to create landing pages based on shared modules and at the same time deeply customize them in case of need.
 
 ## Components
 
@@ -25,13 +25,13 @@ Commercial project with purely modular approach and CMS like editing capabilitie
 
 * [Handlebars.js](http://handlebarsjs.com/) - Main templating engine.
 * ~~jQuery~~ - Dependency removed. *Reason:* the only two methods from jQuery that project relies on are `readyState` and `scrollAnimation`. Both have been replaced with native ES6 implementations.
-* [Polyfill](https://polyfill.io/v2/docs/) - Polyfill service that adapts to browser version on runtime.
+* [Polyfill](https://polyfill.io/v2/docs/) - Polyfill service that adapts to browser version at runtime.
 
 #### CSS
 
 Code follows [BEM](https://en.bem.info/methodology/css/) methodology.
 
-* ~~Compass~~ - Dependency removed. *Reason:* Compass is a Ruby based CSS compiler with a bunch on predefined mixins. During project development it became clear, that Compass was only used for it's autoprefixers. So Compass was replaced with C++ alternative [LibSass](http://sass-lang.com/libsass/). This decreased compilation time and removed Ruby dependency. Browser compatibility is being ensured using [Autoprefixer](https://github.com/postcss/autoprefixer/) from the [PostCSS](http://postcss.org/) bundle.
+* ~~Compass~~ - Dependency removed. *Reason:* Compass is a Ruby-based CSS compiler with a bunch of predefined mixins. During project development, it became clear, that Compass was only used for its autoprefixers. So Compass was replaced with C++ alternative [LibSass](http://sass-lang.com/libsass/). This decreased compilation time and removed Ruby dependency. Browser compatibility is being ensured using [Autoprefixer](https://github.com/postcss/autoprefixer/) from the [PostCSS](http://postcss.org/) bundle.
 * [LibSass](http://sass-lang.com/libsass/) - C++ port of Sass engine.
 * [Autoprefixer](https://github.com/postcss/autoprefixer/) - Adds vendor prefixes to CSS rules.
 
@@ -52,7 +52,7 @@ Additional scripts:
 
 ## Javascript Linter
 
-Project uses ESLint as a main JavaScript linter. ESLint is configured using [`eslint-config-google`](https://github.com/google/eslint-config-google/) and follows [Google JavaScript Guidelines](https://google.github.io/styleguide/jsguide.html/) as closely as possible. A Git hook is used to reject commits that haven't passed guideline requirements.
+The project uses ESLint as the main JavaScript linter. ESLint is configured using [`eslint-config-google`](https://github.com/google/eslint-config-google/) and follows [Google JavaScript Guidelines](https://google.github.io/styleguide/jsguide.html/) as closely as possible. A Git hook is used to reject commits that haven't passed guideline requirements.
 
 ## Browser Support
 
@@ -65,7 +65,7 @@ The last two versions of the following browsers are officially supported:
 * Opera
 * Internet Explorer 10+
 
-Project can still be used in older browser versions, but comprehensive testing will be performed only in versions mentioned above.
+The project can still be used in older browser versions, but comprehensive testing will be performed only in versions mentioned above.
 
 ## License
 
