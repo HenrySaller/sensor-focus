@@ -5,7 +5,8 @@
   "dependencies": {
     "bower": "^1.7.9",
     "compression": "^1.6.2",
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "npm": "^5.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.5",
